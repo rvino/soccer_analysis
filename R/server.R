@@ -12,8 +12,7 @@ library(shinythemes)
 library(readtext)
 
 ## Loading in data ------------------------------------------------------------
-# Need to load: suspect_attr table; timeline_data table; all_data table;
-# suspect_network graph; full_network graph; edge_color_list table
+# Need to load: events_data
 # Loading in source
 # introduction <- readtext('Introduction Copy.docx')
 source('StatsbombData_v1.R')
@@ -24,20 +23,20 @@ shinyServer(function(input, output, session) {
   ## Load instructions --------------------------------------------------------
   # output$intro_text <- renderUI({HTML(paste(introduction$text))})
   
-  ## Central node to test if name is in data ----------------------------------
+  ## Test for if name appears ----------------------------------
   # central_node <- reactive({
-  #   # Ensuring that the input$UID is upper case
+  #   # Ensuring that the input$last_name is upper case
   #   test_name <- paste0()
   #   
   #   # Calculate nearest strings
-  #   distance = levenshteinSim(test_name, suspect_attr$UID)
+  #   distance = levenshteinSim(test_name, df_events$player.name)
   #   
-  #   if (test_name %in% suspect_attr$UID){
+  #   if (test_name %in% df_events$player.name){
   #     name_used <- test_name 
   #   }
   #   else if (max(distance) > 0.7){
   #     # Taking the best matched string given the user entry
-  #     name_used <- suspect_attr$UID[distance == max(distance)][1]
+  #     name_used <- df_events$player.name[distance == max(distance)][1]
   #   }
   #   else {
   #     name_used <- test_name
@@ -45,18 +44,18 @@ shinyServer(function(input, output, session) {
   #   return(name_used)
   # })
   
-  # The output$Network_Title is computed based on a reactive expression that
-  # returns input$UID. When the user changes first name, last name, or DOB:
+  # The output$Visual_Title is computed based on a reactive expression that
+  # returns df_events$player.name. When the user changes first name, last name, or DOB:
   #
   #  1) This expression is automatically called to recompute the output 
   #  2) The new caption is pushed back to the browser for re-display
   # 
-  # output$Network_Title <- renderText({
-  #   paste0(str_to_title(input$first_name), ' ', str_to_title(input$last_name), "'s network.")
+  # output$Visual_Title <- renderText({
+  #   paste0(str_to_title(input$first_name), ' ', str_to_title(input$last_name), "'s stats")
   # })
   
-  # output$Network_Test <- renderText({
-  #   if (central_node() %in% suspect_attr$UID){
+  # output$Visual_Test <- renderText({
+  #   if (central_node() %in% df_events$player.name){
   #     paste0(str_to_title(input$first_name), ' ', str_to_title(input$last_name), " appears in the data. This is the name closest to what you
   #            entered.")
   #   }
@@ -65,11 +64,31 @@ shinyServer(function(input, output, session) {
   #   }
   #   })
   
-  
   #############################################################################
   ##########                Drawing field                            ##########
   #############################################################################
   output$field_w_formation <- renderPlot({
+    
+    # Getting the formation data
+    formation.dataframe <- df_events_sampled %>%
+      filter(type.id==35 & team.name==input$team_name & lineup.rank==1) %>% # picking out formation data and limiting columns
+      select(id, team.id:tactics.lineup) %>%
+      unnest(., tactics.lineup) %>%
+      left_join(., player_positions, by = c('position.name'='player_position'))
+    
+    # plotting formation
+    formation_field <- ggplot(data=formation.dataframe,
+                         aes(x=x, y=y)) +
+      draw_pitch(pitch_lines = 'white', pitch_color = 'green')+
+      geom_point(color='blue', size=8)+
+      geom_text(aes(label=jersey_number), color='white')+
+      #coord_flip()+
+      pitch_theme
+    
+    plot(formation_field)
+  })
+  
+  output$shot_field <- renderPlot({
     
     shot_field <- ggplot(data=filter(shots_sample_data, team.name==input$team_name),
                          aes(x=location.x, y=location.y)) +
@@ -81,15 +100,12 @@ shinyServer(function(input, output, session) {
     plot(shot_field)
   })
   #############################################################################
-  ##########                  Criminal History Summary               ##########
+  ##########                  Sample Table                           ##########
   #############################################################################
-  # crime_hist <- all_data_clean %>%
-  #   select(DATE, INCIDENT_NO, UID, PERSON_TYPE, DESCRIPTION, CRIME_TYPE, DISTRICT)
-  # 
-  # output$crime_hist_table <- renderDT({
+  # output$sample_table <- renderDT({
   #   datatable(crime_hist %>%
   #     filter(UID == central_node()),
-  #     colnames = c('Date', 'Incident #', 'ID', 'Role', 'Description', 'Category', 'District'),
+  #     colnames = c('Date', 'Event', 'ID', 'Role', 'Description', 'Category'),
   #     extensions = c('Buttons'), options = list(
   #       dom = 'Brtip',
   #       buttons =
@@ -103,7 +119,7 @@ shinyServer(function(input, output, session) {
 
 
   # #############################################################################
-  # ##########                    VIOLENCE TIMELINE                    ##########
+  # ##########                   TIMELINE                              ##########
   # #############################################################################
   # timeline_info <- reactive({
   #   timeline_data <- all_data_clean %>%
@@ -117,44 +133,16 @@ shinyServer(function(input, output, session) {
   #   timevis(timeline_info())
   # })
   
-  ## Renders the map. Only renders items that won't change dynamically.
-  
-  # output$sfmap <- renderLeaflet({
-  #   df_map <- timeline_info() %>%
-  #     rename(INCIDENT_NO = content, DATE = start)
-  #   
-  #   df_map$Label <- paste(sep = "<br/>",
-  #                         '<b>Incident Number: </b>', df_map$INCIDENT_NO,
-  #                         " ",
-  #                         '<b>Date: </b>', df_map$DATE)
-  #   
-  #   leaflet(data=df_map) %>%
-  #     setView(lng = -122.41, lat = 37.776, zoom = 11) %>%
-  #     addTiles() %>%
-  #     addAwesomeMarkers(lng = ~X_COORD, 
-  #                       lat = ~Y_COORD,
-  #                       popup = ~as.character(Label))
-  #   
-  # })
-  # 
-  # # Bottom data table
-  # output$test <- renderTable({
-  #   df <- timeline_info() %>%
-  #     select(-start) %>%
-  #     rename( INCIDENT_NO = content) %>%
-  #     mutate(INCIDENT_NO = as.integer(INCIDENT_NO))
-  # })
-  
   
   #############################################################################
-  ##########                Graphing Suspect Network                 ##########
+  ##########                Graphing Network                 ##########
   #############################################################################
   # Reactive induced subgraph that is based on central_node() and input$centrality
 
   # Grabbing the subnetwork for the suspects
-  G_suspect_subnetwork <- reactive({
-    induced.subgraph(suspect_network,
-                     vids = unlist(neighborhood(suspect_network,
+  G_passing_network <- reactive({
+    induced.subgraph(sample_network,
+                     vids = unlist(neighborhood(sample_network,
                                                 order = input$degree_separation,
                                                 nodes = central_node())))
   })
@@ -163,40 +151,40 @@ shinyServer(function(input, output, session) {
   node_suspect_size <- reactive({
 
     if (input$centrality == 'Betweenness'){
-      node_size <- data.frame('betweenness' = betweenness(G_suspect_subnetwork(),
-                                                                  v = V(G_suspect_subnetwork()),
+      node_size <- data.frame('betweenness' = betweenness(G_passing_network(),
+                                                                  v = V(G_passing_network()),
                                                                   directed = FALSE,
                                                                   normalized = TRUE)*10,
-                              'UID' = V(G_suspect_subnetwork())$name) %>%
+                              'UID' = V(G_passing_network())$name) %>%
         mutate(value = (betweenness / (max(betweenness) - min(betweenness)))*10) %>%
         select(UID, value)
     }
     else if (input$centrality == 'Closeness'){
-      node_size <- data.frame('closeness' = closeness(G_suspect_subnetwork(),
-                                                              vids = V(G_suspect_subnetwork()),
+      node_size <- data.frame('closeness' = closeness(G_passing_network(),
+                                                              vids = V(G_passing_network()),
                                                               normalized = TRUE),
-                              'UID' = V(G_suspect_subnetwork())$name) %>%
+                              'UID' = V(G_passing_network())$name) %>%
         mutate(value = (closeness / (max(closeness) - min(closeness)))^4) %>%
         select(UID, value)
     }
     else if (input$centrality == 'Degree'){
-      node_size <- data.frame('degree' = degree(G_suspect_subnetwork(),
-                                                        v = V(G_suspect_subnetwork()),
+      node_size <- data.frame('degree' = degree(G_passing_network(),
+                                                        v = V(G_passing_network()),
                                                         loops = FALSE,
                                                         normalized = TRUE),
-                              'UID' = V(G_suspect_subnetwork())$name) %>%
+                              'UID' = V(G_passing_network())$name) %>%
         mutate(value = ((degree / (max(degree) - min(degree)))*10)^2) %>%
         select(UID, value)
     }
     else if (input$centrality == 'Eigen'){
-      node_size <- data.frame(eigen_centrality(G_suspect_subnetwork(),
+      node_size <- data.frame(eigen_centrality(G_passing_network(),
                                                        directed = FALSE)) %>%
-        mutate('UID' = V(G_suspect_subnetwork())$name,
+        mutate('UID' = V(G_passing_network())$name,
                value = (vector / (max(vector) - min(vector)))*20) %>%
         select(UID, value)
     }
     else {
-      node_size <- data.frame('UID' = V(G_suspect_subnetwork())$name,
+      node_size <- data.frame('UID' = V(G_passing_network())$name,
                               'value' = 10)
     }
 
@@ -211,7 +199,7 @@ shinyServer(function(input, output, session) {
   # Creating the node list
   node_suspect_list <- reactive({
 
-    ids <- as_ids(V(G_suspect_subnetwork()))
+    ids <- as_ids(V(G_passing_network()))
 
     df <- data.frame(x = ids) %>%
       separate(x, into = c('first', 'last', 'dob'), sep = '_') %>%
@@ -228,50 +216,16 @@ shinyServer(function(input, output, session) {
   # Joining afftributes that impact node size to node list
   node_list <- left_join(node_list, node_suspect_size(), by = c('id' = 'UID'))
 
-  # Joining afftributes that impact node shape to node list
-  if (input$crime_type == "Aggravated Violence") {
-    node_list <- node_list %>%
-      mutate(shape = ifelse(COMMIT_AGG_VIOLENCE == 1, 'triangle', 'dot'))
-  }
-  else if (input$crime_type == "Auto Burglary") {
-    node_list <- node_list %>%
-      mutate(shape = ifelse(COMMIT_AUTOBURG == 1, 'triangle', 'dot'))
-  }
-  else if (input$crime_type == "Domestic Violence") {
-    node_list <- node_list %>%
-      mutate(shape = ifelse(COMMIT_DV == 1, 'triangle', 'dot'))
-  }
-  else if (input$crime_type == "Gun Crime") {
-    node_list <- node_list %>%
-      mutate(shape = ifelse(COMMIT_GUN == 1, 'triangle', 'dot'))
-  }
-  else if (input$crime_type == "Property Crime") {
-    node_list <- node_list %>%
-      mutate(shape = ifelse(COMMIT_PROPERTY == 1, 'triangle', 'dot'))
-  }
-  else if (input$crime_type == "Violent Crime") {
-    node_list <- node_list %>%
-      mutate(shape = ifelse(COMMIT_VIOLENT == 1, 'triangle', 'dot'))
-  }
-  else if (input$crime_type == "Violent Gun Crime") {
-    node_list <- node_list %>%
-      mutate(shape = ifelse(COMMIT_GUN_VIOLENT == 1, 'triangle', 'dot'))
-  }
-  else {
-    node_list <- node_list %>%
-      mutate(shape = 'dot')
-  }
-
   # Return the node list
   return(node_list)
 
   })
 
   # Creating the edge list
-  edge_suspect_list <- reactive ({
+  edge_passing_list <- reactive ({
 
     # Creating data frame of edges from graph
-    edge_list <- get.edgelist(G_suspect_subnetwork()) %>%
+    edge_list <- get.edgelist(G_passing_network()) %>%
       as.data.frame() %>%
       rename(from = V1, to = V2) %>%
       select(from, to) %>%
@@ -294,7 +248,7 @@ shinyServer(function(input, output, session) {
 
   output$network_suspect <- renderVisNetwork({
     my_network() %>%
-      visLegend(width = 0.1, position = 'right', main = 'Committed Crime of Interest?',
+      visLegend(width = 0.1, position = 'right', main = '?',
                 useGroups = FALSE, addNodes = data.frame(label = c('Yes', 'No'), 
                                                          shape = c('triangle', 'dot'))) %>%
       visExport(type = 'pdf', float = 'left', name = paste0(central_node(), '_network')) %>%

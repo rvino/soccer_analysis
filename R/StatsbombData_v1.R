@@ -1,33 +1,25 @@
+## Testing of a library to manipulate Statsbomb data and visualize in shiny
+## loading libraries and data -------------------------------------------------
 library(StatsBombR)
 library(tidyverse)
 library(stringr)
-library()
 
-## read in data ---------------------------------------------------------------
-# read in events
-df_events <- StatsBombFreeEvents()
+# df_events_sampled <- read.csv('/Users/rorypulvino/Dropbox (Personal)/Python/Statsbomb/Data/NWSL_sample.csv',
+#                               stringsAsFactors = FALSE)
 
-# read in competitions
-df_comps <- FreeCompetitions()
+NWSL_matches <- read.csv('/Users/rorypulvino/Dropbox (Personal)/Python/Statsbomb/Data/NWSL_sample_matches.csv')
+#df_events_sampled <- get.matchFree(NWSL_matches[1,]) # test
+get_NWSL <- function(dataframe){
+  Matches.df <- tibble()
+  for(i in 1:nrow(dataframe)){
+    matches <- get.matchFree(dataframe[i,])
+    Matches.df <- bind_rows(Matches.df, matches)
+  }
 
-# read in matches
-df_matches <- FreeMatches(df_comps$competition_id)
-
-## Cleaning data --------------------------------------------------------------
-# Cleans all the data
-df_events_cleaned <- allclean(df_events)
-# Checking the differences in columns from this and the copy of df_events
-setdiff(colnames(df_events_cleaned), colnames(df_events))
-# the all clean kept the same row structure to the data but added 34 variables
-
-## Filtering to some sample data ----------------------------------------------
-nwsl_teams <- c('Portland Thorns', 'Seattle Reign', 'North Carolina Courage',
-                'Chicago Red Stars', 'Utah Royals', 'Washington Spirit',
-                'Sky Blue FC', 'Orlando Pride', 'Houston Dash')
-
-df_events_sampled <- filter(df_events_cleaned, team.name %in% nwsl_teams)
-
-rm(df_events, df_events_cleaned)
+  return(Matches.df)
+}
+df_events_sampled <- get_NWSL(NWSL_matches)
+df_events_sampled <- allclean(df_events_sampled)
 
 # To be used for making a list of the teams available for mapping
 team_name_list <- as.vector(unique(df_events_sampled$team.name))
@@ -63,8 +55,7 @@ pitch_dims <- list(
   origin_x = 0,
   origin_y = 0)
 
-draw_pitch <- function(pitch_lines,
-                             pitch_color){
+draw_pitch <- function(pitch_lines, pitch_color){
   list(
     # rectangular border outside of the field
     ggplot2::annotate(
@@ -203,84 +194,98 @@ draw_pitch <- function(pitch_lines,
   )
 }
 
-# sample plot of field
+# sample - plot of field
 # ggplot(data=shots_sample_data, aes(x=location.x, y=location.y)) +
 #   draw_pitch(pitch_lines = 'white', pitch_color = 'green')+
 #   geom_point(color='blue')+
 #   #coord_flip()+
 #   pitch_theme
-  
-# Identify most common formation per team to plot
-formation_sample_data <- formation_sample_data %>%
-  group_by(team.name, tactics.formation) %>%
-  mutate(most_common_formation = n()) %>%
-  ungroup() %>%
-  group_by(team.name) %>%
-  mutate(Rank = rank(-most_common_formation, ties.method = 'first'))
 
-# dataframe of x, y positions to graph on a field based on the player position
-player_positions <- data.frame(
-  player_position = c('Goalkeeper', 'Right Center Back', 'Center Back',
-                      'Left Center Back', 'Right Defensive Midfield',
-                      'Left Defensive Midfield', 'Right Midfield', 
-                      'Left Midfield', 'Center Attacking Midfield',
-                      'Right Center Forward', 'Left Center Forward',
-                      'Right Back', 'Left Back', 'Right Center Midfield',
-                      'Left Center Midfield', 'Right Wing', 'Left Wing',
-                      'Center Forward', 'Center Defensive Midfield',
-                      'Secondary Striker', 'Center Midfield',
-                      'Right Attacking Midfield', 'Left Attacking Midfield',
-                      'Right Wing Back', 'Left Wing Back'), 
-  x = c(pitch_dims$penalty_spot_distance, pitch_dims$length/6, 
-        pitch_dims$length/6, pitch_dims$length/6, pitch_dims$length/4,
-        pitch_dims$length/4, pitch_dims$length/3, pitch_dims$length/3, 
-        (5*pitch_dims$length)/12, pitch_dims$length/2, pitch_dims$length/2,
-        (5*pitch_dims$length)/24, (5*pitch_dims$length)/24, 
-        pitch_dims$length/3, pitch_dims$length/3, (9*pitch_dims$length)/24,
-        (9*pitch_dims$length)/24, pitch_dims$length/2, pitch_dims$length/4,
-        (11*pitch_dims$length)/24, pitch_dims$length/3, (5*pitch_dims$length)/12,
-        (5*pitch_dims$length)/12, (7*pitch_dims$length)/24,
-        (7*pitch_dims$length)/24),
-  y = c(pitch_dims$width/2, (3*pitch_dims$width)/8, pitch_dims$width/2, 
-        (5*pitch_dims$width)/8, (3*pitch_dims$width)/8,
-        (5*pitch_dims$width)/8, pitch_dims$width/8, (7*pitch_dims$width)/8, 
-        pitch_dims$width/2, (3*pitch_dims$width)/8, (5*pitch_dims$width)/8, 
-        pitch_dims$width/8, (7*pitch_dims$width)/8, (5*pitch_dims$width)/8, 
-        (3*pitch_dims$width)/8, pitch_dims$width/16, (15*pitch_dims$width)/16,
-        pitch_dims$width/2, pitch_dims$width/2, pitch_dims$width/2, 
-        pitch_dims$width/2, (3*pitch_dims$width)/8, (5*pitch_dims$width)/8,
-        pitch_dims$width/16, (15*pitch_dims$width)/16)
-)
-
-# Function to convert tactics.lineup into dataframe and identify most common
-# team formation
-statsbomb_lineup <- function(data){
-  df_lineups <- data %>%
-    filter(type.name=='Starting XI') %>% # picking out formation data and limiting columns
-    select(id, team.id:tactics.lineup) %>%
+## Sample - Identify most common formation per team to plot ----
+sb_lineups_ranked <- function(events_dataframe){
+  df_lineup_ranked <- events_dataframe %>%
+    filter(type.id==35) %>% # picking out formation data and limiting columns
+    select(id, type.id, team.id:tactics.lineup) %>%
     unnest(., tactics.lineup) %>%
-    full_join(., player_positions, by = c('position.name'='player_position')) %>%
     group_by(id) %>%
+    arrange(player.id) %>% # sort by player.id to make sure teams with same players but different formations are not ranked the same
     mutate(player = paste0('player', row_number())) %>%
     ungroup() %>%
-    gather() %>% # spreading player lineup data wide for match id
-    unite() %>%
-    spread(key = player, value = ) %>% 
-    group_by(team.id:player11) %>% 
+    nest(jersey_number:position.name, .key = 'player_info') %>% # spreading player lineup data wide for match id
+    spread(key = player, value = player_info) %>%
+    unnest(., .sep = '_') %>%
+    group_by_at(vars(team.id:player9_position.name)) %>%
     mutate(most_common_formation = n()) %>% # identifying the most common formation per team to plot
     ungroup() %>%
     group_by(team.id) %>%
-    mutate(Rank = rank(-most_common_formation, ties.method = 'first')) %>%
-    ungroup()
+    mutate(lineup.rank = rank(-most_common_formation, ties.method = 'first')) %>%
+    ungroup() %>%
+    select(id, type.id, team.id, lineup.rank)
 }
 
-formation_sample_data <- statsbomb_lineup(df_events_sampled)
+df_events_sampled <- df_events_sampled %>%
+  left_join(., sb_lineups_ranked(df_events_sampled), by = c('id', 'type.id',
+                                                           'team.id'))
+# dataframe of x, y positions to graph on a field based on the player position
+player_positions <- data.frame(
+  player_position = c('Goalkeeper', 
+                      'Right Back', 'Left Back',
+                      'Right Wing Back', 'Left Wing Back',
+                      'Left Center Back', 'Right Center Back', 'Center Back',  
+                      'Center Forward', 'Right Center Forward', 'Left Center Forward',
+                      'Right Wing', 'Left Wing', 'Right Midfield', 'Left Midfield', 
+                      'Left Defensive Midfield', 'Center Defensive Midfield', 'Right Defensive Midfield',  
+                      'Center Midfield', 'Right Center Midfield', 'Left Center Midfield', 
+                      'Center Attacking Midfield', 'Right Attacking Midfield', 'Left Attacking Midfield',
+                      'Secondary Striker'),
+  x = c(pitch_dims$length/10,
+        rep(11*pitch_dims$length/60, 2), 
+        rep(5*pitch_dims$length/24, 2),
+        rep(11*pitch_dims$length/60, 3),
+        rep(11*pitch_dims$length/24, 3),
+        rep(5*pitch_dims$length/12, 2),
+        rep(pitch_dims$length/3, 2),
+        rep(4*pitch_dims$length/16, 3),
+        rep(19*pitch_dims$length/60, 3),
+        rep(9*pitch_dims$length/24, 3),
+        5*pitch_dims$length/12),
+  y = c(pitch_dims$width/2,
+        pitch_dims$width/8, 7*pitch_dims$width/8,
+        pitch_dims$width/16, 15*pitch_dims$width/16,
+        11*pitch_dims$width/16, 5*pitch_dims$width/16,
+        pitch_dims$width/2,
+        pitch_dims$width/2, 5*pitch_dims$width/16,
+        11*pitch_dims$width/16,
+        pitch_dims$width/16, 15*pitch_dims$width/16,
+        pitch_dims$width/8, 7*pitch_dims$width/8,
+        5*pitch_dims$width/8, pitch_dims$width/2,
+        3*pitch_dims$width/8, pitch_dims$width/2,
+        11*pitch_dims$width/16, 5*pitch_dims$width/16,
+        pitch_dims$width/2, 11*pitch_dims$width/16,
+        7*pitch_dims$width/8,
+        9*pitch_dims$width/16)
+)
+
+# Function to convert tactics.lineup into dataframe and give x,y positions
+# for plotting
+sample_formation_to_plot <- df_events_sampled %>%
+  filter(type.id==35 & team.name=='Chicago Red Stars' & lineup.rank==1) %>% # picking out formation data and limiting columns
+  select(id, team.id:tactics.lineup) %>%
+  unnest(., tactics.lineup) %>%
+  left_join(., player_positions, by = c('position.name'='player_position'))
+
+ggplot(data=sample_formation_to_plot, aes(x=x, y=y)) +
+  draw_pitch(pitch_lines = 'white', pitch_color = 'green')+
+  geom_point(color='blue', size=8)+
+  geom_text(aes(label=jersey_number), color='white')+
+  #coord_flip()+
+  pitch_theme
 
 # Function to determine x and y points for points for formation - NB decided
 # to hardcode the player positions since couldn't figure out a flexible 
-# framework
+# framework so this isn't necessary
 
 # Function to create layer for plotting players with labeling
-
+## Sample plot ##
 
 
