@@ -6,7 +6,7 @@ library(timevis)
 library(visNetwork)
 library(tidyverse)
 library(shiny)
-source('StatsbombData_v1.R')
+source('data_loading.R')
 
 ## Define UI for dataset viewer application -----------------------------------
 fluidPage(
@@ -19,18 +19,25 @@ fluidPage(
     
     # Sidebar panel for inputs
     sidebarPanel(
-      h2('Player Information'),
+      h2('Team Selection'),
       
-      # Input: Team name selection
+      # Could have a season selection
+      # selectInput(inputId = "season_selection",
+      #             label = "Season",
+      #             choices = team_name_list),
+      
+      # Input: Primary Team name selection
       selectInput(inputId = "team_name",
                 label = "Team Name",
-                choices = team_name_list),
+                choices = c('',team_name_list)),
       
-      selectInput(inputId = "opp_team_name",
-                  label = "Opposing Team Name",
-                  choices = team_name_list),
+      # Opposing team selection
+      uiOutput('away_team_selection'),
       
-      # This stuff isn't necessary for right now until player specific stats are ready
+      # Date of game
+      uiOutput('game_dates'),
+      
+      # This should be separated out and be dependent on the tab selection
       # # Input: Text for first name
       # textInput(inputId = "first_name",
       #           label = "First Name",

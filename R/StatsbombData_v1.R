@@ -4,22 +4,22 @@ library(StatsBombR)
 library(tidyverse)
 library(stringr)
 
-# df_events_sampled <- read.csv('/Users/rorypulvino/Dropbox (Personal)/Python/Statsbomb/Data/NWSL_sample.csv',
-#                               stringsAsFactors = FALSE)
+df_events_sampled <- read.csv('/Users/rorypulvino/Dropbox (Personal)/Python/Statsbomb/Data/NWSL_sample.csv',
+                              stringsAsFactors = FALSE)
 
-NWSL_matches <- read.csv('/Users/rorypulvino/Dropbox (Personal)/Python/Statsbomb/Data/NWSL_sample_matches.csv')
-#df_events_sampled <- get.matchFree(NWSL_matches[1,]) # test
-get_NWSL <- function(dataframe){
-  Matches.df <- tibble()
-  for(i in 1:nrow(dataframe)){
-    matches <- get.matchFree(dataframe[i,])
-    Matches.df <- bind_rows(Matches.df, matches)
-  }
-
-  return(Matches.df)
-}
-df_events_sampled <- get_NWSL(NWSL_matches)
-df_events_sampled <- allclean(df_events_sampled)
+# NWSL_matches <- read.csv('/Users/rorypulvino/Dropbox (Personal)/Python/Statsbomb/Data/NWSL_sample_matches.csv')
+# #df_events_sampled <- get.matchFree(NWSL_matches[1,]) # test
+# get_NWSL <- function(dataframe){
+#   Matches.df <- tibble()
+#   for(i in 1:nrow(dataframe)){
+#     matches <- get.matchFree(dataframe[i,])
+#     Matches.df <- bind_rows(Matches.df, matches)
+#   }
+# 
+#   return(Matches.df)
+# }
+# df_events_sampled <- get_NWSL(NWSL_matches)
+# df_events_sampled <- allclean(df_events_sampled)
 
 # To be used for making a list of the teams available for mapping
 team_name_list <- as.vector(unique(df_events_sampled$team.name))
@@ -226,6 +226,7 @@ sb_lineups_ranked <- function(events_dataframe){
 df_events_sampled <- df_events_sampled %>%
   left_join(., sb_lineups_ranked(df_events_sampled), by = c('id', 'type.id',
                                                            'team.id'))
+
 # dataframe of x, y positions to graph on a field based on the player position
 player_positions <- data.frame(
   player_position = c('Goalkeeper', 
@@ -263,7 +264,16 @@ player_positions <- data.frame(
         11*pitch_dims$width/16, 5*pitch_dims$width/16,
         pitch_dims$width/2, 11*pitch_dims$width/16,
         7*pitch_dims$width/8,
-        9*pitch_dims$width/16)
+        9*pitch_dims$width/16),
+  broad.position = c('GK',
+                     rep('FB/WB', 4),
+                     rep('CB', 3),
+                     rep('Forward', 3),
+                     rep('Wing', 4),
+                     rep('CDM', 3),
+                     rep('CM', 3),
+                     rep('ACM', 3),
+                     'Forward')
 )
 
 # Function to convert tactics.lineup into dataframe and give x,y positions

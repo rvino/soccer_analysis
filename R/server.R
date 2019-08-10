@@ -15,7 +15,7 @@ library(readtext)
 # Need to load: events_data
 # Loading in source
 # introduction <- readtext('Introduction Copy.docx')
-source('StatsbombData_v1.R')
+source('data_loading.R')
 
 ## Define server logic to summarize and view data -----------------------------
 shinyServer(function(input, output, session) {
@@ -64,27 +64,40 @@ shinyServer(function(input, output, session) {
   #   }
   #   })
   
-  #############################################################################
-  ##########                Drawing field                            ##########
-  #############################################################################
+  ## Limiting opponent team list and game dates by selections -----------------
+  output$away_team_selection <- renderUI({
+    selectInput(inputId = "opp_team_name",
+                label = "Opposing Team Name",
+                choices = c('', team_name_list[team_name_list!=input$team_name]))
+  })
+  
+  output$game_dates <- renderUI({
+    selectInput(inputId = "game_date",
+                label = "Game Date",
+                choices = c('',df_lineups$match_date[df_lineups$team.name==input$team_name &
+                                                  df_lineups$away_team.away_team_name==input$opp_team_name]))
+  })
+  
+  ## Drawing field with formation ---------------------------------------------
   output$field_w_formation <- renderPlot({
     
     # Getting the formation data
-    formation.dataframe <- df_events_sampled %>%
-      filter(type.id==35 & team.name==input$team_name & lineup.rank==1) %>% # picking out formation data and limiting columns
-      select(id, team.id:tactics.lineup) %>%
-      unnest(., tactics.lineup) %>%
-      left_join(., player_positions, by = c('position.name'='player_position'))
+    formation.dataframe <- df_lineups %>%
+      filter(team.name==input$team_name & lineup.rank==1) 
+    
+    primary_color <- formation.dataframe$primary_color[1]
+    secondary_color <- formation.dataframe$secondary_color[1]
     
     # plotting formation
     formation_field <- ggplot(data=formation.dataframe,
                          aes(x=x, y=y)) +
-      draw_pitch(pitch_lines = 'white', pitch_color = 'green')+
-      geom_point(color='blue', size=8)+
+      draw_pitch(pitch_lines = 'white', pitch_color = '#006d2c')+
+      geom_point(color=primary_color, size=8)+
+      geom_point(shape = 1,size = 9,colour = secondary_color)+
       geom_text(aes(label=jersey_number), color='white')+
       #coord_flip()+
       pitch_theme
-    
+
     plot(formation_field)
   })
   

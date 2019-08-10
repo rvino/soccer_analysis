@@ -1,0 +1,749 @@
+id,team.id,team.name,tactics.formation,lineup.rank,match_id,jersey_number,player.id,player.name,position.id,position.name,x,y,broad.position,match_date,home_team.home_team_id,home_team.home_team_name,away_team.away_team_name,away_team.away_team_id,primary_color,secondary_color
+45e4c93e-3d4c-41c2-a3d6-3de3a58859ad,765,Portland Thorns,3412,4,7443,33,5005,Britt Eckerstrom,1,Goalkeeper,12,40,GK,2018-05-05,765,Portland Thorns,Seattle Reign,760,#EC1207,black
+45e4c93e-3d4c-41c2-a3d6-3de3a58859ad,765,Portland Thorns,3412,4,7443,2,5012,Katherine Reynolds,3,Right Center Back,22,25,CB,2018-05-05,765,Portland Thorns,Seattle Reign,760,#EC1207,black
+45e4c93e-3d4c-41c2-a3d6-3de3a58859ad,765,Portland Thorns,3412,4,7443,16,5003,Emily Sonnett,4,Center Back,22,40,CB,2018-05-05,765,Portland Thorns,Seattle Reign,760,#EC1207,black
+45e4c93e-3d4c-41c2-a3d6-3de3a58859ad,765,Portland Thorns,3412,4,7443,20,5015,Kelli Hubly,5,Left Center Back,22,55,CB,2018-05-05,765,Portland Thorns,Seattle Reign,760,#EC1207,black
+45e4c93e-3d4c-41c2-a3d6-3de3a58859ad,765,Portland Thorns,3412,4,7443,30,4995,Celeste Boureille,9,Right Defensive Midfield,30,30,CDM,2018-05-05,765,Portland Thorns,Seattle Reign,760,#EC1207,black
+45e4c93e-3d4c-41c2-a3d6-3de3a58859ad,765,Portland Thorns,3412,4,7443,10,4999,Lindsey Horan,11,Left Defensive Midfield,30,50,CDM,2018-05-05,765,Portland Thorns,Seattle Reign,760,#EC1207,black
+45e4c93e-3d4c-41c2-a3d6-3de3a58859ad,765,Portland Thorns,3412,4,7443,23,5009,Margaret Purce,12,Right Midfield,40,10,Wing,2018-05-05,765,Portland Thorns,Seattle Reign,760,#EC1207,black
+45e4c93e-3d4c-41c2-a3d6-3de3a58859ad,765,Portland Thorns,3412,4,7443,25,5011,Meghan Klingenberg,16,Left Midfield,40,70,Wing,2018-05-05,765,Portland Thorns,Seattle Reign,760,#EC1207,black
+45e4c93e-3d4c-41c2-a3d6-3de3a58859ad,765,Portland Thorns,3412,4,7443,12,5020,Christine Sinclair,19,Center Attacking Midfield,45,40,ACM,2018-05-05,765,Portland Thorns,Seattle Reign,760,#EC1207,black
+45e4c93e-3d4c-41c2-a3d6-3de3a58859ad,765,Portland Thorns,3412,4,7443,7,10408,Ana-Maria Crnogorcevic,22,Right Center Forward,55,25,Forward,2018-05-05,765,Portland Thorns,Seattle Reign,760,#EC1207,black
+45e4c93e-3d4c-41c2-a3d6-3de3a58859ad,765,Portland Thorns,3412,4,7443,26,5010,Mallory Weber,24,Left Center Forward,55,55,Forward,2018-05-05,765,Portland Thorns,Seattle Reign,760,#EC1207,black
+1a99d9d1-b15d-4e79-869d-010272f544e3,760,Seattle Reign,4231,2,7443,18,5019,Michelle Betos,1,Goalkeeper,12,40,GK,2018-05-05,765,Portland Thorns,Seattle Reign,760,#0B07F5,#D1F507
+1a99d9d1-b15d-4e79-869d-010272f544e3,760,Seattle Reign,4231,2,7443,21,5017,Christen Westphal,2,Right Back,22,10,FB/WB,2018-05-05,765,Portland Thorns,Seattle Reign,760,#0B07F5,#D1F507
+1a99d9d1-b15d-4e79-869d-010272f544e3,760,Seattle Reign,4231,2,7443,4,5007,Megan Oyster,3,Right Center Back,22,25,CB,2018-05-05,765,Portland Thorns,Seattle Reign,760,#0B07F5,#D1F507
+1a99d9d1-b15d-4e79-869d-010272f544e3,760,Seattle Reign,4231,2,7443,19,5008,Kristen McNabb,5,Left Center Back,22,55,CB,2018-05-05,765,Portland Thorns,Seattle Reign,760,#0B07F5,#D1F507
+1a99d9d1-b15d-4e79-869d-010272f544e3,760,Seattle Reign,4231,2,7443,7,5000,Steph Catley,6,Left Back,22,70,FB/WB,2018-05-05,765,Portland Thorns,Seattle Reign,760,#0B07F5,#D1F507
+1a99d9d1-b15d-4e79-869d-010272f544e3,760,Seattle Reign,4231,2,7443,6,5001,Allie Long,13,Right Center Midfield,38,55,CM,2018-05-05,765,Portland Thorns,Seattle Reign,760,#0B07F5,#D1F507
+1a99d9d1-b15d-4e79-869d-010272f544e3,760,Seattle Reign,4231,2,7443,20,4998,Rumi Utsugi,15,Left Center Midfield,38,25,CM,2018-05-05,765,Portland Thorns,Seattle Reign,760,#0B07F5,#D1F507
+1a99d9d1-b15d-4e79-869d-010272f544e3,760,Seattle Reign,4231,2,7443,17,5006,Beverly Yanez,17,Right Wing,50,5,Wing,2018-05-05,765,Portland Thorns,Seattle Reign,760,#0B07F5,#D1F507
+1a99d9d1-b15d-4e79-869d-010272f544e3,760,Seattle Reign,4231,2,7443,10,5016,Jessica Fishlock,19,Center Attacking Midfield,45,40,ACM,2018-05-05,765,Portland Thorns,Seattle Reign,760,#0B07F5,#D1F507
+1a99d9d1-b15d-4e79-869d-010272f544e3,760,Seattle Reign,4231,2,7443,9,4994,Nahomi Kawasumi,21,Left Wing,50,75,Wing,2018-05-05,765,Portland Thorns,Seattle Reign,760,#0B07F5,#D1F507
+1a99d9d1-b15d-4e79-869d-010272f544e3,760,Seattle Reign,4231,2,7443,14,5002,Jodie Taylor,23,Center Forward,55,40,Forward,2018-05-05,765,Portland Thorns,Seattle Reign,760,#0B07F5,#D1F507
+42ba6fde-b150-4fc4-a075-0cc1571ee6a6,766,North Carolina Courage,442,4,7444,1,5102,Sabrina D’Angelo,1,Goalkeeper,12,40,GK,2018-05-06,766,North Carolina Courage,Chicago Red Stars,761,#0518A5,#D7C107
+42ba6fde-b150-4fc4-a075-0cc1571ee6a6,766,North Carolina Courage,442,4,7444,11,5083,Merritt Mathias,2,Right Back,22,10,FB/WB,2018-05-06,766,North Carolina Courage,Chicago Red Stars,761,#0518A5,#D7C107
+42ba6fde-b150-4fc4-a075-0cc1571ee6a6,766,North Carolina Courage,442,4,7444,13,5081,Abby Dahlkemper,3,Right Center Back,22,25,CB,2018-05-06,766,North Carolina Courage,Chicago Red Stars,761,#0518A5,#D7C107
+42ba6fde-b150-4fc4-a075-0cc1571ee6a6,766,North Carolina Courage,442,4,7444,6,5037,Abby Erceg,5,Left Center Back,22,55,CB,2018-05-06,766,North Carolina Courage,Chicago Red Stars,761,#0518A5,#D7C107
+42ba6fde-b150-4fc4-a075-0cc1571ee6a6,766,North Carolina Courage,442,4,7444,15,5047,Jaelene Hinkle,6,Left Back,22,70,FB/WB,2018-05-06,766,North Carolina Courage,Chicago Red Stars,761,#0518A5,#D7C107
+42ba6fde-b150-4fc4-a075-0cc1571ee6a6,766,North Carolina Courage,442,4,7444,5,5087,Samantha Mewis,13,Right Center Midfield,38,55,CM,2018-05-06,766,North Carolina Courage,Chicago Red Stars,761,#0518A5,#D7C107
+42ba6fde-b150-4fc4-a075-0cc1571ee6a6,766,North Carolina Courage,442,4,7444,7,5091,McCall Zerboni,15,Left Center Midfield,38,25,CM,2018-05-06,766,North Carolina Courage,Chicago Red Stars,761,#0518A5,#D7C107
+42ba6fde-b150-4fc4-a075-0cc1571ee6a6,766,North Carolina Courage,442,4,7444,8,5084,Denise O'Sullivan,17,Right Wing,50,5,Wing,2018-05-06,766,North Carolina Courage,Chicago Red Stars,761,#0518A5,#D7C107
+42ba6fde-b150-4fc4-a075-0cc1571ee6a6,766,North Carolina Courage,442,4,7444,10,5044,Débora Cristiane de Oliveira,21,Left Wing,50,75,Wing,2018-05-06,766,North Carolina Courage,Chicago Red Stars,761,#0518A5,#D7C107
+42ba6fde-b150-4fc4-a075-0cc1571ee6a6,766,North Carolina Courage,442,4,7444,9,5055,Lynn Williams,22,Right Center Forward,55,25,Forward,2018-05-06,766,North Carolina Courage,Chicago Red Stars,761,#0518A5,#D7C107
+42ba6fde-b150-4fc4-a075-0cc1571ee6a6,766,North Carolina Courage,442,4,7444,19,5088,Crystal Alyssia Dunn,24,Left Center Forward,55,55,Forward,2018-05-06,766,North Carolina Courage,Chicago Red Stars,761,#0518A5,#D7C107
+6181644b-efce-4d8f-a2e0-7ae6f5dd52e3,761,Chicago Red Stars,433,5,7444,1,5100,Alyssa Naeher,1,Goalkeeper,12,40,GK,2018-05-06,766,North Carolina Courage,Chicago Red Stars,761,#29A7F8,#F9121C
+6181644b-efce-4d8f-a2e0-7ae6f5dd52e3,761,Chicago Red Stars,433,5,7444,4,4953,Alyssa Mautz,2,Right Back,22,10,FB/WB,2018-05-06,766,North Carolina Courage,Chicago Red Stars,761,#29A7F8,#F9121C
+6181644b-efce-4d8f-a2e0-7ae6f5dd52e3,761,Chicago Red Stars,433,5,7444,14,4955,Sarah Gorden,3,Right Center Back,22,25,CB,2018-05-06,766,North Carolina Courage,Chicago Red Stars,761,#29A7F8,#F9121C
+6181644b-efce-4d8f-a2e0-7ae6f5dd52e3,761,Chicago Red Stars,433,5,7444,16,5101,Samantha Johnson,5,Left Center Back,22,55,CB,2018-05-06,766,North Carolina Courage,Chicago Red Stars,761,#29A7F8,#F9121C
+6181644b-efce-4d8f-a2e0-7ae6f5dd52e3,761,Chicago Red Stars,433,5,7444,11,5105,Sofia Huerta,6,Left Back,22,70,FB/WB,2018-05-06,766,North Carolina Courage,Chicago Red Stars,761,#29A7F8,#F9121C
+6181644b-efce-4d8f-a2e0-7ae6f5dd52e3,761,Chicago Red Stars,433,5,7444,2,4965,Nikki Stanton,10,Center Defensive Midfield,30,40,CDM,2018-05-06,766,North Carolina Courage,Chicago Red Stars,761,#29A7F8,#F9121C
+6181644b-efce-4d8f-a2e0-7ae6f5dd52e3,761,Chicago Red Stars,433,5,7444,13,4957,Lauren Kaskie,13,Right Center Midfield,38,55,CM,2018-05-06,766,North Carolina Courage,Chicago Red Stars,761,#29A7F8,#F9121C
+6181644b-efce-4d8f-a2e0-7ae6f5dd52e3,761,Chicago Red Stars,433,5,7444,15,5103,Michele Vasconcelos,15,Left Center Midfield,38,25,CM,2018-05-06,766,North Carolina Courage,Chicago Red Stars,761,#29A7F8,#F9121C
+6181644b-efce-4d8f-a2e0-7ae6f5dd52e3,761,Chicago Red Stars,433,5,7444,20,4961,Samantha Kerr,17,Right Wing,50,5,Wing,2018-05-06,766,North Carolina Courage,Chicago Red Stars,761,#29A7F8,#F9121C
+6181644b-efce-4d8f-a2e0-7ae6f5dd52e3,761,Chicago Red Stars,433,5,7444,12,4963,Yuki Nagasato,21,Left Wing,50,75,Wing,2018-05-06,766,North Carolina Courage,Chicago Red Stars,761,#29A7F8,#F9121C
+6181644b-efce-4d8f-a2e0-7ae6f5dd52e3,761,Chicago Red Stars,433,5,7444,19,5104,Summer Green,23,Center Forward,55,40,Forward,2018-05-06,766,North Carolina Courage,Chicago Red Stars,761,#29A7F8,#F9121C
+c6af7c27-7cad-4c79-a9c5-2ff31744da87,767,Utah Royals,4231,8,7445,1,5031,Abby Smith,1,Goalkeeper,12,40,GK,2018-05-06,767,Utah Royals,Washington Spirit,759,#FED000,#25235F
+c6af7c27-7cad-4c79-a9c5-2ff31744da87,767,Utah Royals,4231,8,7445,13,4983,Brooke Elby,2,Right Back,22,10,FB/WB,2018-05-06,767,Utah Royals,Washington Spirit,759,#FED000,#25235F
+c6af7c27-7cad-4c79-a9c5-2ff31744da87,767,Utah Royals,4231,8,7445,2,4984,Rachel Corsie,3,Right Center Back,22,25,CB,2018-05-06,767,Utah Royals,Washington Spirit,759,#FED000,#25235F
+c6af7c27-7cad-4c79-a9c5-2ff31744da87,767,Utah Royals,4231,8,7445,4,5030,Becky Sauerbrunn,5,Left Center Back,22,55,CB,2018-05-06,767,Utah Royals,Washington Spirit,759,#FED000,#25235F
+c6af7c27-7cad-4c79-a9c5-2ff31744da87,767,Utah Royals,4231,8,7445,3,4971,Rebecca Moros,6,Left Back,22,70,FB/WB,2018-05-06,767,Utah Royals,Washington Spirit,759,#FED000,#25235F
+c6af7c27-7cad-4c79-a9c5-2ff31744da87,767,Utah Royals,4231,8,7445,11,4966,Desiree Scott,9,Right Defensive Midfield,30,30,CDM,2018-05-06,767,Utah Royals,Washington Spirit,759,#FED000,#25235F
+c6af7c27-7cad-4c79-a9c5-2ff31744da87,767,Utah Royals,4231,8,7445,23,4975,Gunnhildur Yrsa Jónsdóttir,11,Left Defensive Midfield,30,50,CDM,2018-05-06,767,Utah Royals,Washington Spirit,759,#FED000,#25235F
+c6af7c27-7cad-4c79-a9c5-2ff31744da87,767,Utah Royals,4231,8,7445,10,4973,Diana Matheson,17,Right Wing,50,5,Wing,2018-05-06,767,Utah Royals,Washington Spirit,759,#FED000,#25235F
+c6af7c27-7cad-4c79-a9c5-2ff31744da87,767,Utah Royals,4231,8,7445,19,4979,Katrina Gorry,19,Center Attacking Midfield,45,40,ACM,2018-05-06,767,Utah Royals,Washington Spirit,759,#FED000,#25235F
+c6af7c27-7cad-4c79-a9c5-2ff31744da87,767,Utah Royals,4231,8,7445,5,5021,Kelley O'Hara,21,Left Wing,50,75,Wing,2018-05-06,767,Utah Royals,Washington Spirit,759,#FED000,#25235F
+c6af7c27-7cad-4c79-a9c5-2ff31744da87,767,Utah Royals,4231,8,7445,8,5024,Amy Rodriguez,23,Center Forward,55,40,Forward,2018-05-06,767,Utah Royals,Washington Spirit,759,#FED000,#25235F
+bfddb288-7ee2-4476-86af-110446cd06ea,759,Washington Spirit,433,6,7445,1,5025,Aubrey Bledsoe,1,Goalkeeper,12,40,GK,2018-05-06,767,Utah Royals,Washington Spirit,759,#161281,#E50A25
+bfddb288-7ee2-4476-86af-110446cd06ea,759,Washington Spirit,433,6,7445,7,4941,Taylor Smith,2,Right Back,22,10,FB/WB,2018-05-06,767,Utah Royals,Washington Spirit,759,#161281,#E50A25
+bfddb288-7ee2-4476-86af-110446cd06ea,759,Washington Spirit,433,6,7445,5,4950,Whitney Church,3,Right Center Back,22,25,CB,2018-05-06,767,Utah Royals,Washington Spirit,759,#161281,#E50A25
+bfddb288-7ee2-4476-86af-110446cd06ea,759,Washington Spirit,433,6,7445,24,4943,Estelle Johnson,5,Left Center Back,22,55,CB,2018-05-06,767,Utah Royals,Washington Spirit,759,#161281,#E50A25
+bfddb288-7ee2-4476-86af-110446cd06ea,759,Washington Spirit,433,6,7445,3,4962,Caprice Dydasco,6,Left Back,22,70,FB/WB,2018-05-06,767,Utah Royals,Washington Spirit,759,#161281,#E50A25
+bfddb288-7ee2-4476-86af-110446cd06ea,759,Washington Spirit,433,6,7445,6,4940,Andi Sullivan,10,Center Defensive Midfield,30,40,CDM,2018-05-06,767,Utah Royals,Washington Spirit,759,#161281,#E50A25
+bfddb288-7ee2-4476-86af-110446cd06ea,759,Washington Spirit,433,6,7445,8,5026,Meggie Dougherty Howard,13,Right Center Midfield,38,55,CM,2018-05-06,767,Utah Royals,Washington Spirit,759,#161281,#E50A25
+bfddb288-7ee2-4476-86af-110446cd06ea,759,Washington Spirit,433,6,7445,23,5029,Tori Huster,15,Left Center Midfield,38,25,CM,2018-05-06,767,Utah Royals,Washington Spirit,759,#161281,#E50A25
+bfddb288-7ee2-4476-86af-110446cd06ea,759,Washington Spirit,433,6,7445,14,5022,Francisca Ordega,17,Right Wing,50,5,Wing,2018-05-06,767,Utah Royals,Washington Spirit,759,#161281,#E50A25
+bfddb288-7ee2-4476-86af-110446cd06ea,759,Washington Spirit,433,6,7445,11,5023,Mallory Pugh,21,Left Wing,50,75,Wing,2018-05-06,767,Utah Royals,Washington Spirit,759,#161281,#E50A25
+bfddb288-7ee2-4476-86af-110446cd06ea,759,Washington Spirit,433,6,7445,33,4964,Ashley Hatch,23,Center Forward,55,40,Forward,2018-05-06,767,Utah Royals,Washington Spirit,759,#161281,#E50A25
+837a836e-4baa-4c42-8b57-0ea849b6f01f,763,Sky Blue FC,433,2,7456,1,4981,Kailen Sheridan,1,Goalkeeper,12,40,GK,2018-05-20,763,Sky Blue FC,North Carolina Courage,766,#0A9EF9,#FA7004
+837a836e-4baa-4c42-8b57-0ea849b6f01f,763,Sky Blue FC,433,2,7456,8,5098,Erica Skroski,2,Right Back,22,10,FB/WB,2018-05-20,763,Sky Blue FC,North Carolina Courage,766,#0A9EF9,#FA7004
+837a836e-4baa-4c42-8b57-0ea849b6f01f,763,Sky Blue FC,433,2,7456,17,4978,Dominique Richardson,3,Right Center Back,22,25,CB,2018-05-20,763,Sky Blue FC,North Carolina Courage,766,#0A9EF9,#FA7004
+837a836e-4baa-4c42-8b57-0ea849b6f01f,763,Sky Blue FC,433,2,7456,22,4974,Mandy Freeman,5,Left Center Back,22,55,CB,2018-05-20,763,Sky Blue FC,North Carolina Courage,766,#0A9EF9,#FA7004
+837a836e-4baa-4c42-8b57-0ea849b6f01f,763,Sky Blue FC,433,2,7456,9,4970,Amanda Frisbie,6,Left Back,22,70,FB/WB,2018-05-20,763,Sky Blue FC,North Carolina Courage,766,#0A9EF9,#FA7004
+837a836e-4baa-4c42-8b57-0ea849b6f01f,763,Sky Blue FC,433,2,7456,16,4988,Sarah Killion,10,Center Defensive Midfield,30,40,CDM,2018-05-20,763,Sky Blue FC,North Carolina Courage,766,#0A9EF9,#FA7004
+837a836e-4baa-4c42-8b57-0ea849b6f01f,763,Sky Blue FC,433,2,7456,10,5097,Carli Lloyd,13,Right Center Midfield,38,55,CM,2018-05-20,763,Sky Blue FC,North Carolina Courage,766,#0A9EF9,#FA7004
+837a836e-4baa-4c42-8b57-0ea849b6f01f,763,Sky Blue FC,433,2,7456,5,4980,Thaysa de Moraes Rosa Moreno,15,Left Center Midfield,38,25,CM,2018-05-20,763,Sky Blue FC,North Carolina Courage,766,#0A9EF9,#FA7004
+837a836e-4baa-4c42-8b57-0ea849b6f01f,763,Sky Blue FC,433,2,7456,21,5096,Savannah McCaskill,17,Right Wing,50,5,Wing,2018-05-20,763,Sky Blue FC,North Carolina Courage,766,#0A9EF9,#FA7004
+837a836e-4baa-4c42-8b57-0ea849b6f01f,763,Sky Blue FC,433,2,7456,6,4986,Shea Groom,21,Left Wing,50,75,Wing,2018-05-20,763,Sky Blue FC,North Carolina Courage,766,#0A9EF9,#FA7004
+837a836e-4baa-4c42-8b57-0ea849b6f01f,763,Sky Blue FC,433,2,7456,14,4982,Katlyn Johnson,23,Center Forward,55,40,Forward,2018-05-20,763,Sky Blue FC,North Carolina Courage,766,#0A9EF9,#FA7004
+5b41ceb7-d8eb-4db7-affa-dd2641461035,766,North Carolina Courage,442,5,7456,0,5048,Katelyn Rowland,1,Goalkeeper,12,40,GK,2018-05-20,763,Sky Blue FC,North Carolina Courage,766,#0518A5,#D7C107
+5b41ceb7-d8eb-4db7-affa-dd2641461035,766,North Carolina Courage,442,5,7456,11,5083,Merritt Mathias,2,Right Back,22,10,FB/WB,2018-05-20,763,Sky Blue FC,North Carolina Courage,766,#0518A5,#D7C107
+5b41ceb7-d8eb-4db7-affa-dd2641461035,766,North Carolina Courage,442,5,7456,13,5081,Abby Dahlkemper,3,Right Center Back,22,25,CB,2018-05-20,763,Sky Blue FC,North Carolina Courage,766,#0518A5,#D7C107
+5b41ceb7-d8eb-4db7-affa-dd2641461035,766,North Carolina Courage,442,5,7456,6,5037,Abby Erceg,5,Left Center Back,22,55,CB,2018-05-20,763,Sky Blue FC,North Carolina Courage,766,#0518A5,#D7C107
+5b41ceb7-d8eb-4db7-affa-dd2641461035,766,North Carolina Courage,442,5,7456,15,5047,Jaelene Hinkle,6,Left Back,22,70,FB/WB,2018-05-20,763,Sky Blue FC,North Carolina Courage,766,#0518A5,#D7C107
+5b41ceb7-d8eb-4db7-affa-dd2641461035,766,North Carolina Courage,442,5,7456,10,5044,Débora Cristiane de Oliveira,12,Right Midfield,40,10,Wing,2018-05-20,763,Sky Blue FC,North Carolina Courage,766,#0518A5,#D7C107
+5b41ceb7-d8eb-4db7-affa-dd2641461035,766,North Carolina Courage,442,5,7456,5,5087,Samantha Mewis,13,Right Center Midfield,38,55,CM,2018-05-20,763,Sky Blue FC,North Carolina Courage,766,#0518A5,#D7C107
+5b41ceb7-d8eb-4db7-affa-dd2641461035,766,North Carolina Courage,442,5,7456,7,5091,McCall Zerboni,15,Left Center Midfield,38,25,CM,2018-05-20,763,Sky Blue FC,North Carolina Courage,766,#0518A5,#D7C107
+5b41ceb7-d8eb-4db7-affa-dd2641461035,766,North Carolina Courage,442,5,7456,8,5084,Denise O'Sullivan,16,Left Midfield,40,70,Wing,2018-05-20,763,Sky Blue FC,North Carolina Courage,766,#0518A5,#D7C107
+5b41ceb7-d8eb-4db7-affa-dd2641461035,766,North Carolina Courage,442,5,7456,14,5034,Jessica McDonald,22,Right Center Forward,55,25,Forward,2018-05-20,763,Sky Blue FC,North Carolina Courage,766,#0518A5,#D7C107
+5b41ceb7-d8eb-4db7-affa-dd2641461035,766,North Carolina Courage,442,5,7456,19,5088,Crystal Alyssia Dunn,24,Left Center Forward,55,55,Forward,2018-05-20,763,Sky Blue FC,North Carolina Courage,766,#0518A5,#D7C107
+0c6a03ee-5de9-4ace-9ce2-43d6b1db8ab7,764,Orlando Pride,433,2,7457,24,5090,Ashlyn Harris,1,Goalkeeper,12,40,GK,2018-05-24,764,Orlando Pride,North Carolina Courage,766,#8D04E6,white
+0c6a03ee-5de9-4ace-9ce2-43d6b1db8ab7,764,Orlando Pride,433,2,7457,12,5068,Kristen Edmonds,2,Right Back,22,10,FB/WB,2018-05-24,764,Orlando Pride,North Carolina Courage,766,#8D04E6,white
+0c6a03ee-5de9-4ace-9ce2-43d6b1db8ab7,764,Orlando Pride,433,2,7457,11,5089,Ali Krieger,3,Right Center Back,22,25,CB,2018-05-24,764,Orlando Pride,North Carolina Courage,766,#8D04E6,white
+0c6a03ee-5de9-4ace-9ce2-43d6b1db8ab7,764,Orlando Pride,433,2,7457,4,5074,Shelina Zadorsky,5,Left Center Back,22,55,CB,2018-05-24,764,Orlando Pride,North Carolina Courage,766,#8D04E6,white
+0c6a03ee-5de9-4ace-9ce2-43d6b1db8ab7,764,Orlando Pride,433,2,7457,16,5064,Carson Pickett,6,Left Back,22,70,FB/WB,2018-05-24,764,Orlando Pride,North Carolina Courage,766,#8D04E6,white
+0c6a03ee-5de9-4ace-9ce2-43d6b1db8ab7,764,Orlando Pride,433,2,7457,5,5076,Emily van Egmond,10,Center Defensive Midfield,30,40,CDM,2018-05-24,764,Orlando Pride,North Carolina Courage,766,#8D04E6,white
+0c6a03ee-5de9-4ace-9ce2-43d6b1db8ab7,764,Orlando Pride,433,2,7457,14,5078,Alanna Kennedy,13,Right Center Midfield,38,55,CM,2018-05-24,764,Orlando Pride,North Carolina Courage,766,#8D04E6,white
+0c6a03ee-5de9-4ace-9ce2-43d6b1db8ab7,764,Orlando Pride,433,2,7457,7,5070,Christine Nairn,15,Left Center Midfield,38,25,CM,2018-05-24,764,Orlando Pride,North Carolina Courage,766,#8D04E6,white
+0c6a03ee-5de9-4ace-9ce2-43d6b1db8ab7,764,Orlando Pride,433,2,7457,10,5082,Marta Vieira da Silva,17,Right Wing,50,5,Wing,2018-05-24,764,Orlando Pride,North Carolina Courage,766,#8D04E6,white
+0c6a03ee-5de9-4ace-9ce2-43d6b1db8ab7,764,Orlando Pride,433,2,7457,6,5063,Chioma Ubogagu,21,Left Wing,50,75,Wing,2018-05-24,764,Orlando Pride,North Carolina Courage,766,#8D04E6,white
+0c6a03ee-5de9-4ace-9ce2-43d6b1db8ab7,764,Orlando Pride,433,2,7457,13,5085,Alex Morgan,25,Secondary Striker,50,45,Forward,2018-05-24,764,Orlando Pride,North Carolina Courage,766,#8D04E6,white
+0af840f9-ba12-405a-832b-3fb42512179d,766,North Carolina Courage,433,1,7457,0,5048,Katelyn Rowland,1,Goalkeeper,12,40,GK,2018-05-24,764,Orlando Pride,North Carolina Courage,766,#0518A5,#D7C107
+0af840f9-ba12-405a-832b-3fb42512179d,766,North Carolina Courage,433,1,7457,11,5083,Merritt Mathias,2,Right Back,22,10,FB/WB,2018-05-24,764,Orlando Pride,North Carolina Courage,766,#0518A5,#D7C107
+0af840f9-ba12-405a-832b-3fb42512179d,766,North Carolina Courage,433,1,7457,13,5081,Abby Dahlkemper,3,Right Center Back,22,25,CB,2018-05-24,764,Orlando Pride,North Carolina Courage,766,#0518A5,#D7C107
+0af840f9-ba12-405a-832b-3fb42512179d,766,North Carolina Courage,433,1,7457,6,5037,Abby Erceg,5,Left Center Back,22,55,CB,2018-05-24,764,Orlando Pride,North Carolina Courage,766,#0518A5,#D7C107
+0af840f9-ba12-405a-832b-3fb42512179d,766,North Carolina Courage,433,1,7457,15,5047,Jaelene Hinkle,6,Left Back,22,70,FB/WB,2018-05-24,764,Orlando Pride,North Carolina Courage,766,#0518A5,#D7C107
+0af840f9-ba12-405a-832b-3fb42512179d,766,North Carolina Courage,433,1,7457,8,5084,Denise O'Sullivan,13,Right Center Midfield,38,55,CM,2018-05-24,764,Orlando Pride,North Carolina Courage,766,#0518A5,#D7C107
+0af840f9-ba12-405a-832b-3fb42512179d,766,North Carolina Courage,433,1,7457,5,5087,Samantha Mewis,14,Center Midfield,38,40,CM,2018-05-24,764,Orlando Pride,North Carolina Courage,766,#0518A5,#D7C107
+0af840f9-ba12-405a-832b-3fb42512179d,766,North Carolina Courage,433,1,7457,7,5091,McCall Zerboni,15,Left Center Midfield,38,25,CM,2018-05-24,764,Orlando Pride,North Carolina Courage,766,#0518A5,#D7C107
+0af840f9-ba12-405a-832b-3fb42512179d,766,North Carolina Courage,433,1,7457,14,5034,Jessica McDonald,22,Right Center Forward,55,25,Forward,2018-05-24,764,Orlando Pride,North Carolina Courage,766,#0518A5,#D7C107
+0af840f9-ba12-405a-832b-3fb42512179d,766,North Carolina Courage,433,1,7457,19,5088,Crystal Alyssia Dunn,24,Left Center Forward,55,55,Forward,2018-05-24,764,Orlando Pride,North Carolina Courage,766,#0518A5,#D7C107
+0af840f9-ba12-405a-832b-3fb42512179d,766,North Carolina Courage,433,1,7457,10,5044,Débora Cristiane de Oliveira,25,Secondary Striker,50,45,Forward,2018-05-24,764,Orlando Pride,North Carolina Courage,766,#0518A5,#D7C107
+97eb2b91-8283-4a64-8c92-bc0f72402637,764,Orlando Pride,442,7,7471,24,5090,Ashlyn Harris,1,Goalkeeper,12,40,GK,2018-06-30,764,Orlando Pride,North Carolina Courage,766,#8D04E6,white
+97eb2b91-8283-4a64-8c92-bc0f72402637,764,Orlando Pride,442,7,7471,11,5089,Ali Krieger,2,Right Back,22,10,FB/WB,2018-06-30,764,Orlando Pride,North Carolina Courage,766,#8D04E6,white
+97eb2b91-8283-4a64-8c92-bc0f72402637,764,Orlando Pride,442,7,7471,21,5071,Monica Hickmann Alves,3,Right Center Back,22,25,CB,2018-06-30,764,Orlando Pride,North Carolina Courage,766,#8D04E6,white
+97eb2b91-8283-4a64-8c92-bc0f72402637,764,Orlando Pride,442,7,7471,4,5074,Shelina Zadorsky,5,Left Center Back,22,55,CB,2018-06-30,764,Orlando Pride,North Carolina Courage,766,#8D04E6,white
+97eb2b91-8283-4a64-8c92-bc0f72402637,764,Orlando Pride,442,7,7471,19,5060,Poliana Barbosa Medeiros,6,Left Back,22,70,FB/WB,2018-06-30,764,Orlando Pride,North Carolina Courage,766,#8D04E6,white
+97eb2b91-8283-4a64-8c92-bc0f72402637,764,Orlando Pride,442,7,7471,15,5086,Rachel Hill,12,Right Midfield,40,10,Wing,2018-06-30,764,Orlando Pride,North Carolina Courage,766,#8D04E6,white
+97eb2b91-8283-4a64-8c92-bc0f72402637,764,Orlando Pride,442,7,7471,5,5076,Emily van Egmond,13,Right Center Midfield,38,55,CM,2018-06-30,764,Orlando Pride,North Carolina Courage,766,#8D04E6,white
+97eb2b91-8283-4a64-8c92-bc0f72402637,764,Orlando Pride,442,7,7471,14,5078,Alanna Kennedy,15,Left Center Midfield,38,25,CM,2018-06-30,764,Orlando Pride,North Carolina Courage,766,#8D04E6,white
+97eb2b91-8283-4a64-8c92-bc0f72402637,764,Orlando Pride,442,7,7471,2,5067,Sydney Leroux,16,Left Midfield,40,70,Wing,2018-06-30,764,Orlando Pride,North Carolina Courage,766,#8D04E6,white
+97eb2b91-8283-4a64-8c92-bc0f72402637,764,Orlando Pride,442,7,7471,10,5082,Marta Vieira da Silva,22,Right Center Forward,55,25,Forward,2018-06-30,764,Orlando Pride,North Carolina Courage,766,#8D04E6,white
+97eb2b91-8283-4a64-8c92-bc0f72402637,764,Orlando Pride,442,7,7471,13,5085,Alex Morgan,24,Left Center Forward,55,55,Forward,2018-06-30,764,Orlando Pride,North Carolina Courage,766,#8D04E6,white
+8bd2f4a1-d7f2-454d-83a2-47941a331a7d,766,North Carolina Courage,442,6,7471,99,5048,Katelyn Rowland,1,Goalkeeper,12,40,GK,2018-06-30,764,Orlando Pride,North Carolina Courage,766,#0518A5,#D7C107
+8bd2f4a1-d7f2-454d-83a2-47941a331a7d,766,North Carolina Courage,442,6,7471,11,5083,Merritt Mathias,2,Right Back,22,10,FB/WB,2018-06-30,764,Orlando Pride,North Carolina Courage,766,#0518A5,#D7C107
+8bd2f4a1-d7f2-454d-83a2-47941a331a7d,766,North Carolina Courage,442,6,7471,13,5081,Abby Dahlkemper,3,Right Center Back,22,25,CB,2018-06-30,764,Orlando Pride,North Carolina Courage,766,#0518A5,#D7C107
+8bd2f4a1-d7f2-454d-83a2-47941a331a7d,766,North Carolina Courage,442,6,7471,6,5037,Abby Erceg,5,Left Center Back,22,55,CB,2018-06-30,764,Orlando Pride,North Carolina Courage,766,#0518A5,#D7C107
+8bd2f4a1-d7f2-454d-83a2-47941a331a7d,766,North Carolina Courage,442,6,7471,31,5057,Kaleigh Kurtz,6,Left Back,22,70,FB/WB,2018-06-30,764,Orlando Pride,North Carolina Courage,766,#0518A5,#D7C107
+8bd2f4a1-d7f2-454d-83a2-47941a331a7d,766,North Carolina Courage,442,6,7471,10,5044,Débora Cristiane de Oliveira,12,Right Midfield,40,10,Wing,2018-06-30,764,Orlando Pride,North Carolina Courage,766,#0518A5,#D7C107
+8bd2f4a1-d7f2-454d-83a2-47941a331a7d,766,North Carolina Courage,442,6,7471,8,5084,Denise O'Sullivan,13,Right Center Midfield,38,55,CM,2018-06-30,764,Orlando Pride,North Carolina Courage,766,#0518A5,#D7C107
+8bd2f4a1-d7f2-454d-83a2-47941a331a7d,766,North Carolina Courage,442,6,7471,7,5091,McCall Zerboni,15,Left Center Midfield,38,25,CM,2018-06-30,764,Orlando Pride,North Carolina Courage,766,#0518A5,#D7C107
+8bd2f4a1-d7f2-454d-83a2-47941a331a7d,766,North Carolina Courage,442,6,7471,19,5088,Crystal Alyssia Dunn,16,Left Midfield,40,70,Wing,2018-06-30,764,Orlando Pride,North Carolina Courage,766,#0518A5,#D7C107
+8bd2f4a1-d7f2-454d-83a2-47941a331a7d,766,North Carolina Courage,442,6,7471,9,5055,Lynn Williams,22,Right Center Forward,55,25,Forward,2018-06-30,764,Orlando Pride,North Carolina Courage,766,#0518A5,#D7C107
+8bd2f4a1-d7f2-454d-83a2-47941a331a7d,766,North Carolina Courage,442,6,7471,14,5034,Jessica McDonald,24,Left Center Forward,55,55,Forward,2018-06-30,764,Orlando Pride,North Carolina Courage,766,#0518A5,#D7C107
+60f52881-fea7-448e-8980-e24c8150bbde,760,Seattle Reign,4321,3,7472,1,5066,Lydia Williams,1,Goalkeeper,12,40,GK,2018-07-01,760,Seattle Reign,Portland Thorns,765,#0B07F5,#D1F507
+60f52881-fea7-448e-8980-e24c8150bbde,760,Seattle Reign,4321,3,7472,8,5069,Theresa Nielsen,2,Right Back,22,10,FB/WB,2018-07-01,760,Seattle Reign,Portland Thorns,765,#0B07F5,#D1F507
+60f52881-fea7-448e-8980-e24c8150bbde,760,Seattle Reign,4321,3,7472,4,5007,Megan Oyster,3,Right Center Back,22,25,CB,2018-07-01,760,Seattle Reign,Portland Thorns,765,#0B07F5,#D1F507
+60f52881-fea7-448e-8980-e24c8150bbde,760,Seattle Reign,4321,3,7472,3,5065,Lauren Barnes,5,Left Center Back,22,55,CB,2018-07-01,760,Seattle Reign,Portland Thorns,765,#0B07F5,#D1F507
+60f52881-fea7-448e-8980-e24c8150bbde,760,Seattle Reign,4321,3,7472,7,5000,Steph Catley,6,Left Back,22,70,FB/WB,2018-07-01,760,Seattle Reign,Portland Thorns,765,#0B07F5,#D1F507
+60f52881-fea7-448e-8980-e24c8150bbde,760,Seattle Reign,4321,3,7472,6,5001,Allie Long,13,Right Center Midfield,38,55,CM,2018-07-01,760,Seattle Reign,Portland Thorns,765,#0B07F5,#D1F507
+60f52881-fea7-448e-8980-e24c8150bbde,760,Seattle Reign,4321,3,7472,17,5006,Beverly Yanez,14,Center Midfield,38,40,CM,2018-07-01,760,Seattle Reign,Portland Thorns,765,#0B07F5,#D1F507
+60f52881-fea7-448e-8980-e24c8150bbde,760,Seattle Reign,4321,3,7472,20,4998,Rumi Utsugi,15,Left Center Midfield,38,25,CM,2018-07-01,760,Seattle Reign,Portland Thorns,765,#0B07F5,#D1F507
+60f52881-fea7-448e-8980-e24c8150bbde,760,Seattle Reign,4321,3,7472,11,5075,Elizabeth Addo,17,Right Wing,50,5,Wing,2018-07-01,760,Seattle Reign,Portland Thorns,765,#0B07F5,#D1F507
+60f52881-fea7-448e-8980-e24c8150bbde,760,Seattle Reign,4321,3,7472,15,8298,Megan Rapinoe,21,Left Wing,50,75,Wing,2018-07-01,760,Seattle Reign,Portland Thorns,765,#0B07F5,#D1F507
+60f52881-fea7-448e-8980-e24c8150bbde,760,Seattle Reign,4321,3,7472,14,5002,Jodie Taylor,23,Center Forward,55,40,Forward,2018-07-01,760,Seattle Reign,Portland Thorns,765,#0B07F5,#D1F507
+23fc21fc-4ac5-47d3-a05e-461bfa5dbc06,765,Portland Thorns,4231,2,7472,24,6819,Adrianna Franch,1,Goalkeeper,12,40,GK,2018-07-01,760,Seattle Reign,Portland Thorns,765,#EC1207,black
+23fc21fc-4ac5-47d3-a05e-461bfa5dbc06,765,Portland Thorns,4231,2,7472,15,5095,Ellie Carpenter,2,Right Back,22,10,FB/WB,2018-07-01,760,Seattle Reign,Portland Thorns,765,#EC1207,black
+23fc21fc-4ac5-47d3-a05e-461bfa5dbc06,765,Portland Thorns,4231,2,7472,16,5003,Emily Sonnett,3,Right Center Back,22,25,CB,2018-07-01,760,Seattle Reign,Portland Thorns,765,#EC1207,black
+23fc21fc-4ac5-47d3-a05e-461bfa5dbc06,765,Portland Thorns,4231,2,7472,2,5012,Katherine Reynolds,5,Left Center Back,22,55,CB,2018-07-01,760,Seattle Reign,Portland Thorns,765,#EC1207,black
+23fc21fc-4ac5-47d3-a05e-461bfa5dbc06,765,Portland Thorns,4231,2,7472,25,5011,Meghan Klingenberg,6,Left Back,22,70,FB/WB,2018-07-01,760,Seattle Reign,Portland Thorns,765,#EC1207,black
+23fc21fc-4ac5-47d3-a05e-461bfa5dbc06,765,Portland Thorns,4231,2,7472,30,4995,Celeste Boureille,9,Right Defensive Midfield,30,30,CDM,2018-07-01,760,Seattle Reign,Portland Thorns,765,#EC1207,black
+23fc21fc-4ac5-47d3-a05e-461bfa5dbc06,765,Portland Thorns,4231,2,7472,10,4999,Lindsey Horan,11,Left Defensive Midfield,30,50,CDM,2018-07-01,760,Seattle Reign,Portland Thorns,765,#EC1207,black
+23fc21fc-4ac5-47d3-a05e-461bfa5dbc06,765,Portland Thorns,4231,2,7472,7,10408,Ana-Maria Crnogorcevic,17,Right Wing,50,5,Wing,2018-07-01,760,Seattle Reign,Portland Thorns,765,#EC1207,black
+23fc21fc-4ac5-47d3-a05e-461bfa5dbc06,765,Portland Thorns,4231,2,7472,12,5020,Christine Sinclair,19,Center Attacking Midfield,45,40,ACM,2018-07-01,760,Seattle Reign,Portland Thorns,765,#EC1207,black
+23fc21fc-4ac5-47d3-a05e-461bfa5dbc06,765,Portland Thorns,4231,2,7472,8,5018,Andressa Cavalari Machry,21,Left Wing,50,75,Wing,2018-07-01,760,Seattle Reign,Portland Thorns,765,#EC1207,black
+23fc21fc-4ac5-47d3-a05e-461bfa5dbc06,765,Portland Thorns,4231,2,7472,21,6818,Hayley Raso,23,Center Forward,55,40,Forward,2018-07-01,760,Seattle Reign,Portland Thorns,765,#EC1207,black
+0ade900a-123d-40a9-b996-c4112229428d,767,Utah Royals,4231,2,7473,1,5031,Abby Smith,1,Goalkeeper,12,40,GK,2018-07-01,767,Utah Royals,Sky Blue FC,763,#FED000,#25235F
+0ade900a-123d-40a9-b996-c4112229428d,767,Utah Royals,4231,2,7473,6,5028,Katie Bowen,2,Right Back,22,10,FB/WB,2018-07-01,767,Utah Royals,Sky Blue FC,763,#FED000,#25235F
+0ade900a-123d-40a9-b996-c4112229428d,767,Utah Royals,4231,2,7473,4,5030,Becky Sauerbrunn,3,Right Center Back,22,25,CB,2018-07-01,767,Utah Royals,Sky Blue FC,763,#FED000,#25235F
+0ade900a-123d-40a9-b996-c4112229428d,767,Utah Royals,4231,2,7473,16,5101,Samantha Johnson,5,Left Center Back,22,55,CB,2018-07-01,767,Utah Royals,Sky Blue FC,763,#FED000,#25235F
+0ade900a-123d-40a9-b996-c4112229428d,767,Utah Royals,4231,2,7473,3,4971,Rebecca Moros,6,Left Back,22,70,FB/WB,2018-07-01,767,Utah Royals,Sky Blue FC,763,#FED000,#25235F
+0ade900a-123d-40a9-b996-c4112229428d,767,Utah Royals,4231,2,7473,11,4966,Desiree Scott,9,Right Defensive Midfield,30,30,CDM,2018-07-01,767,Utah Royals,Sky Blue FC,763,#FED000,#25235F
+0ade900a-123d-40a9-b996-c4112229428d,767,Utah Royals,4231,2,7473,19,4979,Katrina Gorry,11,Left Defensive Midfield,30,50,CDM,2018-07-01,767,Utah Royals,Sky Blue FC,763,#FED000,#25235F
+0ade900a-123d-40a9-b996-c4112229428d,767,Utah Royals,4231,2,7473,15,5027,Erika Tymrak,17,Right Wing,50,5,Wing,2018-07-01,767,Utah Royals,Sky Blue FC,763,#FED000,#25235F
+0ade900a-123d-40a9-b996-c4112229428d,767,Utah Royals,4231,2,7473,23,4975,Gunnhildur Yrsa Jónsdóttir,19,Center Attacking Midfield,45,40,ACM,2018-07-01,767,Utah Royals,Sky Blue FC,763,#FED000,#25235F
+0ade900a-123d-40a9-b996-c4112229428d,767,Utah Royals,4231,2,7473,21,6817,Christen Press,21,Left Wing,50,75,Wing,2018-07-01,767,Utah Royals,Sky Blue FC,763,#FED000,#25235F
+0ade900a-123d-40a9-b996-c4112229428d,767,Utah Royals,4231,2,7473,24,4972,Katie Stengel,23,Center Forward,55,40,Forward,2018-07-01,767,Utah Royals,Sky Blue FC,763,#FED000,#25235F
+0c3b29b9-948f-48d6-b79b-5251d2bd5980,763,Sky Blue FC,4321,1,7473,1,4981,Kailen Sheridan,1,Goalkeeper,12,40,GK,2018-07-01,767,Utah Royals,Sky Blue FC,763,#0A9EF9,#FA7004
+0c3b29b9-948f-48d6-b79b-5251d2bd5980,763,Sky Blue FC,4321,1,7473,8,5098,Erica Skroski,2,Right Back,22,10,FB/WB,2018-07-01,767,Utah Royals,Sky Blue FC,763,#0A9EF9,#FA7004
+0c3b29b9-948f-48d6-b79b-5251d2bd5980,763,Sky Blue FC,4321,1,7473,22,4974,Mandy Freeman,3,Right Center Back,22,25,CB,2018-07-01,767,Utah Royals,Sky Blue FC,763,#0A9EF9,#FA7004
+0c3b29b9-948f-48d6-b79b-5251d2bd5980,763,Sky Blue FC,4321,1,7473,17,4978,Dominique Richardson,5,Left Center Back,22,55,CB,2018-07-01,767,Utah Royals,Sky Blue FC,763,#0A9EF9,#FA7004
+0c3b29b9-948f-48d6-b79b-5251d2bd5980,763,Sky Blue FC,4321,1,7473,9,4970,Amanda Frisbie,6,Left Back,22,70,FB/WB,2018-07-01,767,Utah Royals,Sky Blue FC,763,#0A9EF9,#FA7004
+0c3b29b9-948f-48d6-b79b-5251d2bd5980,763,Sky Blue FC,4321,1,7473,16,4988,Sarah Killion,10,Center Defensive Midfield,30,40,CDM,2018-07-01,767,Utah Royals,Sky Blue FC,763,#0A9EF9,#FA7004
+0c3b29b9-948f-48d6-b79b-5251d2bd5980,763,Sky Blue FC,4321,1,7473,73,4968,Madison Tiernan,13,Right Center Midfield,38,55,CM,2018-07-01,767,Utah Royals,Sky Blue FC,763,#0A9EF9,#FA7004
+0c3b29b9-948f-48d6-b79b-5251d2bd5980,763,Sky Blue FC,4321,1,7473,28,7180,Imani Dorsey,15,Left Center Midfield,38,25,CM,2018-07-01,767,Utah Royals,Sky Blue FC,763,#0A9EF9,#FA7004
+0c3b29b9-948f-48d6-b79b-5251d2bd5980,763,Sky Blue FC,4321,1,7473,10,5097,Carli Lloyd,19,Center Attacking Midfield,45,40,ACM,2018-07-01,767,Utah Royals,Sky Blue FC,763,#0A9EF9,#FA7004
+0c3b29b9-948f-48d6-b79b-5251d2bd5980,763,Sky Blue FC,4321,1,7473,6,4986,Shea Groom,22,Right Center Forward,55,25,Forward,2018-07-01,767,Utah Royals,Sky Blue FC,763,#0A9EF9,#FA7004
+0c3b29b9-948f-48d6-b79b-5251d2bd5980,763,Sky Blue FC,4321,1,7473,12,4992,Janine Beckie,24,Left Center Forward,55,55,Forward,2018-07-01,767,Utah Royals,Sky Blue FC,763,#0A9EF9,#FA7004
+21869874-7189-4008-94a5-c3937bcbef93,761,Chicago Red Stars,4231,3,7474,1,5100,Alyssa Naeher,1,Goalkeeper,12,40,GK,2018-07-02,761,Chicago Red Stars,Washington Spirit,759,#29A7F8,#F9121C
+21869874-7189-4008-94a5-c3937bcbef93,761,Chicago Red Stars,4231,3,7474,3,4942,Arin Gilliland,2,Right Back,22,10,FB/WB,2018-07-02,761,Chicago Red Stars,Washington Spirit,759,#29A7F8,#F9121C
+21869874-7189-4008-94a5-c3937bcbef93,761,Chicago Red Stars,4231,3,7474,5,4958,Kathleen Naughton,3,Right Center Back,22,25,CB,2018-07-02,761,Chicago Red Stars,Washington Spirit,759,#29A7F8,#F9121C
+21869874-7189-4008-94a5-c3937bcbef93,761,Chicago Red Stars,4231,3,7474,8,6811,Julie Ertz,5,Left Center Back,22,55,CB,2018-07-02,761,Chicago Red Stars,Washington Spirit,759,#29A7F8,#F9121C
+21869874-7189-4008-94a5-c3937bcbef93,761,Chicago Red Stars,4231,3,7474,6,7179,Casey Short,6,Left Back,22,70,FB/WB,2018-07-02,761,Chicago Red Stars,Washington Spirit,759,#29A7F8,#F9121C
+21869874-7189-4008-94a5-c3937bcbef93,761,Chicago Red Stars,4231,3,7474,24,4947,Danielle Colaprico,9,Right Defensive Midfield,30,30,CDM,2018-07-02,761,Chicago Red Stars,Washington Spirit,759,#29A7F8,#F9121C
+21869874-7189-4008-94a5-c3937bcbef93,761,Chicago Red Stars,4231,3,7474,2,4965,Nikki Stanton,11,Left Defensive Midfield,30,50,CDM,2018-07-02,761,Chicago Red Stars,Washington Spirit,759,#29A7F8,#F9121C
+21869874-7189-4008-94a5-c3937bcbef93,761,Chicago Red Stars,4231,3,7474,4,4953,Alyssa Mautz,17,Right Wing,50,5,Wing,2018-07-02,761,Chicago Red Stars,Washington Spirit,759,#29A7F8,#F9121C
+21869874-7189-4008-94a5-c3937bcbef93,761,Chicago Red Stars,4231,3,7474,12,4963,Yuki Nagasato,19,Center Attacking Midfield,45,40,ACM,2018-07-02,761,Chicago Red Stars,Washington Spirit,759,#29A7F8,#F9121C
+21869874-7189-4008-94a5-c3937bcbef93,761,Chicago Red Stars,4231,3,7474,15,5103,Michele Vasconcelos,21,Left Wing,50,75,Wing,2018-07-02,761,Chicago Red Stars,Washington Spirit,759,#29A7F8,#F9121C
+21869874-7189-4008-94a5-c3937bcbef93,761,Chicago Red Stars,4231,3,7474,20,4961,Samantha Kerr,23,Center Forward,55,40,Forward,2018-07-02,761,Chicago Red Stars,Washington Spirit,759,#29A7F8,#F9121C
+50d8c445-53f3-40f6-82dd-3bb963449e1e,759,Washington Spirit,433,4,7474,1,5025,Aubrey Bledsoe,1,Goalkeeper,12,40,GK,2018-07-02,761,Chicago Red Stars,Washington Spirit,759,#161281,#E50A25
+50d8c445-53f3-40f6-82dd-3bb963449e1e,759,Washington Spirit,433,4,7474,7,4941,Taylor Smith,2,Right Back,22,10,FB/WB,2018-07-02,761,Chicago Red Stars,Washington Spirit,759,#161281,#E50A25
+50d8c445-53f3-40f6-82dd-3bb963449e1e,759,Washington Spirit,433,4,7474,5,4950,Whitney Church,3,Right Center Back,22,25,CB,2018-07-02,761,Chicago Red Stars,Washington Spirit,759,#161281,#E50A25
+50d8c445-53f3-40f6-82dd-3bb963449e1e,759,Washington Spirit,433,4,7474,24,4943,Estelle Johnson,5,Left Center Back,22,55,CB,2018-07-02,761,Chicago Red Stars,Washington Spirit,759,#161281,#E50A25
+50d8c445-53f3-40f6-82dd-3bb963449e1e,759,Washington Spirit,433,4,7474,3,4962,Caprice Dydasco,6,Left Back,22,70,FB/WB,2018-07-02,761,Chicago Red Stars,Washington Spirit,759,#161281,#E50A25
+50d8c445-53f3-40f6-82dd-3bb963449e1e,759,Washington Spirit,433,4,7474,8,5026,Meggie Dougherty Howard,13,Right Center Midfield,38,55,CM,2018-07-02,761,Chicago Red Stars,Washington Spirit,759,#161281,#E50A25
+50d8c445-53f3-40f6-82dd-3bb963449e1e,759,Washington Spirit,433,4,7474,4,4951,Rebecca Quinn,14,Center Midfield,38,40,CM,2018-07-02,761,Chicago Red Stars,Washington Spirit,759,#161281,#E50A25
+50d8c445-53f3-40f6-82dd-3bb963449e1e,759,Washington Spirit,433,4,7474,6,4940,Andi Sullivan,15,Left Center Midfield,38,25,CM,2018-07-02,761,Chicago Red Stars,Washington Spirit,759,#161281,#E50A25
+50d8c445-53f3-40f6-82dd-3bb963449e1e,759,Washington Spirit,433,4,7474,23,5029,Tori Huster,17,Right Wing,50,5,Wing,2018-07-02,761,Chicago Red Stars,Washington Spirit,759,#161281,#E50A25
+50d8c445-53f3-40f6-82dd-3bb963449e1e,759,Washington Spirit,433,4,7474,14,5022,Francisca Ordega,21,Left Wing,50,75,Wing,2018-07-02,761,Chicago Red Stars,Washington Spirit,759,#161281,#E50A25
+50d8c445-53f3-40f6-82dd-3bb963449e1e,759,Washington Spirit,433,4,7474,33,4964,Ashley Hatch,23,Center Forward,55,40,Forward,2018-07-02,761,Chicago Red Stars,Washington Spirit,759,#161281,#E50A25
+dfb0c4d6-88fe-4d96-9481-5569bd2a1695,766,North Carolina Courage,4222,10,7475,99,5048,Katelyn Rowland,1,Goalkeeper,12,40,GK,2018-07-05,766,North Carolina Courage,Chicago Red Stars,761,#0518A5,#D7C107
+dfb0c4d6-88fe-4d96-9481-5569bd2a1695,766,North Carolina Courage,4222,10,7475,11,5083,Merritt Mathias,2,Right Back,22,10,FB/WB,2018-07-05,766,North Carolina Courage,Chicago Red Stars,761,#0518A5,#D7C107
+dfb0c4d6-88fe-4d96-9481-5569bd2a1695,766,North Carolina Courage,4222,10,7475,13,5081,Abby Dahlkemper,3,Right Center Back,22,25,CB,2018-07-05,766,North Carolina Courage,Chicago Red Stars,761,#0518A5,#D7C107
+dfb0c4d6-88fe-4d96-9481-5569bd2a1695,766,North Carolina Courage,4222,10,7475,6,5037,Abby Erceg,5,Left Center Back,22,55,CB,2018-07-05,766,North Carolina Courage,Chicago Red Stars,761,#0518A5,#D7C107
+dfb0c4d6-88fe-4d96-9481-5569bd2a1695,766,North Carolina Courage,4222,10,7475,15,5047,Jaelene Hinkle,6,Left Back,22,70,FB/WB,2018-07-05,766,North Carolina Courage,Chicago Red Stars,761,#0518A5,#D7C107
+dfb0c4d6-88fe-4d96-9481-5569bd2a1695,766,North Carolina Courage,4222,10,7475,8,5084,Denise O'Sullivan,13,Right Center Midfield,38,55,CM,2018-07-05,766,North Carolina Courage,Chicago Red Stars,761,#0518A5,#D7C107
+dfb0c4d6-88fe-4d96-9481-5569bd2a1695,766,North Carolina Courage,4222,10,7475,7,5091,McCall Zerboni,15,Left Center Midfield,38,25,CM,2018-07-05,766,North Carolina Courage,Chicago Red Stars,761,#0518A5,#D7C107
+dfb0c4d6-88fe-4d96-9481-5569bd2a1695,766,North Carolina Courage,4222,10,7475,19,5088,Crystal Alyssia Dunn,17,Right Wing,50,5,Wing,2018-07-05,766,North Carolina Courage,Chicago Red Stars,761,#0518A5,#D7C107
+dfb0c4d6-88fe-4d96-9481-5569bd2a1695,766,North Carolina Courage,4222,10,7475,10,5044,Débora Cristiane de Oliveira,21,Left Wing,50,75,Wing,2018-07-05,766,North Carolina Courage,Chicago Red Stars,761,#0518A5,#D7C107
+dfb0c4d6-88fe-4d96-9481-5569bd2a1695,766,North Carolina Courage,4222,10,7475,9,5055,Lynn Williams,22,Right Center Forward,55,25,Forward,2018-07-05,766,North Carolina Courage,Chicago Red Stars,761,#0518A5,#D7C107
+dfb0c4d6-88fe-4d96-9481-5569bd2a1695,766,North Carolina Courage,4222,10,7475,14,5034,Jessica McDonald,24,Left Center Forward,55,55,Forward,2018-07-05,766,North Carolina Courage,Chicago Red Stars,761,#0518A5,#D7C107
+9e403093-32b4-4003-b210-d7fa706448c3,761,Chicago Red Stars,4222,6,7475,1,5100,Alyssa Naeher,1,Goalkeeper,12,40,GK,2018-07-05,766,North Carolina Courage,Chicago Red Stars,761,#29A7F8,#F9121C
+9e403093-32b4-4003-b210-d7fa706448c3,761,Chicago Red Stars,4222,6,7475,23,4983,Brooke Elby,2,Right Back,22,10,FB/WB,2018-07-05,766,North Carolina Courage,Chicago Red Stars,761,#29A7F8,#F9121C
+9e403093-32b4-4003-b210-d7fa706448c3,761,Chicago Red Stars,4222,6,7475,5,4958,Kathleen Naughton,3,Right Center Back,22,25,CB,2018-07-05,766,North Carolina Courage,Chicago Red Stars,761,#29A7F8,#F9121C
+9e403093-32b4-4003-b210-d7fa706448c3,761,Chicago Red Stars,4222,6,7475,14,4955,Sarah Gorden,5,Left Center Back,22,55,CB,2018-07-05,766,North Carolina Courage,Chicago Red Stars,761,#29A7F8,#F9121C
+9e403093-32b4-4003-b210-d7fa706448c3,761,Chicago Red Stars,4222,6,7475,3,4942,Arin Gilliland,6,Left Back,22,70,FB/WB,2018-07-05,766,North Carolina Courage,Chicago Red Stars,761,#29A7F8,#F9121C
+9e403093-32b4-4003-b210-d7fa706448c3,761,Chicago Red Stars,4222,6,7475,8,6811,Julie Ertz,13,Right Center Midfield,38,55,CM,2018-07-05,766,North Carolina Courage,Chicago Red Stars,761,#29A7F8,#F9121C
+9e403093-32b4-4003-b210-d7fa706448c3,761,Chicago Red Stars,4222,6,7475,13,6813,Morgan Brian,15,Left Center Midfield,38,25,CM,2018-07-05,766,North Carolina Courage,Chicago Red Stars,761,#29A7F8,#F9121C
+9e403093-32b4-4003-b210-d7fa706448c3,761,Chicago Red Stars,4222,6,7475,10,6812,Vanessa DiBernardo,17,Right Wing,50,5,Wing,2018-07-05,766,North Carolina Courage,Chicago Red Stars,761,#29A7F8,#F9121C
+9e403093-32b4-4003-b210-d7fa706448c3,761,Chicago Red Stars,4222,6,7475,24,4947,Danielle Colaprico,21,Left Wing,50,75,Wing,2018-07-05,766,North Carolina Courage,Chicago Red Stars,761,#29A7F8,#F9121C
+9e403093-32b4-4003-b210-d7fa706448c3,761,Chicago Red Stars,4222,6,7475,22,4948,Rosie White,22,Right Center Forward,55,25,Forward,2018-07-05,766,North Carolina Courage,Chicago Red Stars,761,#29A7F8,#F9121C
+9e403093-32b4-4003-b210-d7fa706448c3,761,Chicago Red Stars,4222,6,7475,20,4961,Samantha Kerr,24,Left Center Forward,55,55,Forward,2018-07-05,766,North Carolina Courage,Chicago Red Stars,761,#29A7F8,#F9121C
+acf12669-d220-4ede-bdc4-4479e1790fb3,763,Sky Blue FC,4312,5,7476,1,4981,Kailen Sheridan,1,Goalkeeper,12,40,GK,2018-07-08,763,Sky Blue FC,Chicago Red Stars,761,#0A9EF9,#FA7004
+acf12669-d220-4ede-bdc4-4479e1790fb3,763,Sky Blue FC,4312,5,7476,8,5098,Erica Skroski,2,Right Back,22,10,FB/WB,2018-07-08,763,Sky Blue FC,Chicago Red Stars,761,#0A9EF9,#FA7004
+acf12669-d220-4ede-bdc4-4479e1790fb3,763,Sky Blue FC,4312,5,7476,22,4974,Mandy Freeman,3,Right Center Back,22,25,CB,2018-07-08,763,Sky Blue FC,Chicago Red Stars,761,#0A9EF9,#FA7004
+acf12669-d220-4ede-bdc4-4479e1790fb3,763,Sky Blue FC,4312,5,7476,17,4978,Dominique Richardson,5,Left Center Back,22,55,CB,2018-07-08,763,Sky Blue FC,Chicago Red Stars,761,#0A9EF9,#FA7004
+acf12669-d220-4ede-bdc4-4479e1790fb3,763,Sky Blue FC,4312,5,7476,73,4968,Madison Tiernan,6,Left Back,22,70,FB/WB,2018-07-08,763,Sky Blue FC,Chicago Red Stars,761,#0A9EF9,#FA7004
+acf12669-d220-4ede-bdc4-4479e1790fb3,763,Sky Blue FC,4312,5,7476,21,5096,Savannah McCaskill,9,Right Defensive Midfield,30,30,CDM,2018-07-08,763,Sky Blue FC,Chicago Red Stars,761,#0A9EF9,#FA7004
+acf12669-d220-4ede-bdc4-4479e1790fb3,763,Sky Blue FC,4312,5,7476,16,4988,Sarah Killion,10,Center Defensive Midfield,30,40,CDM,2018-07-08,763,Sky Blue FC,Chicago Red Stars,761,#0A9EF9,#FA7004
+acf12669-d220-4ede-bdc4-4479e1790fb3,763,Sky Blue FC,4312,5,7476,28,7180,Imani Dorsey,11,Left Defensive Midfield,30,50,CDM,2018-07-08,763,Sky Blue FC,Chicago Red Stars,761,#0A9EF9,#FA7004
+acf12669-d220-4ede-bdc4-4479e1790fb3,763,Sky Blue FC,4312,5,7476,12,4992,Janine Beckie,19,Center Attacking Midfield,45,40,ACM,2018-07-08,763,Sky Blue FC,Chicago Red Stars,761,#0A9EF9,#FA7004
+acf12669-d220-4ede-bdc4-4479e1790fb3,763,Sky Blue FC,4312,5,7476,6,4986,Shea Groom,22,Right Center Forward,55,25,Forward,2018-07-08,763,Sky Blue FC,Chicago Red Stars,761,#0A9EF9,#FA7004
+acf12669-d220-4ede-bdc4-4479e1790fb3,763,Sky Blue FC,4312,5,7476,10,5097,Carli Lloyd,24,Left Center Forward,55,55,Forward,2018-07-08,763,Sky Blue FC,Chicago Red Stars,761,#0A9EF9,#FA7004
+1af77c66-78af-4c42-96ea-166960dd6d2e,761,Chicago Red Stars,442,2,7476,1,5100,Alyssa Naeher,1,Goalkeeper,12,40,GK,2018-07-08,763,Sky Blue FC,Chicago Red Stars,761,#29A7F8,#F9121C
+1af77c66-78af-4c42-96ea-166960dd6d2e,761,Chicago Red Stars,442,2,7476,3,4942,Arin Gilliland,2,Right Back,22,10,FB/WB,2018-07-08,763,Sky Blue FC,Chicago Red Stars,761,#29A7F8,#F9121C
+1af77c66-78af-4c42-96ea-166960dd6d2e,761,Chicago Red Stars,442,2,7476,5,4958,Kathleen Naughton,3,Right Center Back,22,25,CB,2018-07-08,763,Sky Blue FC,Chicago Red Stars,761,#29A7F8,#F9121C
+1af77c66-78af-4c42-96ea-166960dd6d2e,761,Chicago Red Stars,442,2,7476,8,6811,Julie Ertz,5,Left Center Back,22,55,CB,2018-07-08,763,Sky Blue FC,Chicago Red Stars,761,#29A7F8,#F9121C
+1af77c66-78af-4c42-96ea-166960dd6d2e,761,Chicago Red Stars,442,2,7476,6,7179,Casey Short,6,Left Back,22,70,FB/WB,2018-07-08,763,Sky Blue FC,Chicago Red Stars,761,#29A7F8,#F9121C
+1af77c66-78af-4c42-96ea-166960dd6d2e,761,Chicago Red Stars,442,2,7476,24,4947,Danielle Colaprico,9,Right Defensive Midfield,30,30,CDM,2018-07-08,763,Sky Blue FC,Chicago Red Stars,761,#29A7F8,#F9121C
+1af77c66-78af-4c42-96ea-166960dd6d2e,761,Chicago Red Stars,442,2,7476,2,4965,Nikki Stanton,11,Left Defensive Midfield,30,50,CDM,2018-07-08,763,Sky Blue FC,Chicago Red Stars,761,#29A7F8,#F9121C
+1af77c66-78af-4c42-96ea-166960dd6d2e,761,Chicago Red Stars,442,2,7476,4,4953,Alyssa Mautz,12,Right Midfield,40,10,Wing,2018-07-08,763,Sky Blue FC,Chicago Red Stars,761,#29A7F8,#F9121C
+1af77c66-78af-4c42-96ea-166960dd6d2e,761,Chicago Red Stars,442,2,7476,15,5103,Michele Vasconcelos,16,Left Midfield,40,70,Wing,2018-07-08,763,Sky Blue FC,Chicago Red Stars,761,#29A7F8,#F9121C
+1af77c66-78af-4c42-96ea-166960dd6d2e,761,Chicago Red Stars,442,2,7476,12,4963,Yuki Nagasato,19,Center Attacking Midfield,45,40,ACM,2018-07-08,763,Sky Blue FC,Chicago Red Stars,761,#29A7F8,#F9121C
+1af77c66-78af-4c42-96ea-166960dd6d2e,761,Chicago Red Stars,442,2,7476,20,4961,Samantha Kerr,23,Center Forward,55,40,Forward,2018-07-08,763,Sky Blue FC,Chicago Red Stars,761,#29A7F8,#F9121C
+9d94ae3c-173d-4471-9a57-497b3874038a,765,Portland Thorns,4231,6,7477,24,6819,Adrianna Franch,1,Goalkeeper,12,40,GK,2018-07-07,765,Portland Thorns,Utah Royals,767,#EC1207,black
+9d94ae3c-173d-4471-9a57-497b3874038a,765,Portland Thorns,4231,6,7477,15,5095,Ellie Carpenter,2,Right Back,22,10,FB/WB,2018-07-07,765,Portland Thorns,Utah Royals,767,#EC1207,black
+9d94ae3c-173d-4471-9a57-497b3874038a,765,Portland Thorns,4231,6,7477,16,5003,Emily Sonnett,3,Right Center Back,22,25,CB,2018-07-07,765,Portland Thorns,Utah Royals,767,#EC1207,black
+9d94ae3c-173d-4471-9a57-497b3874038a,765,Portland Thorns,4231,6,7477,4,5092,Emily Menges,5,Left Center Back,22,55,CB,2018-07-07,765,Portland Thorns,Utah Royals,767,#EC1207,black
+9d94ae3c-173d-4471-9a57-497b3874038a,765,Portland Thorns,4231,6,7477,23,5009,Margaret Purce,6,Left Back,22,70,FB/WB,2018-07-07,765,Portland Thorns,Utah Royals,767,#EC1207,black
+9d94ae3c-173d-4471-9a57-497b3874038a,765,Portland Thorns,4231,6,7477,30,4995,Celeste Boureille,9,Right Defensive Midfield,30,30,CDM,2018-07-07,765,Portland Thorns,Utah Royals,767,#EC1207,black
+9d94ae3c-173d-4471-9a57-497b3874038a,765,Portland Thorns,4231,6,7477,10,4999,Lindsey Horan,11,Left Defensive Midfield,30,50,CDM,2018-07-07,765,Portland Thorns,Utah Royals,767,#EC1207,black
+9d94ae3c-173d-4471-9a57-497b3874038a,765,Portland Thorns,4231,6,7477,21,6818,Hayley Raso,17,Right Wing,50,5,Wing,2018-07-07,765,Portland Thorns,Utah Royals,767,#EC1207,black
+9d94ae3c-173d-4471-9a57-497b3874038a,765,Portland Thorns,4231,6,7477,12,5020,Christine Sinclair,19,Center Attacking Midfield,45,40,ACM,2018-07-07,765,Portland Thorns,Utah Royals,767,#EC1207,black
+9d94ae3c-173d-4471-9a57-497b3874038a,765,Portland Thorns,4231,6,7477,17,5013,Tobin Heath,21,Left Wing,50,75,Wing,2018-07-07,765,Portland Thorns,Utah Royals,767,#EC1207,black
+9d94ae3c-173d-4471-9a57-497b3874038a,765,Portland Thorns,4231,6,7477,7,10408,Ana-Maria Crnogorcevic,23,Center Forward,55,40,Forward,2018-07-07,765,Portland Thorns,Utah Royals,767,#EC1207,black
+022b41f5-d211-483a-9069-5f26a34123d8,767,Utah Royals,442,1,7477,1,5031,Abby Smith,1,Goalkeeper,12,40,GK,2018-07-07,765,Portland Thorns,Utah Royals,767,#FED000,#25235F
+022b41f5-d211-483a-9069-5f26a34123d8,767,Utah Royals,442,1,7477,16,5101,Samantha Johnson,2,Right Back,22,10,FB/WB,2018-07-07,765,Portland Thorns,Utah Royals,767,#FED000,#25235F
+022b41f5-d211-483a-9069-5f26a34123d8,767,Utah Royals,442,1,7477,4,5030,Becky Sauerbrunn,3,Right Center Back,22,25,CB,2018-07-07,765,Portland Thorns,Utah Royals,767,#FED000,#25235F
+022b41f5-d211-483a-9069-5f26a34123d8,767,Utah Royals,442,1,7477,2,4984,Rachel Corsie,5,Left Center Back,22,55,CB,2018-07-07,765,Portland Thorns,Utah Royals,767,#FED000,#25235F
+022b41f5-d211-483a-9069-5f26a34123d8,767,Utah Royals,442,1,7477,3,4971,Rebecca Moros,6,Left Back,22,70,FB/WB,2018-07-07,765,Portland Thorns,Utah Royals,767,#FED000,#25235F
+022b41f5-d211-483a-9069-5f26a34123d8,767,Utah Royals,442,1,7477,19,4979,Katrina Gorry,12,Right Midfield,40,10,Wing,2018-07-07,765,Portland Thorns,Utah Royals,767,#FED000,#25235F
+022b41f5-d211-483a-9069-5f26a34123d8,767,Utah Royals,442,1,7477,11,4966,Desiree Scott,13,Right Center Midfield,38,55,CM,2018-07-07,765,Portland Thorns,Utah Royals,767,#FED000,#25235F
+022b41f5-d211-483a-9069-5f26a34123d8,767,Utah Royals,442,1,7477,23,4975,Gunnhildur Yrsa Jónsdóttir,15,Left Center Midfield,38,25,CM,2018-07-07,765,Portland Thorns,Utah Royals,767,#FED000,#25235F
+022b41f5-d211-483a-9069-5f26a34123d8,767,Utah Royals,442,1,7477,10,4973,Diana Matheson,16,Left Midfield,40,70,Wing,2018-07-07,765,Portland Thorns,Utah Royals,767,#FED000,#25235F
+022b41f5-d211-483a-9069-5f26a34123d8,767,Utah Royals,442,1,7477,8,5024,Amy Rodriguez,22,Right Center Forward,55,25,Forward,2018-07-07,765,Portland Thorns,Utah Royals,767,#FED000,#25235F
+022b41f5-d211-483a-9069-5f26a34123d8,767,Utah Royals,442,1,7477,21,6817,Christen Press,24,Left Center Forward,55,55,Forward,2018-07-07,765,Portland Thorns,Utah Royals,767,#FED000,#25235F
+f33a5bad-a165-4f7d-9518-53b3762ea476,760,Seattle Reign,4231,7,7478,1,5066,Lydia Williams,1,Goalkeeper,12,40,GK,2018-07-08,760,Seattle Reign,Houston Dash,762,#0B07F5,#D1F507
+f33a5bad-a165-4f7d-9518-53b3762ea476,760,Seattle Reign,4231,7,7478,8,5069,Theresa Nielsen,2,Right Back,22,10,FB/WB,2018-07-08,760,Seattle Reign,Houston Dash,762,#0B07F5,#D1F507
+f33a5bad-a165-4f7d-9518-53b3762ea476,760,Seattle Reign,4231,7,7478,4,5007,Megan Oyster,3,Right Center Back,22,25,CB,2018-07-08,760,Seattle Reign,Houston Dash,762,#0B07F5,#D1F507
+f33a5bad-a165-4f7d-9518-53b3762ea476,760,Seattle Reign,4231,7,7478,3,5065,Lauren Barnes,5,Left Center Back,22,55,CB,2018-07-08,760,Seattle Reign,Houston Dash,762,#0B07F5,#D1F507
+f33a5bad-a165-4f7d-9518-53b3762ea476,760,Seattle Reign,4231,7,7478,7,5000,Steph Catley,6,Left Back,22,70,FB/WB,2018-07-08,760,Seattle Reign,Houston Dash,762,#0B07F5,#D1F507
+f33a5bad-a165-4f7d-9518-53b3762ea476,760,Seattle Reign,4231,7,7478,6,5001,Allie Long,9,Right Defensive Midfield,30,30,CDM,2018-07-08,760,Seattle Reign,Houston Dash,762,#0B07F5,#D1F507
+f33a5bad-a165-4f7d-9518-53b3762ea476,760,Seattle Reign,4231,7,7478,20,4998,Rumi Utsugi,11,Left Defensive Midfield,30,50,CDM,2018-07-08,760,Seattle Reign,Houston Dash,762,#0B07F5,#D1F507
+f33a5bad-a165-4f7d-9518-53b3762ea476,760,Seattle Reign,4231,7,7478,11,5075,Elizabeth Addo,17,Right Wing,50,5,Wing,2018-07-08,760,Seattle Reign,Houston Dash,762,#0B07F5,#D1F507
+f33a5bad-a165-4f7d-9518-53b3762ea476,760,Seattle Reign,4231,7,7478,17,5006,Beverly Yanez,19,Center Attacking Midfield,45,40,ACM,2018-07-08,760,Seattle Reign,Houston Dash,762,#0B07F5,#D1F507
+f33a5bad-a165-4f7d-9518-53b3762ea476,760,Seattle Reign,4231,7,7478,15,8298,Megan Rapinoe,21,Left Wing,50,75,Wing,2018-07-08,760,Seattle Reign,Houston Dash,762,#0B07F5,#D1F507
+f33a5bad-a165-4f7d-9518-53b3762ea476,760,Seattle Reign,4231,7,7478,14,5002,Jodie Taylor,23,Center Forward,55,40,Forward,2018-07-08,760,Seattle Reign,Houston Dash,762,#0B07F5,#D1F507
+240d7d20-95c8-417c-b825-b28f86bb0979,762,Houston Dash,4231,2,7478,1,5056,Jane Campbell,1,Goalkeeper,12,40,GK,2018-07-08,760,Seattle Reign,Houston Dash,762,#F97603,#2CC1FC
+240d7d20-95c8-417c-b825-b28f86bb0979,762,Houston Dash,4231,2,7478,21,4959,Taylor Comeau,2,Right Back,22,10,FB/WB,2018-07-08,760,Seattle Reign,Houston Dash,762,#F97603,#2CC1FC
+240d7d20-95c8-417c-b825-b28f86bb0979,762,Houston Dash,4231,2,7478,5,5054,Janine van Wyk,3,Right Center Back,22,25,CB,2018-07-08,760,Seattle Reign,Houston Dash,762,#F97603,#2CC1FC
+240d7d20-95c8-417c-b825-b28f86bb0979,762,Houston Dash,4231,2,7478,22,5045,Amber Brooks,5,Left Center Back,22,55,CB,2018-07-08,760,Seattle Reign,Houston Dash,762,#F97603,#2CC1FC
+240d7d20-95c8-417c-b825-b28f86bb0979,762,Houston Dash,4231,2,7478,4,5038,Allysha Chapman,6,Left Back,22,70,FB/WB,2018-07-08,760,Seattle Reign,Houston Dash,762,#F97603,#2CC1FC
+240d7d20-95c8-417c-b825-b28f86bb0979,762,Houston Dash,4231,2,7478,10,5053,Linda Maserame Motlhalo,9,Right Defensive Midfield,30,30,CDM,2018-07-08,760,Seattle Reign,Houston Dash,762,#F97603,#2CC1FC
+240d7d20-95c8-417c-b825-b28f86bb0979,762,Houston Dash,4231,2,7478,8,8382,Clare Polkinghorne,11,Left Defensive Midfield,30,50,CDM,2018-07-08,760,Seattle Reign,Houston Dash,762,#F97603,#2CC1FC
+240d7d20-95c8-417c-b825-b28f86bb0979,762,Houston Dash,4231,2,7478,17,5059,Kyah Simon,17,Right Wing,50,5,Wing,2018-07-08,760,Seattle Reign,Houston Dash,762,#F97603,#2CC1FC
+240d7d20-95c8-417c-b825-b28f86bb0979,762,Houston Dash,4231,2,7478,23,5105,Sofia Huerta,19,Center Attacking Midfield,45,40,ACM,2018-07-08,760,Seattle Reign,Houston Dash,762,#F97603,#2CC1FC
+240d7d20-95c8-417c-b825-b28f86bb0979,762,Houston Dash,4231,2,7478,7,5051,Kealia Ohai,21,Left Wing,50,75,Wing,2018-07-08,760,Seattle Reign,Houston Dash,762,#F97603,#2CC1FC
+240d7d20-95c8-417c-b825-b28f86bb0979,762,Houston Dash,4231,2,7478,3,5058,Rachel Daly,23,Center Forward,55,40,Forward,2018-07-08,760,Seattle Reign,Houston Dash,762,#F97603,#2CC1FC
+acedcc99-1345-4850-a362-782c6e960ef6,764,Orlando Pride,433,8,7479,24,5090,Ashlyn Harris,1,Goalkeeper,12,40,GK,2018-07-08,764,Orlando Pride,Washington Spirit,759,#8D04E6,white
+acedcc99-1345-4850-a362-782c6e960ef6,764,Orlando Pride,433,8,7479,11,5089,Ali Krieger,2,Right Back,22,10,FB/WB,2018-07-08,764,Orlando Pride,Washington Spirit,759,#8D04E6,white
+acedcc99-1345-4850-a362-782c6e960ef6,764,Orlando Pride,433,8,7479,21,5071,Monica Hickmann Alves,3,Right Center Back,22,25,CB,2018-07-08,764,Orlando Pride,Washington Spirit,759,#8D04E6,white
+acedcc99-1345-4850-a362-782c6e960ef6,764,Orlando Pride,433,8,7479,4,5074,Shelina Zadorsky,5,Left Center Back,22,55,CB,2018-07-08,764,Orlando Pride,Washington Spirit,759,#8D04E6,white
+acedcc99-1345-4850-a362-782c6e960ef6,764,Orlando Pride,433,8,7479,16,5064,Carson Pickett,6,Left Back,22,70,FB/WB,2018-07-08,764,Orlando Pride,Washington Spirit,759,#8D04E6,white
+acedcc99-1345-4850-a362-782c6e960ef6,764,Orlando Pride,433,8,7479,14,5078,Alanna Kennedy,10,Center Defensive Midfield,30,40,CDM,2018-07-08,764,Orlando Pride,Washington Spirit,759,#8D04E6,white
+acedcc99-1345-4850-a362-782c6e960ef6,764,Orlando Pride,433,8,7479,5,5076,Emily van Egmond,13,Right Center Midfield,38,55,CM,2018-07-08,764,Orlando Pride,Washington Spirit,759,#8D04E6,white
+acedcc99-1345-4850-a362-782c6e960ef6,764,Orlando Pride,433,8,7479,7,5070,Christine Nairn,15,Left Center Midfield,38,25,CM,2018-07-08,764,Orlando Pride,Washington Spirit,759,#8D04E6,white
+acedcc99-1345-4850-a362-782c6e960ef6,764,Orlando Pride,433,8,7479,10,5082,Marta Vieira da Silva,19,Center Attacking Midfield,45,40,ACM,2018-07-08,764,Orlando Pride,Washington Spirit,759,#8D04E6,white
+acedcc99-1345-4850-a362-782c6e960ef6,764,Orlando Pride,433,8,7479,2,5067,Sydney Leroux,22,Right Center Forward,55,25,Forward,2018-07-08,764,Orlando Pride,Washington Spirit,759,#8D04E6,white
+acedcc99-1345-4850-a362-782c6e960ef6,764,Orlando Pride,433,8,7479,6,5063,Chioma Ubogagu,24,Left Center Forward,55,55,Forward,2018-07-08,764,Orlando Pride,Washington Spirit,759,#8D04E6,white
+2c36bdea-f0e3-4861-8577-c1e7c6e75bf2,759,Washington Spirit,4321,2,7479,1,5025,Aubrey Bledsoe,1,Goalkeeper,12,40,GK,2018-07-08,764,Orlando Pride,Washington Spirit,759,#161281,#E50A25
+2c36bdea-f0e3-4861-8577-c1e7c6e75bf2,759,Washington Spirit,4321,2,7479,7,4941,Taylor Smith,2,Right Back,22,10,FB/WB,2018-07-08,764,Orlando Pride,Washington Spirit,759,#161281,#E50A25
+2c36bdea-f0e3-4861-8577-c1e7c6e75bf2,759,Washington Spirit,4321,2,7479,5,4950,Whitney Church,3,Right Center Back,22,25,CB,2018-07-08,764,Orlando Pride,Washington Spirit,759,#161281,#E50A25
+2c36bdea-f0e3-4861-8577-c1e7c6e75bf2,759,Washington Spirit,4321,2,7479,24,4943,Estelle Johnson,5,Left Center Back,22,55,CB,2018-07-08,764,Orlando Pride,Washington Spirit,759,#161281,#E50A25
+2c36bdea-f0e3-4861-8577-c1e7c6e75bf2,759,Washington Spirit,4321,2,7479,3,4962,Caprice Dydasco,6,Left Back,22,70,FB/WB,2018-07-08,764,Orlando Pride,Washington Spirit,759,#161281,#E50A25
+2c36bdea-f0e3-4861-8577-c1e7c6e75bf2,759,Washington Spirit,4321,2,7479,6,4940,Andi Sullivan,13,Right Center Midfield,38,55,CM,2018-07-08,764,Orlando Pride,Washington Spirit,759,#161281,#E50A25
+2c36bdea-f0e3-4861-8577-c1e7c6e75bf2,759,Washington Spirit,4321,2,7479,4,4951,Rebecca Quinn,14,Center Midfield,38,40,CM,2018-07-08,764,Orlando Pride,Washington Spirit,759,#161281,#E50A25
+2c36bdea-f0e3-4861-8577-c1e7c6e75bf2,759,Washington Spirit,4321,2,7479,10,4944,Estefanía Romina Banini Ruiz,15,Left Center Midfield,38,25,CM,2018-07-08,764,Orlando Pride,Washington Spirit,759,#161281,#E50A25
+2c36bdea-f0e3-4861-8577-c1e7c6e75bf2,759,Washington Spirit,4321,2,7479,23,5029,Tori Huster,17,Right Wing,50,5,Wing,2018-07-08,764,Orlando Pride,Washington Spirit,759,#161281,#E50A25
+2c36bdea-f0e3-4861-8577-c1e7c6e75bf2,759,Washington Spirit,4321,2,7479,14,5022,Francisca Ordega,21,Left Wing,50,75,Wing,2018-07-08,764,Orlando Pride,Washington Spirit,759,#161281,#E50A25
+2c36bdea-f0e3-4861-8577-c1e7c6e75bf2,759,Washington Spirit,4321,2,7479,33,4964,Ashley Hatch,23,Center Forward,55,40,Forward,2018-07-08,764,Orlando Pride,Washington Spirit,759,#161281,#E50A25
+6f4a0157-c295-45a4-a79e-6a5b155551bd,760,Seattle Reign,4321,4,7480,1,5066,Lydia Williams,1,Goalkeeper,12,40,GK,2018-07-12,760,Seattle Reign,Utah Royals,767,#0B07F5,#D1F507
+6f4a0157-c295-45a4-a79e-6a5b155551bd,760,Seattle Reign,4321,4,7480,8,5069,Theresa Nielsen,2,Right Back,22,10,FB/WB,2018-07-12,760,Seattle Reign,Utah Royals,767,#0B07F5,#D1F507
+6f4a0157-c295-45a4-a79e-6a5b155551bd,760,Seattle Reign,4321,4,7480,4,5007,Megan Oyster,3,Right Center Back,22,25,CB,2018-07-12,760,Seattle Reign,Utah Royals,767,#0B07F5,#D1F507
+6f4a0157-c295-45a4-a79e-6a5b155551bd,760,Seattle Reign,4321,4,7480,3,5065,Lauren Barnes,5,Left Center Back,22,55,CB,2018-07-12,760,Seattle Reign,Utah Royals,767,#0B07F5,#D1F507
+6f4a0157-c295-45a4-a79e-6a5b155551bd,760,Seattle Reign,4321,4,7480,7,5000,Steph Catley,6,Left Back,22,70,FB/WB,2018-07-12,760,Seattle Reign,Utah Royals,767,#0B07F5,#D1F507
+6f4a0157-c295-45a4-a79e-6a5b155551bd,760,Seattle Reign,4321,4,7480,6,5001,Allie Long,13,Right Center Midfield,38,55,CM,2018-07-12,760,Seattle Reign,Utah Royals,767,#0B07F5,#D1F507
+6f4a0157-c295-45a4-a79e-6a5b155551bd,760,Seattle Reign,4321,4,7480,17,5006,Beverly Yanez,14,Center Midfield,38,40,CM,2018-07-12,760,Seattle Reign,Utah Royals,767,#0B07F5,#D1F507
+6f4a0157-c295-45a4-a79e-6a5b155551bd,760,Seattle Reign,4321,4,7480,10,5016,Jessica Fishlock,15,Left Center Midfield,38,25,CM,2018-07-12,760,Seattle Reign,Utah Royals,767,#0B07F5,#D1F507
+6f4a0157-c295-45a4-a79e-6a5b155551bd,760,Seattle Reign,4321,4,7480,13,8297,Adriana Leon,17,Right Wing,50,5,Wing,2018-07-12,760,Seattle Reign,Utah Royals,767,#0B07F5,#D1F507
+6f4a0157-c295-45a4-a79e-6a5b155551bd,760,Seattle Reign,4321,4,7480,15,8298,Megan Rapinoe,21,Left Wing,50,75,Wing,2018-07-12,760,Seattle Reign,Utah Royals,767,#0B07F5,#D1F507
+6f4a0157-c295-45a4-a79e-6a5b155551bd,760,Seattle Reign,4321,4,7480,14,5002,Jodie Taylor,23,Center Forward,55,40,Forward,2018-07-12,760,Seattle Reign,Utah Royals,767,#0B07F5,#D1F507
+4179af1f-b1d3-4cef-9f7d-fc52ef847960,767,Utah Royals,4231,5,7480,1,5031,Abby Smith,1,Goalkeeper,12,40,GK,2018-07-12,760,Seattle Reign,Utah Royals,767,#FED000,#25235F
+4179af1f-b1d3-4cef-9f7d-fc52ef847960,767,Utah Royals,4231,5,7480,6,5028,Katie Bowen,2,Right Back,22,10,FB/WB,2018-07-12,760,Seattle Reign,Utah Royals,767,#FED000,#25235F
+4179af1f-b1d3-4cef-9f7d-fc52ef847960,767,Utah Royals,4231,5,7480,2,4984,Rachel Corsie,3,Right Center Back,22,25,CB,2018-07-12,760,Seattle Reign,Utah Royals,767,#FED000,#25235F
+4179af1f-b1d3-4cef-9f7d-fc52ef847960,767,Utah Royals,4231,5,7480,16,5101,Samantha Johnson,5,Left Center Back,22,55,CB,2018-07-12,760,Seattle Reign,Utah Royals,767,#FED000,#25235F
+4179af1f-b1d3-4cef-9f7d-fc52ef847960,767,Utah Royals,4231,5,7480,3,4971,Rebecca Moros,6,Left Back,22,70,FB/WB,2018-07-12,760,Seattle Reign,Utah Royals,767,#FED000,#25235F
+4179af1f-b1d3-4cef-9f7d-fc52ef847960,767,Utah Royals,4231,5,7480,23,4975,Gunnhildur Yrsa Jónsdóttir,9,Right Defensive Midfield,30,30,CDM,2018-07-12,760,Seattle Reign,Utah Royals,767,#FED000,#25235F
+4179af1f-b1d3-4cef-9f7d-fc52ef847960,767,Utah Royals,4231,5,7480,11,4966,Desiree Scott,11,Left Defensive Midfield,30,50,CDM,2018-07-12,760,Seattle Reign,Utah Royals,767,#FED000,#25235F
+4179af1f-b1d3-4cef-9f7d-fc52ef847960,767,Utah Royals,4231,5,7480,8,5024,Amy Rodriguez,17,Right Wing,50,5,Wing,2018-07-12,760,Seattle Reign,Utah Royals,767,#FED000,#25235F
+4179af1f-b1d3-4cef-9f7d-fc52ef847960,767,Utah Royals,4231,5,7480,9,4976,Lo’eau LaBonta,19,Center Attacking Midfield,45,40,ACM,2018-07-12,760,Seattle Reign,Utah Royals,767,#FED000,#25235F
+4179af1f-b1d3-4cef-9f7d-fc52ef847960,767,Utah Royals,4231,5,7480,21,6817,Christen Press,21,Left Wing,50,75,Wing,2018-07-12,760,Seattle Reign,Utah Royals,767,#FED000,#25235F
+4179af1f-b1d3-4cef-9f7d-fc52ef847960,767,Utah Royals,4231,5,7480,24,4972,Katie Stengel,23,Center Forward,55,40,Forward,2018-07-12,760,Seattle Reign,Utah Royals,767,#FED000,#25235F
+938148a5-398b-4560-93d5-6124affe2350,766,North Carolina Courage,442,7,7482,99,5048,Katelyn Rowland,1,Goalkeeper,12,40,GK,2018-07-12,766,North Carolina Courage,Washington Spirit,759,#0518A5,#D7C107
+938148a5-398b-4560-93d5-6124affe2350,766,North Carolina Courage,442,7,7482,11,5083,Merritt Mathias,2,Right Back,22,10,FB/WB,2018-07-12,766,North Carolina Courage,Washington Spirit,759,#0518A5,#D7C107
+938148a5-398b-4560-93d5-6124affe2350,766,North Carolina Courage,442,7,7482,13,5081,Abby Dahlkemper,3,Right Center Back,22,25,CB,2018-07-12,766,North Carolina Courage,Washington Spirit,759,#0518A5,#D7C107
+938148a5-398b-4560-93d5-6124affe2350,766,North Carolina Courage,442,7,7482,6,5037,Abby Erceg,5,Left Center Back,22,55,CB,2018-07-12,766,North Carolina Courage,Washington Spirit,759,#0518A5,#D7C107
+938148a5-398b-4560-93d5-6124affe2350,766,North Carolina Courage,442,7,7482,17,6814,Heather O'Reilly,6,Left Back,22,70,FB/WB,2018-07-12,766,North Carolina Courage,Washington Spirit,759,#0518A5,#D7C107
+938148a5-398b-4560-93d5-6124affe2350,766,North Carolina Courage,442,7,7482,19,5088,Crystal Alyssia Dunn,12,Right Midfield,40,10,Wing,2018-07-12,766,North Carolina Courage,Washington Spirit,759,#0518A5,#D7C107
+938148a5-398b-4560-93d5-6124affe2350,766,North Carolina Courage,442,7,7482,8,5084,Denise O'Sullivan,13,Right Center Midfield,38,55,CM,2018-07-12,766,North Carolina Courage,Washington Spirit,759,#0518A5,#D7C107
+938148a5-398b-4560-93d5-6124affe2350,766,North Carolina Courage,442,7,7482,7,5091,McCall Zerboni,15,Left Center Midfield,38,25,CM,2018-07-12,766,North Carolina Courage,Washington Spirit,759,#0518A5,#D7C107
+938148a5-398b-4560-93d5-6124affe2350,766,North Carolina Courage,442,7,7482,10,5044,Débora Cristiane de Oliveira,16,Left Midfield,40,70,Wing,2018-07-12,766,North Carolina Courage,Washington Spirit,759,#0518A5,#D7C107
+938148a5-398b-4560-93d5-6124affe2350,766,North Carolina Courage,442,7,7482,14,5034,Jessica McDonald,22,Right Center Forward,55,25,Forward,2018-07-12,766,North Carolina Courage,Washington Spirit,759,#0518A5,#D7C107
+938148a5-398b-4560-93d5-6124affe2350,766,North Carolina Courage,442,7,7482,9,5055,Lynn Williams,24,Left Center Forward,55,55,Forward,2018-07-12,766,North Carolina Courage,Washington Spirit,759,#0518A5,#D7C107
+eb575327-b08d-432a-95b0-2f2aef4f94c8,759,Washington Spirit,532,7,7482,1,5025,Aubrey Bledsoe,1,Goalkeeper,12,40,GK,2018-07-12,766,North Carolina Courage,Washington Spirit,759,#161281,#E50A25
+eb575327-b08d-432a-95b0-2f2aef4f94c8,759,Washington Spirit,532,7,7482,4,4951,Rebecca Quinn,3,Right Center Back,22,25,CB,2018-07-12,766,North Carolina Courage,Washington Spirit,759,#161281,#E50A25
+eb575327-b08d-432a-95b0-2f2aef4f94c8,759,Washington Spirit,532,7,7482,5,4950,Whitney Church,4,Center Back,22,40,CB,2018-07-12,766,North Carolina Courage,Washington Spirit,759,#161281,#E50A25
+eb575327-b08d-432a-95b0-2f2aef4f94c8,759,Washington Spirit,532,7,7482,24,4943,Estelle Johnson,5,Left Center Back,22,55,CB,2018-07-12,766,North Carolina Courage,Washington Spirit,759,#161281,#E50A25
+eb575327-b08d-432a-95b0-2f2aef4f94c8,759,Washington Spirit,532,7,7482,7,4941,Taylor Smith,7,Right Wing Back,25,5,FB/WB,2018-07-12,766,North Carolina Courage,Washington Spirit,759,#161281,#E50A25
+eb575327-b08d-432a-95b0-2f2aef4f94c8,759,Washington Spirit,532,7,7482,3,4962,Caprice Dydasco,8,Left Wing Back,25,75,FB/WB,2018-07-12,766,North Carolina Courage,Washington Spirit,759,#161281,#E50A25
+eb575327-b08d-432a-95b0-2f2aef4f94c8,759,Washington Spirit,532,7,7482,6,4940,Andi Sullivan,13,Right Center Midfield,38,55,CM,2018-07-12,766,North Carolina Courage,Washington Spirit,759,#161281,#E50A25
+eb575327-b08d-432a-95b0-2f2aef4f94c8,759,Washington Spirit,532,7,7482,23,5029,Tori Huster,14,Center Midfield,38,40,CM,2018-07-12,766,North Carolina Courage,Washington Spirit,759,#161281,#E50A25
+eb575327-b08d-432a-95b0-2f2aef4f94c8,759,Washington Spirit,532,7,7482,8,5026,Meggie Dougherty Howard,15,Left Center Midfield,38,25,CM,2018-07-12,766,North Carolina Courage,Washington Spirit,759,#161281,#E50A25
+eb575327-b08d-432a-95b0-2f2aef4f94c8,759,Washington Spirit,532,7,7482,10,4944,Estefanía Romina Banini Ruiz,22,Right Center Forward,55,25,Forward,2018-07-12,766,North Carolina Courage,Washington Spirit,759,#161281,#E50A25
+eb575327-b08d-432a-95b0-2f2aef4f94c8,759,Washington Spirit,532,7,7482,33,4964,Ashley Hatch,24,Left Center Forward,55,55,Forward,2018-07-12,766,North Carolina Courage,Washington Spirit,759,#161281,#E50A25
+3a63bbb9-7724-4395-883b-1e21f032b2f6,767,Utah Royals,4231,3,7483,1,5031,Abby Smith,1,Goalkeeper,12,40,GK,2018-07-15,767,Utah Royals,Orlando Pride,764,#FED000,#25235F
+3a63bbb9-7724-4395-883b-1e21f032b2f6,767,Utah Royals,4231,3,7483,6,5028,Katie Bowen,2,Right Back,22,10,FB/WB,2018-07-15,767,Utah Royals,Orlando Pride,764,#FED000,#25235F
+3a63bbb9-7724-4395-883b-1e21f032b2f6,767,Utah Royals,4231,3,7483,17,4987,Sydney Miramontez,3,Right Center Back,22,25,CB,2018-07-15,767,Utah Royals,Orlando Pride,764,#FED000,#25235F
+3a63bbb9-7724-4395-883b-1e21f032b2f6,767,Utah Royals,4231,3,7483,2,4984,Rachel Corsie,5,Left Center Back,22,55,CB,2018-07-15,767,Utah Royals,Orlando Pride,764,#FED000,#25235F
+3a63bbb9-7724-4395-883b-1e21f032b2f6,767,Utah Royals,4231,3,7483,3,4971,Rebecca Moros,6,Left Back,22,70,FB/WB,2018-07-15,767,Utah Royals,Orlando Pride,764,#FED000,#25235F
+3a63bbb9-7724-4395-883b-1e21f032b2f6,767,Utah Royals,4231,3,7483,11,4966,Desiree Scott,13,Right Center Midfield,38,55,CM,2018-07-15,767,Utah Royals,Orlando Pride,764,#FED000,#25235F
+3a63bbb9-7724-4395-883b-1e21f032b2f6,767,Utah Royals,4231,3,7483,9,4976,Lo’eau LaBonta,15,Left Center Midfield,38,25,CM,2018-07-15,767,Utah Royals,Orlando Pride,764,#FED000,#25235F
+3a63bbb9-7724-4395-883b-1e21f032b2f6,767,Utah Royals,4231,3,7483,10,4973,Diana Matheson,17,Right Wing,50,5,Wing,2018-07-15,767,Utah Royals,Orlando Pride,764,#FED000,#25235F
+3a63bbb9-7724-4395-883b-1e21f032b2f6,767,Utah Royals,4231,3,7483,23,4975,Gunnhildur Yrsa Jónsdóttir,19,Center Attacking Midfield,45,40,ACM,2018-07-15,767,Utah Royals,Orlando Pride,764,#FED000,#25235F
+3a63bbb9-7724-4395-883b-1e21f032b2f6,767,Utah Royals,4231,3,7483,21,6817,Christen Press,21,Left Wing,50,75,Wing,2018-07-15,767,Utah Royals,Orlando Pride,764,#FED000,#25235F
+3a63bbb9-7724-4395-883b-1e21f032b2f6,767,Utah Royals,4231,3,7483,8,5024,Amy Rodriguez,23,Center Forward,55,40,Forward,2018-07-15,767,Utah Royals,Orlando Pride,764,#FED000,#25235F
+55fe143e-4ea1-41de-bb97-435a3f691c92,764,Orlando Pride,3142,5,7483,24,5090,Ashlyn Harris,1,Goalkeeper,12,40,GK,2018-07-15,767,Utah Royals,Orlando Pride,764,#8D04E6,white
+55fe143e-4ea1-41de-bb97-435a3f691c92,764,Orlando Pride,3142,5,7483,11,5089,Ali Krieger,3,Right Center Back,22,25,CB,2018-07-15,767,Utah Royals,Orlando Pride,764,#8D04E6,white
+55fe143e-4ea1-41de-bb97-435a3f691c92,764,Orlando Pride,3142,5,7483,21,5071,Monica Hickmann Alves,4,Center Back,22,40,CB,2018-07-15,767,Utah Royals,Orlando Pride,764,#8D04E6,white
+55fe143e-4ea1-41de-bb97-435a3f691c92,764,Orlando Pride,3142,5,7483,4,5074,Shelina Zadorsky,5,Left Center Back,22,55,CB,2018-07-15,767,Utah Royals,Orlando Pride,764,#8D04E6,white
+55fe143e-4ea1-41de-bb97-435a3f691c92,764,Orlando Pride,3142,5,7483,3,8199,Toni Pressley,10,Center Defensive Midfield,30,40,CDM,2018-07-15,767,Utah Royals,Orlando Pride,764,#8D04E6,white
+55fe143e-4ea1-41de-bb97-435a3f691c92,764,Orlando Pride,3142,5,7483,12,5068,Kristen Edmonds,12,Right Midfield,40,10,Wing,2018-07-15,767,Utah Royals,Orlando Pride,764,#8D04E6,white
+55fe143e-4ea1-41de-bb97-435a3f691c92,764,Orlando Pride,3142,5,7483,14,5078,Alanna Kennedy,13,Right Center Midfield,38,55,CM,2018-07-15,767,Utah Royals,Orlando Pride,764,#8D04E6,white
+55fe143e-4ea1-41de-bb97-435a3f691c92,764,Orlando Pride,3142,5,7483,17,5062,Dani Weatherholt,15,Left Center Midfield,38,25,CM,2018-07-15,767,Utah Royals,Orlando Pride,764,#8D04E6,white
+55fe143e-4ea1-41de-bb97-435a3f691c92,764,Orlando Pride,3142,5,7483,6,5063,Chioma Ubogagu,16,Left Midfield,40,70,Wing,2018-07-15,767,Utah Royals,Orlando Pride,764,#8D04E6,white
+55fe143e-4ea1-41de-bb97-435a3f691c92,764,Orlando Pride,3142,5,7483,13,5085,Alex Morgan,22,Right Center Forward,55,25,Forward,2018-07-15,767,Utah Royals,Orlando Pride,764,#8D04E6,white
+55fe143e-4ea1-41de-bb97-435a3f691c92,764,Orlando Pride,3142,5,7483,15,5086,Rachel Hill,24,Left Center Forward,55,55,Forward,2018-07-15,767,Utah Royals,Orlando Pride,764,#8D04E6,white
+954fc0c4-127c-477f-8667-a7c49b884433,763,Sky Blue FC,4231,3,7484,1,4981,Kailen Sheridan,1,Goalkeeper,12,40,GK,2018-07-15,763,Sky Blue FC,North Carolina Courage,766,#0A9EF9,#FA7004
+954fc0c4-127c-477f-8667-a7c49b884433,763,Sky Blue FC,4231,3,7484,8,5098,Erica Skroski,2,Right Back,22,10,FB/WB,2018-07-15,763,Sky Blue FC,North Carolina Courage,766,#0A9EF9,#FA7004
+954fc0c4-127c-477f-8667-a7c49b884433,763,Sky Blue FC,4231,3,7484,22,4974,Mandy Freeman,3,Right Center Back,22,25,CB,2018-07-15,763,Sky Blue FC,North Carolina Courage,766,#0A9EF9,#FA7004
+954fc0c4-127c-477f-8667-a7c49b884433,763,Sky Blue FC,4231,3,7484,17,4978,Dominique Richardson,5,Left Center Back,22,55,CB,2018-07-15,763,Sky Blue FC,North Carolina Courage,766,#0A9EF9,#FA7004
+954fc0c4-127c-477f-8667-a7c49b884433,763,Sky Blue FC,4231,3,7484,9,4970,Amanda Frisbie,6,Left Back,22,70,FB/WB,2018-07-15,763,Sky Blue FC,North Carolina Courage,766,#0A9EF9,#FA7004
+954fc0c4-127c-477f-8667-a7c49b884433,763,Sky Blue FC,4231,3,7484,16,4988,Sarah Killion,9,Right Defensive Midfield,30,30,CDM,2018-07-15,763,Sky Blue FC,North Carolina Courage,766,#0A9EF9,#FA7004
+954fc0c4-127c-477f-8667-a7c49b884433,763,Sky Blue FC,4231,3,7484,5,4980,Thaysa de Moraes Rosa Moreno,11,Left Defensive Midfield,30,50,CDM,2018-07-15,763,Sky Blue FC,North Carolina Courage,766,#0A9EF9,#FA7004
+954fc0c4-127c-477f-8667-a7c49b884433,763,Sky Blue FC,4231,3,7484,6,4986,Shea Groom,17,Right Wing,50,5,Wing,2018-07-15,763,Sky Blue FC,North Carolina Courage,766,#0A9EF9,#FA7004
+954fc0c4-127c-477f-8667-a7c49b884433,763,Sky Blue FC,4231,3,7484,10,5097,Carli Lloyd,19,Center Attacking Midfield,45,40,ACM,2018-07-15,763,Sky Blue FC,North Carolina Courage,766,#0A9EF9,#FA7004
+954fc0c4-127c-477f-8667-a7c49b884433,763,Sky Blue FC,4231,3,7484,28,7180,Imani Dorsey,21,Left Wing,50,75,Wing,2018-07-15,763,Sky Blue FC,North Carolina Courage,766,#0A9EF9,#FA7004
+954fc0c4-127c-477f-8667-a7c49b884433,763,Sky Blue FC,4231,3,7484,21,5096,Savannah McCaskill,23,Center Forward,55,40,Forward,2018-07-15,763,Sky Blue FC,North Carolina Courage,766,#0A9EF9,#FA7004
+fbf1e081-1c48-4f58-ad69-9e712c6794ac,766,North Carolina Courage,442,11,7484,99,5048,Katelyn Rowland,1,Goalkeeper,12,40,GK,2018-07-15,763,Sky Blue FC,North Carolina Courage,766,#0518A5,#D7C107
+fbf1e081-1c48-4f58-ad69-9e712c6794ac,766,North Carolina Courage,442,11,7484,11,5083,Merritt Mathias,2,Right Back,22,10,FB/WB,2018-07-15,763,Sky Blue FC,North Carolina Courage,766,#0518A5,#D7C107
+fbf1e081-1c48-4f58-ad69-9e712c6794ac,766,North Carolina Courage,442,11,7484,13,5081,Abby Dahlkemper,3,Right Center Back,22,25,CB,2018-07-15,763,Sky Blue FC,North Carolina Courage,766,#0518A5,#D7C107
+fbf1e081-1c48-4f58-ad69-9e712c6794ac,766,North Carolina Courage,442,11,7484,6,5037,Abby Erceg,5,Left Center Back,22,55,CB,2018-07-15,763,Sky Blue FC,North Carolina Courage,766,#0518A5,#D7C107
+fbf1e081-1c48-4f58-ad69-9e712c6794ac,766,North Carolina Courage,442,11,7484,15,5047,Jaelene Hinkle,6,Left Back,22,70,FB/WB,2018-07-15,763,Sky Blue FC,North Carolina Courage,766,#0518A5,#D7C107
+fbf1e081-1c48-4f58-ad69-9e712c6794ac,766,North Carolina Courage,442,11,7484,19,5088,Crystal Alyssia Dunn,12,Right Midfield,40,10,Wing,2018-07-15,763,Sky Blue FC,North Carolina Courage,766,#0518A5,#D7C107
+fbf1e081-1c48-4f58-ad69-9e712c6794ac,766,North Carolina Courage,442,11,7484,8,5084,Denise O'Sullivan,13,Right Center Midfield,38,55,CM,2018-07-15,763,Sky Blue FC,North Carolina Courage,766,#0518A5,#D7C107
+fbf1e081-1c48-4f58-ad69-9e712c6794ac,766,North Carolina Courage,442,11,7484,7,5091,McCall Zerboni,15,Left Center Midfield,38,25,CM,2018-07-15,763,Sky Blue FC,North Carolina Courage,766,#0518A5,#D7C107
+fbf1e081-1c48-4f58-ad69-9e712c6794ac,766,North Carolina Courage,442,11,7484,10,5044,Débora Cristiane de Oliveira,16,Left Midfield,40,70,Wing,2018-07-15,763,Sky Blue FC,North Carolina Courage,766,#0518A5,#D7C107
+fbf1e081-1c48-4f58-ad69-9e712c6794ac,766,North Carolina Courage,442,11,7484,9,5055,Lynn Williams,22,Right Center Forward,55,25,Forward,2018-07-15,763,Sky Blue FC,North Carolina Courage,766,#0518A5,#D7C107
+fbf1e081-1c48-4f58-ad69-9e712c6794ac,766,North Carolina Courage,442,11,7484,23,5080,Kristen Hamilton,24,Left Center Forward,55,55,Forward,2018-07-15,763,Sky Blue FC,North Carolina Courage,766,#0518A5,#D7C107
+14fa707e-4290-47f0-9cff-164efd01d860,761,Chicago Red Stars,451,1,7485,1,5100,Alyssa Naeher,1,Goalkeeper,12,40,GK,2018-07-15,761,Chicago Red Stars,Seattle Reign,760,#29A7F8,#F9121C
+14fa707e-4290-47f0-9cff-164efd01d860,761,Chicago Red Stars,451,1,7485,3,4942,Arin Gilliland,2,Right Back,22,10,FB/WB,2018-07-15,761,Chicago Red Stars,Seattle Reign,760,#29A7F8,#F9121C
+14fa707e-4290-47f0-9cff-164efd01d860,761,Chicago Red Stars,451,1,7485,5,4958,Kathleen Naughton,3,Right Center Back,22,25,CB,2018-07-15,761,Chicago Red Stars,Seattle Reign,760,#29A7F8,#F9121C
+14fa707e-4290-47f0-9cff-164efd01d860,761,Chicago Red Stars,451,1,7485,8,6811,Julie Ertz,5,Left Center Back,22,55,CB,2018-07-15,761,Chicago Red Stars,Seattle Reign,760,#29A7F8,#F9121C
+14fa707e-4290-47f0-9cff-164efd01d860,761,Chicago Red Stars,451,1,7485,6,7179,Casey Short,6,Left Back,22,70,FB/WB,2018-07-15,761,Chicago Red Stars,Seattle Reign,760,#29A7F8,#F9121C
+14fa707e-4290-47f0-9cff-164efd01d860,761,Chicago Red Stars,451,1,7485,24,4947,Danielle Colaprico,9,Right Defensive Midfield,30,30,CDM,2018-07-15,761,Chicago Red Stars,Seattle Reign,760,#29A7F8,#F9121C
+14fa707e-4290-47f0-9cff-164efd01d860,761,Chicago Red Stars,451,1,7485,13,6813,Morgan Brian,11,Left Defensive Midfield,30,50,CDM,2018-07-15,761,Chicago Red Stars,Seattle Reign,760,#29A7F8,#F9121C
+14fa707e-4290-47f0-9cff-164efd01d860,761,Chicago Red Stars,451,1,7485,4,4953,Alyssa Mautz,12,Right Midfield,40,10,Wing,2018-07-15,761,Chicago Red Stars,Seattle Reign,760,#29A7F8,#F9121C
+14fa707e-4290-47f0-9cff-164efd01d860,761,Chicago Red Stars,451,1,7485,10,6812,Vanessa DiBernardo,16,Left Midfield,40,70,Wing,2018-07-15,761,Chicago Red Stars,Seattle Reign,760,#29A7F8,#F9121C
+14fa707e-4290-47f0-9cff-164efd01d860,761,Chicago Red Stars,451,1,7485,12,4963,Yuki Nagasato,19,Center Attacking Midfield,45,40,ACM,2018-07-15,761,Chicago Red Stars,Seattle Reign,760,#29A7F8,#F9121C
+14fa707e-4290-47f0-9cff-164efd01d860,761,Chicago Red Stars,451,1,7485,20,4961,Samantha Kerr,23,Center Forward,55,40,Forward,2018-07-15,761,Chicago Red Stars,Seattle Reign,760,#29A7F8,#F9121C
+0e09d837-b268-4199-87a2-1182fc15836a,760,Seattle Reign,4321,1,7485,18,5019,Michelle Betos,1,Goalkeeper,12,40,GK,2018-07-15,761,Chicago Red Stars,Seattle Reign,760,#0B07F5,#D1F507
+0e09d837-b268-4199-87a2-1182fc15836a,760,Seattle Reign,4321,1,7485,8,5069,Theresa Nielsen,2,Right Back,22,10,FB/WB,2018-07-15,761,Chicago Red Stars,Seattle Reign,760,#0B07F5,#D1F507
+0e09d837-b268-4199-87a2-1182fc15836a,760,Seattle Reign,4321,1,7485,4,5007,Megan Oyster,3,Right Center Back,22,25,CB,2018-07-15,761,Chicago Red Stars,Seattle Reign,760,#0B07F5,#D1F507
+0e09d837-b268-4199-87a2-1182fc15836a,760,Seattle Reign,4321,1,7485,3,5065,Lauren Barnes,5,Left Center Back,22,55,CB,2018-07-15,761,Chicago Red Stars,Seattle Reign,760,#0B07F5,#D1F507
+0e09d837-b268-4199-87a2-1182fc15836a,760,Seattle Reign,4321,1,7485,7,5000,Steph Catley,6,Left Back,22,70,FB/WB,2018-07-15,761,Chicago Red Stars,Seattle Reign,760,#0B07F5,#D1F507
+0e09d837-b268-4199-87a2-1182fc15836a,760,Seattle Reign,4321,1,7485,17,5006,Beverly Yanez,12,Right Midfield,40,10,Wing,2018-07-15,761,Chicago Red Stars,Seattle Reign,760,#0B07F5,#D1F507
+0e09d837-b268-4199-87a2-1182fc15836a,760,Seattle Reign,4321,1,7485,6,5001,Allie Long,14,Center Midfield,38,40,CM,2018-07-15,761,Chicago Red Stars,Seattle Reign,760,#0B07F5,#D1F507
+0e09d837-b268-4199-87a2-1182fc15836a,760,Seattle Reign,4321,1,7485,10,5016,Jessica Fishlock,16,Left Midfield,40,70,Wing,2018-07-15,761,Chicago Red Stars,Seattle Reign,760,#0B07F5,#D1F507
+0e09d837-b268-4199-87a2-1182fc15836a,760,Seattle Reign,4321,1,7485,9,4994,Nahomi Kawasumi,17,Right Wing,50,5,Wing,2018-07-15,761,Chicago Red Stars,Seattle Reign,760,#0B07F5,#D1F507
+0e09d837-b268-4199-87a2-1182fc15836a,760,Seattle Reign,4321,1,7485,15,8298,Megan Rapinoe,21,Left Wing,50,75,Wing,2018-07-15,761,Chicago Red Stars,Seattle Reign,760,#0B07F5,#D1F507
+0e09d837-b268-4199-87a2-1182fc15836a,760,Seattle Reign,4321,1,7485,14,5002,Jodie Taylor,23,Center Forward,55,40,Forward,2018-07-15,761,Chicago Red Stars,Seattle Reign,760,#0B07F5,#D1F507
+5aefaeda-b6d8-46fc-bfcb-be3e66cc41f6,765,Portland Thorns,4231,5,7486,24,6819,Adrianna Franch,1,Goalkeeper,12,40,GK,2018-07-16,765,Portland Thorns,Houston Dash,762,#EC1207,black
+5aefaeda-b6d8-46fc-bfcb-be3e66cc41f6,765,Portland Thorns,4231,5,7486,15,5095,Ellie Carpenter,2,Right Back,22,10,FB/WB,2018-07-16,765,Portland Thorns,Houston Dash,762,#EC1207,black
+5aefaeda-b6d8-46fc-bfcb-be3e66cc41f6,765,Portland Thorns,4231,5,7486,16,5003,Emily Sonnett,3,Right Center Back,22,25,CB,2018-07-16,765,Portland Thorns,Houston Dash,762,#EC1207,black
+5aefaeda-b6d8-46fc-bfcb-be3e66cc41f6,765,Portland Thorns,4231,5,7486,4,5092,Emily Menges,5,Left Center Back,22,55,CB,2018-07-16,765,Portland Thorns,Houston Dash,762,#EC1207,black
+5aefaeda-b6d8-46fc-bfcb-be3e66cc41f6,765,Portland Thorns,4231,5,7486,25,5011,Meghan Klingenberg,6,Left Back,22,70,FB/WB,2018-07-16,765,Portland Thorns,Houston Dash,762,#EC1207,black
+5aefaeda-b6d8-46fc-bfcb-be3e66cc41f6,765,Portland Thorns,4231,5,7486,30,4995,Celeste Boureille,13,Right Center Midfield,38,55,CM,2018-07-16,765,Portland Thorns,Houston Dash,762,#EC1207,black
+5aefaeda-b6d8-46fc-bfcb-be3e66cc41f6,765,Portland Thorns,4231,5,7486,10,4999,Lindsey Horan,15,Left Center Midfield,38,25,CM,2018-07-16,765,Portland Thorns,Houston Dash,762,#EC1207,black
+5aefaeda-b6d8-46fc-bfcb-be3e66cc41f6,765,Portland Thorns,4231,5,7486,21,6818,Hayley Raso,17,Right Wing,50,5,Wing,2018-07-16,765,Portland Thorns,Houston Dash,762,#EC1207,black
+5aefaeda-b6d8-46fc-bfcb-be3e66cc41f6,765,Portland Thorns,4231,5,7486,12,5020,Christine Sinclair,19,Center Attacking Midfield,45,40,ACM,2018-07-16,765,Portland Thorns,Houston Dash,762,#EC1207,black
+5aefaeda-b6d8-46fc-bfcb-be3e66cc41f6,765,Portland Thorns,4231,5,7486,17,5013,Tobin Heath,21,Left Wing,50,75,Wing,2018-07-16,765,Portland Thorns,Houston Dash,762,#EC1207,black
+5aefaeda-b6d8-46fc-bfcb-be3e66cc41f6,765,Portland Thorns,4231,5,7486,7,10408,Ana-Maria Crnogorcevic,23,Center Forward,55,40,Forward,2018-07-16,765,Portland Thorns,Houston Dash,762,#EC1207,black
+23c83d1e-1387-4422-9990-c7648a1baa99,762,Houston Dash,451,1,7486,1,5056,Jane Campbell,1,Goalkeeper,12,40,GK,2018-07-16,765,Portland Thorns,Houston Dash,762,#F97603,#2CC1FC
+23c83d1e-1387-4422-9990-c7648a1baa99,762,Houston Dash,451,1,7486,21,4959,Taylor Comeau,2,Right Back,22,10,FB/WB,2018-07-16,765,Portland Thorns,Houston Dash,762,#F97603,#2CC1FC
+23c83d1e-1387-4422-9990-c7648a1baa99,762,Houston Dash,451,1,7486,22,5045,Amber Brooks,3,Right Center Back,22,25,CB,2018-07-16,765,Portland Thorns,Houston Dash,762,#F97603,#2CC1FC
+23c83d1e-1387-4422-9990-c7648a1baa99,762,Houston Dash,451,1,7486,20,8383,Lindsay Elizabeth Agnew,5,Left Center Back,22,55,CB,2018-07-16,765,Portland Thorns,Houston Dash,762,#F97603,#2CC1FC
+23c83d1e-1387-4422-9990-c7648a1baa99,762,Houston Dash,451,1,7486,4,5038,Allysha Chapman,6,Left Back,22,70,FB/WB,2018-07-16,765,Portland Thorns,Houston Dash,762,#F97603,#2CC1FC
+23c83d1e-1387-4422-9990-c7648a1baa99,762,Houston Dash,451,1,7486,10,5053,Linda Maserame Motlhalo,9,Right Defensive Midfield,30,30,CDM,2018-07-16,765,Portland Thorns,Houston Dash,762,#F97603,#2CC1FC
+23c83d1e-1387-4422-9990-c7648a1baa99,762,Houston Dash,451,1,7486,8,8382,Clare Polkinghorne,11,Left Defensive Midfield,30,50,CDM,2018-07-16,765,Portland Thorns,Houston Dash,762,#F97603,#2CC1FC
+23c83d1e-1387-4422-9990-c7648a1baa99,762,Houston Dash,451,1,7486,17,5059,Kyah Simon,12,Right Midfield,40,10,Wing,2018-07-16,765,Portland Thorns,Houston Dash,762,#F97603,#2CC1FC
+23c83d1e-1387-4422-9990-c7648a1baa99,762,Houston Dash,451,1,7486,7,5051,Kealia Ohai,16,Left Midfield,40,70,Wing,2018-07-16,765,Portland Thorns,Houston Dash,762,#F97603,#2CC1FC
+23c83d1e-1387-4422-9990-c7648a1baa99,762,Houston Dash,451,1,7486,23,5105,Sofia Huerta,19,Center Attacking Midfield,45,40,ACM,2018-07-16,765,Portland Thorns,Houston Dash,762,#F97603,#2CC1FC
+23c83d1e-1387-4422-9990-c7648a1baa99,762,Houston Dash,451,1,7486,3,5058,Rachel Daly,23,Center Forward,55,40,Forward,2018-07-16,765,Portland Thorns,Houston Dash,762,#F97603,#2CC1FC
+dd57d6fc-a0af-4aad-b882-6ec292b6ddcf,767,Utah Royals,4231,9,7487,18,4969,Nicole Barnhart,1,Goalkeeper,12,40,GK,2018-07-21,767,Utah Royals,North Carolina Courage,766,#FED000,#25235F
+dd57d6fc-a0af-4aad-b882-6ec292b6ddcf,767,Utah Royals,4231,9,7487,6,5028,Katie Bowen,2,Right Back,22,10,FB/WB,2018-07-21,767,Utah Royals,North Carolina Courage,766,#FED000,#25235F
+dd57d6fc-a0af-4aad-b882-6ec292b6ddcf,767,Utah Royals,4231,9,7487,16,5101,Samantha Johnson,3,Right Center Back,22,25,CB,2018-07-21,767,Utah Royals,North Carolina Courage,766,#FED000,#25235F
+dd57d6fc-a0af-4aad-b882-6ec292b6ddcf,767,Utah Royals,4231,9,7487,2,4984,Rachel Corsie,5,Left Center Back,22,55,CB,2018-07-21,767,Utah Royals,North Carolina Courage,766,#FED000,#25235F
+dd57d6fc-a0af-4aad-b882-6ec292b6ddcf,767,Utah Royals,4231,9,7487,3,4971,Rebecca Moros,6,Left Back,22,70,FB/WB,2018-07-21,767,Utah Royals,North Carolina Courage,766,#FED000,#25235F
+dd57d6fc-a0af-4aad-b882-6ec292b6ddcf,767,Utah Royals,4231,9,7487,19,4979,Katrina Gorry,13,Right Center Midfield,38,55,CM,2018-07-21,767,Utah Royals,North Carolina Courage,766,#FED000,#25235F
+dd57d6fc-a0af-4aad-b882-6ec292b6ddcf,767,Utah Royals,4231,9,7487,11,4966,Desiree Scott,15,Left Center Midfield,38,25,CM,2018-07-21,767,Utah Royals,North Carolina Courage,766,#FED000,#25235F
+dd57d6fc-a0af-4aad-b882-6ec292b6ddcf,767,Utah Royals,4231,9,7487,10,4973,Diana Matheson,17,Right Wing,50,5,Wing,2018-07-21,767,Utah Royals,North Carolina Courage,766,#FED000,#25235F
+dd57d6fc-a0af-4aad-b882-6ec292b6ddcf,767,Utah Royals,4231,9,7487,12,4990,Taylor Lytle,21,Left Wing,50,75,Wing,2018-07-21,767,Utah Royals,North Carolina Courage,766,#FED000,#25235F
+dd57d6fc-a0af-4aad-b882-6ec292b6ddcf,767,Utah Royals,4231,9,7487,24,4972,Katie Stengel,23,Center Forward,55,40,Forward,2018-07-21,767,Utah Royals,North Carolina Courage,766,#FED000,#25235F
+dd57d6fc-a0af-4aad-b882-6ec292b6ddcf,767,Utah Royals,4231,9,7487,23,4975,Gunnhildur Yrsa Jónsdóttir,25,Secondary Striker,50,45,Forward,2018-07-21,767,Utah Royals,North Carolina Courage,766,#FED000,#25235F
+3578fb3d-8962-45dc-b3d0-200bf0f9566c,766,North Carolina Courage,442,2,7487,99,5048,Katelyn Rowland,1,Goalkeeper,12,40,GK,2018-07-21,767,Utah Royals,North Carolina Courage,766,#0518A5,#D7C107
+3578fb3d-8962-45dc-b3d0-200bf0f9566c,766,North Carolina Courage,442,2,7487,17,6814,Heather O'Reilly,2,Right Back,22,10,FB/WB,2018-07-21,767,Utah Royals,North Carolina Courage,766,#0518A5,#D7C107
+3578fb3d-8962-45dc-b3d0-200bf0f9566c,766,North Carolina Courage,442,2,7487,31,5057,Kaleigh Kurtz,3,Right Center Back,22,25,CB,2018-07-21,767,Utah Royals,North Carolina Courage,766,#0518A5,#D7C107
+3578fb3d-8962-45dc-b3d0-200bf0f9566c,766,North Carolina Courage,442,2,7487,6,5037,Abby Erceg,5,Left Center Back,22,55,CB,2018-07-21,767,Utah Royals,North Carolina Courage,766,#0518A5,#D7C107
+3578fb3d-8962-45dc-b3d0-200bf0f9566c,766,North Carolina Courage,442,2,7487,25,5050,Meredith Speck,6,Left Back,22,70,FB/WB,2018-07-21,767,Utah Royals,North Carolina Courage,766,#0518A5,#D7C107
+3578fb3d-8962-45dc-b3d0-200bf0f9566c,766,North Carolina Courage,442,2,7487,23,5080,Kristen Hamilton,12,Right Midfield,40,10,Wing,2018-07-21,767,Utah Royals,North Carolina Courage,766,#0518A5,#D7C107
+3578fb3d-8962-45dc-b3d0-200bf0f9566c,766,North Carolina Courage,442,2,7487,8,5084,Denise O'Sullivan,13,Right Center Midfield,38,55,CM,2018-07-21,767,Utah Royals,North Carolina Courage,766,#0518A5,#D7C107
+3578fb3d-8962-45dc-b3d0-200bf0f9566c,766,North Carolina Courage,442,2,7487,16,5041,Cari Roccaro,15,Left Center Midfield,38,25,CM,2018-07-21,767,Utah Royals,North Carolina Courage,766,#0518A5,#D7C107
+3578fb3d-8962-45dc-b3d0-200bf0f9566c,766,North Carolina Courage,442,2,7487,10,5044,Débora Cristiane de Oliveira,16,Left Midfield,40,70,Wing,2018-07-21,767,Utah Royals,North Carolina Courage,766,#0518A5,#D7C107
+3578fb3d-8962-45dc-b3d0-200bf0f9566c,766,North Carolina Courage,442,2,7487,14,5034,Jessica McDonald,22,Right Center Forward,55,25,Forward,2018-07-21,767,Utah Royals,North Carolina Courage,766,#0518A5,#D7C107
+3578fb3d-8962-45dc-b3d0-200bf0f9566c,766,North Carolina Courage,442,2,7487,9,5055,Lynn Williams,24,Left Center Forward,55,55,Forward,2018-07-21,767,Utah Royals,North Carolina Courage,766,#0518A5,#D7C107
+be9c5ec2-0d3e-429d-a060-6182461fadbb,763,Sky Blue FC,442,6,7490,27,8564,Caroline Casey,1,Goalkeeper,12,40,GK,2018-07-22,763,Sky Blue FC,Portland Thorns,765,#0A9EF9,#FA7004
+be9c5ec2-0d3e-429d-a060-6182461fadbb,763,Sky Blue FC,442,6,7490,8,5098,Erica Skroski,2,Right Back,22,10,FB/WB,2018-07-22,763,Sky Blue FC,Portland Thorns,765,#0A9EF9,#FA7004
+be9c5ec2-0d3e-429d-a060-6182461fadbb,763,Sky Blue FC,442,6,7490,22,4974,Mandy Freeman,3,Right Center Back,22,25,CB,2018-07-22,763,Sky Blue FC,Portland Thorns,765,#0A9EF9,#FA7004
+be9c5ec2-0d3e-429d-a060-6182461fadbb,763,Sky Blue FC,442,6,7490,17,4978,Dominique Richardson,5,Left Center Back,22,55,CB,2018-07-22,763,Sky Blue FC,Portland Thorns,765,#0A9EF9,#FA7004
+be9c5ec2-0d3e-429d-a060-6182461fadbb,763,Sky Blue FC,442,6,7490,9,4970,Amanda Frisbie,6,Left Back,22,70,FB/WB,2018-07-22,763,Sky Blue FC,Portland Thorns,765,#0A9EF9,#FA7004
+be9c5ec2-0d3e-429d-a060-6182461fadbb,763,Sky Blue FC,442,6,7490,73,4968,Madison Tiernan,12,Right Midfield,40,10,Wing,2018-07-22,763,Sky Blue FC,Portland Thorns,765,#0A9EF9,#FA7004
+be9c5ec2-0d3e-429d-a060-6182461fadbb,763,Sky Blue FC,442,6,7490,16,4988,Sarah Killion,13,Right Center Midfield,38,55,CM,2018-07-22,763,Sky Blue FC,Portland Thorns,765,#0A9EF9,#FA7004
+be9c5ec2-0d3e-429d-a060-6182461fadbb,763,Sky Blue FC,442,6,7490,5,4980,Thaysa de Moraes Rosa Moreno,15,Left Center Midfield,38,25,CM,2018-07-22,763,Sky Blue FC,Portland Thorns,765,#0A9EF9,#FA7004
+be9c5ec2-0d3e-429d-a060-6182461fadbb,763,Sky Blue FC,442,6,7490,28,7180,Imani Dorsey,16,Left Midfield,40,70,Wing,2018-07-22,763,Sky Blue FC,Portland Thorns,765,#0A9EF9,#FA7004
+be9c5ec2-0d3e-429d-a060-6182461fadbb,763,Sky Blue FC,442,6,7490,21,5096,Savannah McCaskill,22,Right Center Forward,55,25,Forward,2018-07-22,763,Sky Blue FC,Portland Thorns,765,#0A9EF9,#FA7004
+be9c5ec2-0d3e-429d-a060-6182461fadbb,763,Sky Blue FC,442,6,7490,6,4986,Shea Groom,24,Left Center Forward,55,55,Forward,2018-07-22,763,Sky Blue FC,Portland Thorns,765,#0A9EF9,#FA7004
+e8ffedf0-5572-4657-a88c-ded798d99447,765,Portland Thorns,451,7,7490,33,5005,Britt Eckerstrom,1,Goalkeeper,12,40,GK,2018-07-22,763,Sky Blue FC,Portland Thorns,765,#EC1207,black
+e8ffedf0-5572-4657-a88c-ded798d99447,765,Portland Thorns,451,7,7490,15,5095,Ellie Carpenter,2,Right Back,22,10,FB/WB,2018-07-22,763,Sky Blue FC,Portland Thorns,765,#EC1207,black
+e8ffedf0-5572-4657-a88c-ded798d99447,765,Portland Thorns,451,7,7490,2,5012,Katherine Reynolds,3,Right Center Back,22,25,CB,2018-07-22,763,Sky Blue FC,Portland Thorns,765,#EC1207,black
+e8ffedf0-5572-4657-a88c-ded798d99447,765,Portland Thorns,451,7,7490,4,5092,Emily Menges,5,Left Center Back,22,55,CB,2018-07-22,763,Sky Blue FC,Portland Thorns,765,#EC1207,black
+e8ffedf0-5572-4657-a88c-ded798d99447,765,Portland Thorns,451,7,7490,25,5011,Meghan Klingenberg,6,Left Back,22,70,FB/WB,2018-07-22,763,Sky Blue FC,Portland Thorns,765,#EC1207,black
+e8ffedf0-5572-4657-a88c-ded798d99447,765,Portland Thorns,451,7,7490,30,4995,Celeste Boureille,9,Right Defensive Midfield,30,30,CDM,2018-07-22,763,Sky Blue FC,Portland Thorns,765,#EC1207,black
+e8ffedf0-5572-4657-a88c-ded798d99447,765,Portland Thorns,451,7,7490,36,8565,Angela Salem,11,Left Defensive Midfield,30,50,CDM,2018-07-22,763,Sky Blue FC,Portland Thorns,765,#EC1207,black
+e8ffedf0-5572-4657-a88c-ded798d99447,765,Portland Thorns,451,7,7490,21,6818,Hayley Raso,12,Right Midfield,40,10,Wing,2018-07-22,763,Sky Blue FC,Portland Thorns,765,#EC1207,black
+e8ffedf0-5572-4657-a88c-ded798d99447,765,Portland Thorns,451,7,7490,8,5018,Andressa Cavalari Machry,16,Left Midfield,40,70,Wing,2018-07-22,763,Sky Blue FC,Portland Thorns,765,#EC1207,black
+e8ffedf0-5572-4657-a88c-ded798d99447,765,Portland Thorns,451,7,7490,12,5020,Christine Sinclair,19,Center Attacking Midfield,45,40,ACM,2018-07-22,763,Sky Blue FC,Portland Thorns,765,#EC1207,black
+e8ffedf0-5572-4657-a88c-ded798d99447,765,Portland Thorns,451,7,7490,7,10408,Ana-Maria Crnogorcevic,23,Center Forward,55,40,Forward,2018-07-22,763,Sky Blue FC,Portland Thorns,765,#EC1207,black
+324d489a-a31f-4457-ba09-30a013c49110,764,Orlando Pride,3142,3,7492,24,5090,Ashlyn Harris,1,Goalkeeper,12,40,GK,2018-08-06,764,Orlando Pride,Sky Blue FC,763,#8D04E6,white
+324d489a-a31f-4457-ba09-30a013c49110,764,Orlando Pride,3142,3,7492,11,5089,Ali Krieger,3,Right Center Back,22,25,CB,2018-08-06,764,Orlando Pride,Sky Blue FC,763,#8D04E6,white
+324d489a-a31f-4457-ba09-30a013c49110,764,Orlando Pride,3142,3,7492,14,5078,Alanna Kennedy,4,Center Back,22,40,CB,2018-08-06,764,Orlando Pride,Sky Blue FC,763,#8D04E6,white
+324d489a-a31f-4457-ba09-30a013c49110,764,Orlando Pride,3142,3,7492,3,8199,Toni Pressley,5,Left Center Back,22,55,CB,2018-08-06,764,Orlando Pride,Sky Blue FC,763,#8D04E6,white
+324d489a-a31f-4457-ba09-30a013c49110,764,Orlando Pride,3142,3,7492,17,5062,Dani Weatherholt,10,Center Defensive Midfield,30,40,CDM,2018-08-06,764,Orlando Pride,Sky Blue FC,763,#8D04E6,white
+324d489a-a31f-4457-ba09-30a013c49110,764,Orlando Pride,3142,3,7492,12,5068,Kristen Edmonds,12,Right Midfield,40,10,Wing,2018-08-06,764,Orlando Pride,Sky Blue FC,763,#8D04E6,white
+324d489a-a31f-4457-ba09-30a013c49110,764,Orlando Pride,3142,3,7492,5,5076,Emily van Egmond,13,Right Center Midfield,38,55,CM,2018-08-06,764,Orlando Pride,Sky Blue FC,763,#8D04E6,white
+324d489a-a31f-4457-ba09-30a013c49110,764,Orlando Pride,3142,3,7492,7,5070,Christine Nairn,15,Left Center Midfield,38,25,CM,2018-08-06,764,Orlando Pride,Sky Blue FC,763,#8D04E6,white
+324d489a-a31f-4457-ba09-30a013c49110,764,Orlando Pride,3142,3,7492,6,5063,Chioma Ubogagu,16,Left Midfield,40,70,Wing,2018-08-06,764,Orlando Pride,Sky Blue FC,763,#8D04E6,white
+324d489a-a31f-4457-ba09-30a013c49110,764,Orlando Pride,3142,3,7492,15,5086,Rachel Hill,22,Right Center Forward,55,25,Forward,2018-08-06,764,Orlando Pride,Sky Blue FC,763,#8D04E6,white
+324d489a-a31f-4457-ba09-30a013c49110,764,Orlando Pride,3142,3,7492,10,5082,Marta Vieira da Silva,24,Left Center Forward,55,55,Forward,2018-08-06,764,Orlando Pride,Sky Blue FC,763,#8D04E6,white
+f5673797-d5a0-48b3-8b2e-7da845f4ce44,763,Sky Blue FC,442,7,7492,1,4981,Kailen Sheridan,1,Goalkeeper,12,40,GK,2018-08-06,764,Orlando Pride,Sky Blue FC,763,#0A9EF9,#FA7004
+f5673797-d5a0-48b3-8b2e-7da845f4ce44,763,Sky Blue FC,442,7,7492,31,4985,Christina Gibbons,2,Right Back,22,10,FB/WB,2018-08-06,764,Orlando Pride,Sky Blue FC,763,#0A9EF9,#FA7004
+f5673797-d5a0-48b3-8b2e-7da845f4ce44,763,Sky Blue FC,442,7,7492,22,4974,Mandy Freeman,3,Right Center Back,22,25,CB,2018-08-06,764,Orlando Pride,Sky Blue FC,763,#0A9EF9,#FA7004
+f5673797-d5a0-48b3-8b2e-7da845f4ce44,763,Sky Blue FC,442,7,7492,8,5098,Erica Skroski,5,Left Center Back,22,55,CB,2018-08-06,764,Orlando Pride,Sky Blue FC,763,#0A9EF9,#FA7004
+f5673797-d5a0-48b3-8b2e-7da845f4ce44,763,Sky Blue FC,442,7,7492,9,4970,Amanda Frisbie,6,Left Back,22,70,FB/WB,2018-08-06,764,Orlando Pride,Sky Blue FC,763,#0A9EF9,#FA7004
+f5673797-d5a0-48b3-8b2e-7da845f4ce44,763,Sky Blue FC,442,7,7492,16,4988,Sarah Killion,9,Right Defensive Midfield,30,30,CDM,2018-08-06,764,Orlando Pride,Sky Blue FC,763,#0A9EF9,#FA7004
+f5673797-d5a0-48b3-8b2e-7da845f4ce44,763,Sky Blue FC,442,7,7492,11,4967,Raquel Rodriguez,11,Left Defensive Midfield,30,50,CDM,2018-08-06,764,Orlando Pride,Sky Blue FC,763,#0A9EF9,#FA7004
+f5673797-d5a0-48b3-8b2e-7da845f4ce44,763,Sky Blue FC,442,7,7492,73,4968,Madison Tiernan,12,Right Midfield,40,10,Wing,2018-08-06,764,Orlando Pride,Sky Blue FC,763,#0A9EF9,#FA7004
+f5673797-d5a0-48b3-8b2e-7da845f4ce44,763,Sky Blue FC,442,7,7492,28,7180,Imani Dorsey,16,Left Midfield,40,70,Wing,2018-08-06,764,Orlando Pride,Sky Blue FC,763,#0A9EF9,#FA7004
+f5673797-d5a0-48b3-8b2e-7da845f4ce44,763,Sky Blue FC,442,7,7492,21,5096,Savannah McCaskill,22,Right Center Forward,55,25,Forward,2018-08-06,764,Orlando Pride,Sky Blue FC,763,#0A9EF9,#FA7004
+f5673797-d5a0-48b3-8b2e-7da845f4ce44,763,Sky Blue FC,442,7,7492,6,4986,Shea Groom,24,Left Center Forward,55,55,Forward,2018-08-06,764,Orlando Pride,Sky Blue FC,763,#0A9EF9,#FA7004
+c5a86f86-c491-4f7c-a101-86bdeb540ba5,760,Seattle Reign,4321,6,7493,1,5066,Lydia Williams,1,Goalkeeper,12,40,GK,2018-08-06,760,Seattle Reign,Washington Spirit,759,#0B07F5,#D1F507
+c5a86f86-c491-4f7c-a101-86bdeb540ba5,760,Seattle Reign,4321,6,7493,8,5069,Theresa Nielsen,2,Right Back,22,10,FB/WB,2018-08-06,760,Seattle Reign,Washington Spirit,759,#0B07F5,#D1F507
+c5a86f86-c491-4f7c-a101-86bdeb540ba5,760,Seattle Reign,4321,6,7493,4,5007,Megan Oyster,3,Right Center Back,22,25,CB,2018-08-06,760,Seattle Reign,Washington Spirit,759,#0B07F5,#D1F507
+c5a86f86-c491-4f7c-a101-86bdeb540ba5,760,Seattle Reign,4321,6,7493,3,5065,Lauren Barnes,5,Left Center Back,22,55,CB,2018-08-06,760,Seattle Reign,Washington Spirit,759,#0B07F5,#D1F507
+c5a86f86-c491-4f7c-a101-86bdeb540ba5,760,Seattle Reign,4321,6,7493,24,4997,Alyssa Kleiner,6,Left Back,22,70,FB/WB,2018-08-06,760,Seattle Reign,Washington Spirit,759,#0B07F5,#D1F507
+c5a86f86-c491-4f7c-a101-86bdeb540ba5,760,Seattle Reign,4321,6,7493,6,5001,Allie Long,13,Right Center Midfield,38,55,CM,2018-08-06,760,Seattle Reign,Washington Spirit,759,#0B07F5,#D1F507
+c5a86f86-c491-4f7c-a101-86bdeb540ba5,760,Seattle Reign,4321,6,7493,10,5016,Jessica Fishlock,14,Center Midfield,38,40,CM,2018-08-06,760,Seattle Reign,Washington Spirit,759,#0B07F5,#D1F507
+c5a86f86-c491-4f7c-a101-86bdeb540ba5,760,Seattle Reign,4321,6,7493,19,5008,Kristen McNabb,15,Left Center Midfield,38,25,CM,2018-08-06,760,Seattle Reign,Washington Spirit,759,#0B07F5,#D1F507
+c5a86f86-c491-4f7c-a101-86bdeb540ba5,760,Seattle Reign,4321,6,7493,22,5077,Jasmyne Spencer,18,Right Attacking Midfield,45,55,ACM,2018-08-06,760,Seattle Reign,Washington Spirit,759,#0B07F5,#D1F507
+c5a86f86-c491-4f7c-a101-86bdeb540ba5,760,Seattle Reign,4321,6,7493,15,8298,Megan Rapinoe,20,Left Attacking Midfield,45,70,ACM,2018-08-06,760,Seattle Reign,Washington Spirit,759,#0B07F5,#D1F507
+c5a86f86-c491-4f7c-a101-86bdeb540ba5,760,Seattle Reign,4321,6,7493,14,5002,Jodie Taylor,23,Center Forward,55,40,Forward,2018-08-06,760,Seattle Reign,Washington Spirit,759,#0B07F5,#D1F507
+b8628c9c-c465-4828-914f-922ffd3d65c0,759,Washington Spirit,352,5,7493,21,21057,DiDi Haracic,1,Goalkeeper,12,40,GK,2018-08-06,760,Seattle Reign,Washington Spirit,759,#161281,#E50A25
+b8628c9c-c465-4828-914f-922ffd3d65c0,759,Washington Spirit,352,5,7493,4,4951,Rebecca Quinn,3,Right Center Back,22,25,CB,2018-08-06,760,Seattle Reign,Washington Spirit,759,#161281,#E50A25
+b8628c9c-c465-4828-914f-922ffd3d65c0,759,Washington Spirit,352,5,7493,24,4943,Estelle Johnson,4,Center Back,22,40,CB,2018-08-06,760,Seattle Reign,Washington Spirit,759,#161281,#E50A25
+b8628c9c-c465-4828-914f-922ffd3d65c0,759,Washington Spirit,352,5,7493,23,5029,Tori Huster,5,Left Center Back,22,55,CB,2018-08-06,760,Seattle Reign,Washington Spirit,759,#161281,#E50A25
+b8628c9c-c465-4828-914f-922ffd3d65c0,759,Washington Spirit,352,5,7493,8,5026,Meggie Dougherty Howard,9,Right Defensive Midfield,30,30,CDM,2018-08-06,760,Seattle Reign,Washington Spirit,759,#161281,#E50A25
+b8628c9c-c465-4828-914f-922ffd3d65c0,759,Washington Spirit,352,5,7493,5,4950,Whitney Church,11,Left Defensive Midfield,30,50,CDM,2018-08-06,760,Seattle Reign,Washington Spirit,759,#161281,#E50A25
+b8628c9c-c465-4828-914f-922ffd3d65c0,759,Washington Spirit,352,5,7493,7,4941,Taylor Smith,12,Right Midfield,40,10,Wing,2018-08-06,760,Seattle Reign,Washington Spirit,759,#161281,#E50A25
+b8628c9c-c465-4828-914f-922ffd3d65c0,759,Washington Spirit,352,5,7493,3,4962,Caprice Dydasco,16,Left Midfield,40,70,Wing,2018-08-06,760,Seattle Reign,Washington Spirit,759,#161281,#E50A25
+b8628c9c-c465-4828-914f-922ffd3d65c0,759,Washington Spirit,352,5,7493,14,5022,Francisca Ordega,22,Right Center Forward,55,25,Forward,2018-08-06,760,Seattle Reign,Washington Spirit,759,#161281,#E50A25
+b8628c9c-c465-4828-914f-922ffd3d65c0,759,Washington Spirit,352,5,7493,33,4964,Ashley Hatch,24,Left Center Forward,55,55,Forward,2018-08-06,760,Seattle Reign,Washington Spirit,759,#161281,#E50A25
+b8628c9c-c465-4828-914f-922ffd3d65c0,759,Washington Spirit,352,5,7493,9,4945,Havana Solaun,25,Secondary Striker,50,45,Forward,2018-08-06,760,Seattle Reign,Washington Spirit,759,#161281,#E50A25
+3b32ec0b-3336-4821-a6b0-065c67470f47,762,Houston Dash,442,4,7494,1,5056,Jane Campbell,1,Goalkeeper,12,40,GK,2018-08-06,762,Houston Dash,Utah Royals,767,#F97603,#2CC1FC
+3b32ec0b-3336-4821-a6b0-065c67470f47,762,Houston Dash,442,4,7494,21,4959,Taylor Comeau,2,Right Back,22,10,FB/WB,2018-08-06,762,Houston Dash,Utah Royals,767,#F97603,#2CC1FC
+3b32ec0b-3336-4821-a6b0-065c67470f47,762,Houston Dash,442,4,7494,22,5045,Amber Brooks,3,Right Center Back,22,25,CB,2018-08-06,762,Houston Dash,Utah Royals,767,#F97603,#2CC1FC
+3b32ec0b-3336-4821-a6b0-065c67470f47,762,Houston Dash,442,4,7494,8,8382,Clare Polkinghorne,5,Left Center Back,22,55,CB,2018-08-06,762,Houston Dash,Utah Royals,767,#F97603,#2CC1FC
+3b32ec0b-3336-4821-a6b0-065c67470f47,762,Houston Dash,442,4,7494,4,5038,Allysha Chapman,6,Left Back,22,70,FB/WB,2018-08-06,762,Houston Dash,Utah Royals,767,#F97603,#2CC1FC
+3b32ec0b-3336-4821-a6b0-065c67470f47,762,Houston Dash,442,4,7494,10,5053,Linda Maserame Motlhalo,10,Center Defensive Midfield,30,40,CDM,2018-08-06,762,Houston Dash,Utah Royals,767,#F97603,#2CC1FC
+3b32ec0b-3336-4821-a6b0-065c67470f47,762,Houston Dash,442,4,7494,7,5051,Kealia Ohai,13,Right Center Midfield,38,55,CM,2018-08-06,762,Houston Dash,Utah Royals,767,#F97603,#2CC1FC
+3b32ec0b-3336-4821-a6b0-065c67470f47,762,Houston Dash,442,4,7494,12,5039,Veronica Latsko,15,Left Center Midfield,38,25,CM,2018-08-06,762,Houston Dash,Utah Royals,767,#F97603,#2CC1FC
+3b32ec0b-3336-4821-a6b0-065c67470f47,762,Houston Dash,442,4,7494,23,5105,Sofia Huerta,19,Center Attacking Midfield,45,40,ACM,2018-08-06,762,Houston Dash,Utah Royals,767,#F97603,#2CC1FC
+3b32ec0b-3336-4821-a6b0-065c67470f47,762,Houston Dash,442,4,7494,14,5043,Nichelle Prince,22,Right Center Forward,55,25,Forward,2018-08-06,762,Houston Dash,Utah Royals,767,#F97603,#2CC1FC
+3b32ec0b-3336-4821-a6b0-065c67470f47,762,Houston Dash,442,4,7494,3,5058,Rachel Daly,24,Left Center Forward,55,55,Forward,2018-08-06,762,Houston Dash,Utah Royals,767,#F97603,#2CC1FC
+3d862e9c-fc06-4ace-bda0-304368e7412e,767,Utah Royals,4231,4,7494,18,4969,Nicole Barnhart,1,Goalkeeper,12,40,GK,2018-08-06,762,Houston Dash,Utah Royals,767,#FED000,#25235F
+3d862e9c-fc06-4ace-bda0-304368e7412e,767,Utah Royals,4231,4,7494,6,5028,Katie Bowen,2,Right Back,22,10,FB/WB,2018-08-06,762,Houston Dash,Utah Royals,767,#FED000,#25235F
+3d862e9c-fc06-4ace-bda0-304368e7412e,767,Utah Royals,4231,4,7494,4,5030,Becky Sauerbrunn,3,Right Center Back,22,25,CB,2018-08-06,762,Houston Dash,Utah Royals,767,#FED000,#25235F
+3d862e9c-fc06-4ace-bda0-304368e7412e,767,Utah Royals,4231,4,7494,2,4984,Rachel Corsie,5,Left Center Back,22,55,CB,2018-08-06,762,Houston Dash,Utah Royals,767,#FED000,#25235F
+3d862e9c-fc06-4ace-bda0-304368e7412e,767,Utah Royals,4231,4,7494,3,4971,Rebecca Moros,6,Left Back,22,70,FB/WB,2018-08-06,762,Houston Dash,Utah Royals,767,#FED000,#25235F
+3d862e9c-fc06-4ace-bda0-304368e7412e,767,Utah Royals,4231,4,7494,23,4975,Gunnhildur Yrsa Jónsdóttir,9,Right Defensive Midfield,30,30,CDM,2018-08-06,762,Houston Dash,Utah Royals,767,#FED000,#25235F
+3d862e9c-fc06-4ace-bda0-304368e7412e,767,Utah Royals,4231,4,7494,9,4976,Lo’eau LaBonta,11,Left Defensive Midfield,30,50,CDM,2018-08-06,762,Houston Dash,Utah Royals,767,#FED000,#25235F
+3d862e9c-fc06-4ace-bda0-304368e7412e,767,Utah Royals,4231,4,7494,19,4979,Katrina Gorry,18,Right Attacking Midfield,45,55,ACM,2018-08-06,762,Houston Dash,Utah Royals,767,#FED000,#25235F
+3d862e9c-fc06-4ace-bda0-304368e7412e,767,Utah Royals,4231,4,7494,10,4973,Diana Matheson,19,Center Attacking Midfield,45,40,ACM,2018-08-06,762,Houston Dash,Utah Royals,767,#FED000,#25235F
+3d862e9c-fc06-4ace-bda0-304368e7412e,767,Utah Royals,4231,4,7494,21,6817,Christen Press,20,Left Attacking Midfield,45,70,ACM,2018-08-06,762,Houston Dash,Utah Royals,767,#FED000,#25235F
+3d862e9c-fc06-4ace-bda0-304368e7412e,767,Utah Royals,4231,4,7494,8,5024,Amy Rodriguez,23,Center Forward,55,40,Forward,2018-08-06,762,Houston Dash,Utah Royals,767,#FED000,#25235F
+5c92e032-f2e2-49a6-94c1-1ff3eed87785,767,Utah Royals,4411,6,7496,18,4969,Nicole Barnhart,1,Goalkeeper,12,40,GK,2018-08-09,767,Utah Royals,Washington Spirit,759,#FED000,#25235F
+5c92e032-f2e2-49a6-94c1-1ff3eed87785,767,Utah Royals,4411,6,7496,17,4987,Sydney Miramontez,2,Right Back,22,10,FB/WB,2018-08-09,767,Utah Royals,Washington Spirit,759,#FED000,#25235F
+5c92e032-f2e2-49a6-94c1-1ff3eed87785,767,Utah Royals,4411,6,7496,2,4984,Rachel Corsie,3,Right Center Back,22,25,CB,2018-08-09,767,Utah Royals,Washington Spirit,759,#FED000,#25235F
+5c92e032-f2e2-49a6-94c1-1ff3eed87785,767,Utah Royals,4411,6,7496,16,5101,Samantha Johnson,5,Left Center Back,22,55,CB,2018-08-09,767,Utah Royals,Washington Spirit,759,#FED000,#25235F
+5c92e032-f2e2-49a6-94c1-1ff3eed87785,767,Utah Royals,4411,6,7496,3,4971,Rebecca Moros,6,Left Back,22,70,FB/WB,2018-08-09,767,Utah Royals,Washington Spirit,759,#FED000,#25235F
+5c92e032-f2e2-49a6-94c1-1ff3eed87785,767,Utah Royals,4411,6,7496,23,4975,Gunnhildur Yrsa Jónsdóttir,9,Right Defensive Midfield,30,30,CDM,2018-08-09,767,Utah Royals,Washington Spirit,759,#FED000,#25235F
+5c92e032-f2e2-49a6-94c1-1ff3eed87785,767,Utah Royals,4411,6,7496,21,6817,Christen Press,11,Left Defensive Midfield,30,50,CDM,2018-08-09,767,Utah Royals,Washington Spirit,759,#FED000,#25235F
+5c92e032-f2e2-49a6-94c1-1ff3eed87785,767,Utah Royals,4411,6,7496,24,4972,Katie Stengel,17,Right Wing,50,5,Wing,2018-08-09,767,Utah Royals,Washington Spirit,759,#FED000,#25235F
+5c92e032-f2e2-49a6-94c1-1ff3eed87785,767,Utah Royals,4411,6,7496,15,5027,Erika Tymrak,21,Left Wing,50,75,Wing,2018-08-09,767,Utah Royals,Washington Spirit,759,#FED000,#25235F
+5c92e032-f2e2-49a6-94c1-1ff3eed87785,767,Utah Royals,4411,6,7496,8,5024,Amy Rodriguez,23,Center Forward,55,40,Forward,2018-08-09,767,Utah Royals,Washington Spirit,759,#FED000,#25235F
+5c92e032-f2e2-49a6-94c1-1ff3eed87785,767,Utah Royals,4411,6,7496,9,4976,Lo’eau LaBonta,25,Secondary Striker,50,45,Forward,2018-08-09,767,Utah Royals,Washington Spirit,759,#FED000,#25235F
+48638e9e-4623-4eeb-bb52-79facf82b45c,759,Washington Spirit,3412,3,7496,1,5025,Aubrey Bledsoe,1,Goalkeeper,12,40,GK,2018-08-09,767,Utah Royals,Washington Spirit,759,#161281,#E50A25
+48638e9e-4623-4eeb-bb52-79facf82b45c,759,Washington Spirit,3412,3,7496,4,4951,Rebecca Quinn,3,Right Center Back,22,25,CB,2018-08-09,767,Utah Royals,Washington Spirit,759,#161281,#E50A25
+48638e9e-4623-4eeb-bb52-79facf82b45c,759,Washington Spirit,3412,3,7496,24,4943,Estelle Johnson,4,Center Back,22,40,CB,2018-08-09,767,Utah Royals,Washington Spirit,759,#161281,#E50A25
+48638e9e-4623-4eeb-bb52-79facf82b45c,759,Washington Spirit,3412,3,7496,23,5029,Tori Huster,5,Left Center Back,22,55,CB,2018-08-09,767,Utah Royals,Washington Spirit,759,#161281,#E50A25
+48638e9e-4623-4eeb-bb52-79facf82b45c,759,Washington Spirit,3412,3,7496,7,4941,Taylor Smith,7,Right Wing Back,25,5,FB/WB,2018-08-09,767,Utah Royals,Washington Spirit,759,#161281,#E50A25
+48638e9e-4623-4eeb-bb52-79facf82b45c,759,Washington Spirit,3412,3,7496,22,4956,Mallory Eubanks,8,Left Wing Back,25,75,FB/WB,2018-08-09,767,Utah Royals,Washington Spirit,759,#161281,#E50A25
+48638e9e-4623-4eeb-bb52-79facf82b45c,759,Washington Spirit,3412,3,7496,6,4940,Andi Sullivan,13,Right Center Midfield,38,55,CM,2018-08-09,767,Utah Royals,Washington Spirit,759,#161281,#E50A25
+48638e9e-4623-4eeb-bb52-79facf82b45c,759,Washington Spirit,3412,3,7496,5,4950,Whitney Church,15,Left Center Midfield,38,25,CM,2018-08-09,767,Utah Royals,Washington Spirit,759,#161281,#E50A25
+48638e9e-4623-4eeb-bb52-79facf82b45c,759,Washington Spirit,3412,3,7496,16,4949,Rose Lavelle,19,Center Attacking Midfield,45,40,ACM,2018-08-09,767,Utah Royals,Washington Spirit,759,#161281,#E50A25
+48638e9e-4623-4eeb-bb52-79facf82b45c,759,Washington Spirit,3412,3,7496,33,4964,Ashley Hatch,22,Right Center Forward,55,25,Forward,2018-08-09,767,Utah Royals,Washington Spirit,759,#161281,#E50A25
+48638e9e-4623-4eeb-bb52-79facf82b45c,759,Washington Spirit,3412,3,7496,11,5023,Mallory Pugh,24,Left Center Forward,55,55,Forward,2018-08-09,767,Utah Royals,Washington Spirit,759,#161281,#E50A25
+33a2d4bb-94f6-469e-9fec-a38ee3351d19,761,Chicago Red Stars,442,4,7497,1,5100,Alyssa Naeher,1,Goalkeeper,12,40,GK,2018-08-11,761,Chicago Red Stars,North Carolina Courage,766,#29A7F8,#F9121C
+33a2d4bb-94f6-469e-9fec-a38ee3351d19,761,Chicago Red Stars,442,4,7497,3,4942,Arin Gilliland,2,Right Back,22,10,FB/WB,2018-08-11,761,Chicago Red Stars,North Carolina Courage,766,#29A7F8,#F9121C
+33a2d4bb-94f6-469e-9fec-a38ee3351d19,761,Chicago Red Stars,442,4,7497,5,4958,Kathleen Naughton,3,Right Center Back,22,25,CB,2018-08-11,761,Chicago Red Stars,North Carolina Courage,766,#29A7F8,#F9121C
+33a2d4bb-94f6-469e-9fec-a38ee3351d19,761,Chicago Red Stars,442,4,7497,8,6811,Julie Ertz,5,Left Center Back,22,55,CB,2018-08-11,761,Chicago Red Stars,North Carolina Courage,766,#29A7F8,#F9121C
+33a2d4bb-94f6-469e-9fec-a38ee3351d19,761,Chicago Red Stars,442,4,7497,6,7179,Casey Short,6,Left Back,22,70,FB/WB,2018-08-11,761,Chicago Red Stars,North Carolina Courage,766,#29A7F8,#F9121C
+33a2d4bb-94f6-469e-9fec-a38ee3351d19,761,Chicago Red Stars,442,4,7497,4,4953,Alyssa Mautz,12,Right Midfield,40,10,Wing,2018-08-11,761,Chicago Red Stars,North Carolina Courage,766,#29A7F8,#F9121C
+33a2d4bb-94f6-469e-9fec-a38ee3351d19,761,Chicago Red Stars,442,4,7497,24,4947,Danielle Colaprico,13,Right Center Midfield,38,55,CM,2018-08-11,761,Chicago Red Stars,North Carolina Courage,766,#29A7F8,#F9121C
+33a2d4bb-94f6-469e-9fec-a38ee3351d19,761,Chicago Red Stars,442,4,7497,13,6813,Morgan Brian,15,Left Center Midfield,38,25,CM,2018-08-11,761,Chicago Red Stars,North Carolina Courage,766,#29A7F8,#F9121C
+33a2d4bb-94f6-469e-9fec-a38ee3351d19,761,Chicago Red Stars,442,4,7497,10,6812,Vanessa DiBernardo,16,Left Midfield,40,70,Wing,2018-08-11,761,Chicago Red Stars,North Carolina Courage,766,#29A7F8,#F9121C
+33a2d4bb-94f6-469e-9fec-a38ee3351d19,761,Chicago Red Stars,442,4,7497,12,4963,Yuki Nagasato,22,Right Center Forward,55,25,Forward,2018-08-11,761,Chicago Red Stars,North Carolina Courage,766,#29A7F8,#F9121C
+33a2d4bb-94f6-469e-9fec-a38ee3351d19,761,Chicago Red Stars,442,4,7497,20,4961,Samantha Kerr,24,Left Center Forward,55,55,Forward,2018-08-11,761,Chicago Red Stars,North Carolina Courage,766,#29A7F8,#F9121C
+4146e322-1de2-4a92-9d30-709233ed216e,766,North Carolina Courage,4321,3,7497,99,5048,Katelyn Rowland,1,Goalkeeper,12,40,GK,2018-08-11,761,Chicago Red Stars,North Carolina Courage,766,#0518A5,#D7C107
+4146e322-1de2-4a92-9d30-709233ed216e,766,North Carolina Courage,4321,3,7497,11,5083,Merritt Mathias,2,Right Back,22,10,FB/WB,2018-08-11,761,Chicago Red Stars,North Carolina Courage,766,#0518A5,#D7C107
+4146e322-1de2-4a92-9d30-709233ed216e,766,North Carolina Courage,4321,3,7497,13,5081,Abby Dahlkemper,3,Right Center Back,22,25,CB,2018-08-11,761,Chicago Red Stars,North Carolina Courage,766,#0518A5,#D7C107
+4146e322-1de2-4a92-9d30-709233ed216e,766,North Carolina Courage,4321,3,7497,6,5037,Abby Erceg,5,Left Center Back,22,55,CB,2018-08-11,761,Chicago Red Stars,North Carolina Courage,766,#0518A5,#D7C107
+4146e322-1de2-4a92-9d30-709233ed216e,766,North Carolina Courage,4321,3,7497,15,5047,Jaelene Hinkle,6,Left Back,22,70,FB/WB,2018-08-11,761,Chicago Red Stars,North Carolina Courage,766,#0518A5,#D7C107
+4146e322-1de2-4a92-9d30-709233ed216e,766,North Carolina Courage,4321,3,7497,5,5087,Samantha Mewis,10,Center Defensive Midfield,30,40,CDM,2018-08-11,761,Chicago Red Stars,North Carolina Courage,766,#0518A5,#D7C107
+4146e322-1de2-4a92-9d30-709233ed216e,766,North Carolina Courage,4321,3,7497,8,5084,Denise O'Sullivan,13,Right Center Midfield,38,55,CM,2018-08-11,761,Chicago Red Stars,North Carolina Courage,766,#0518A5,#D7C107
+4146e322-1de2-4a92-9d30-709233ed216e,766,North Carolina Courage,4321,3,7497,10,5044,Débora Cristiane de Oliveira,15,Left Center Midfield,38,25,CM,2018-08-11,761,Chicago Red Stars,North Carolina Courage,766,#0518A5,#D7C107
+4146e322-1de2-4a92-9d30-709233ed216e,766,North Carolina Courage,4321,3,7497,9,5055,Lynn Williams,17,Right Wing,50,5,Wing,2018-08-11,761,Chicago Red Stars,North Carolina Courage,766,#0518A5,#D7C107
+4146e322-1de2-4a92-9d30-709233ed216e,766,North Carolina Courage,4321,3,7497,19,5088,Crystal Alyssia Dunn,21,Left Wing,50,75,Wing,2018-08-11,761,Chicago Red Stars,North Carolina Courage,766,#0518A5,#D7C107
+4146e322-1de2-4a92-9d30-709233ed216e,766,North Carolina Courage,4321,3,7497,14,5034,Jessica McDonald,23,Center Forward,55,40,Forward,2018-08-11,761,Chicago Red Stars,North Carolina Courage,766,#0518A5,#D7C107
+42677233-a872-4678-8c70-8853083b74d4,764,Orlando Pride,532,4,7500,24,5090,Ashlyn Harris,1,Goalkeeper,12,40,GK,2018-08-12,764,Orlando Pride,Portland Thorns,765,#8D04E6,white
+42677233-a872-4678-8c70-8853083b74d4,764,Orlando Pride,532,4,7500,12,5068,Kristen Edmonds,2,Right Back,22,10,FB/WB,2018-08-12,764,Orlando Pride,Portland Thorns,765,#8D04E6,white
+42677233-a872-4678-8c70-8853083b74d4,764,Orlando Pride,532,4,7500,11,5089,Ali Krieger,3,Right Center Back,22,25,CB,2018-08-12,764,Orlando Pride,Portland Thorns,765,#8D04E6,white
+42677233-a872-4678-8c70-8853083b74d4,764,Orlando Pride,532,4,7500,14,5078,Alanna Kennedy,4,Center Back,22,40,CB,2018-08-12,764,Orlando Pride,Portland Thorns,765,#8D04E6,white
+42677233-a872-4678-8c70-8853083b74d4,764,Orlando Pride,532,4,7500,3,8199,Toni Pressley,5,Left Center Back,22,55,CB,2018-08-12,764,Orlando Pride,Portland Thorns,765,#8D04E6,white
+42677233-a872-4678-8c70-8853083b74d4,764,Orlando Pride,532,4,7500,6,5063,Chioma Ubogagu,6,Left Back,22,70,FB/WB,2018-08-12,764,Orlando Pride,Portland Thorns,765,#8D04E6,white
+42677233-a872-4678-8c70-8853083b74d4,764,Orlando Pride,532,4,7500,17,5062,Dani Weatherholt,12,Right Midfield,40,10,Wing,2018-08-12,764,Orlando Pride,Portland Thorns,765,#8D04E6,white
+42677233-a872-4678-8c70-8853083b74d4,764,Orlando Pride,532,4,7500,4,5074,Shelina Zadorsky,14,Center Midfield,38,40,CM,2018-08-12,764,Orlando Pride,Portland Thorns,765,#8D04E6,white
+42677233-a872-4678-8c70-8853083b74d4,764,Orlando Pride,532,4,7500,5,5076,Emily van Egmond,16,Left Midfield,40,70,Wing,2018-08-12,764,Orlando Pride,Portland Thorns,765,#8D04E6,white
+42677233-a872-4678-8c70-8853083b74d4,764,Orlando Pride,532,4,7500,13,5085,Alex Morgan,22,Right Center Forward,55,25,Forward,2018-08-12,764,Orlando Pride,Portland Thorns,765,#8D04E6,white
+42677233-a872-4678-8c70-8853083b74d4,764,Orlando Pride,532,4,7500,10,5082,Marta Vieira da Silva,24,Left Center Forward,55,55,Forward,2018-08-12,764,Orlando Pride,Portland Thorns,765,#8D04E6,white
+195d944f-bad0-4881-8703-e11642bababa,765,Portland Thorns,433,1,7500,24,6819,Adrianna Franch,1,Goalkeeper,12,40,GK,2018-08-12,764,Orlando Pride,Portland Thorns,765,#EC1207,black
+195d944f-bad0-4881-8703-e11642bababa,765,Portland Thorns,433,1,7500,15,5095,Ellie Carpenter,2,Right Back,22,10,FB/WB,2018-08-12,764,Orlando Pride,Portland Thorns,765,#EC1207,black
+195d944f-bad0-4881-8703-e11642bababa,765,Portland Thorns,433,1,7500,16,5003,Emily Sonnett,3,Right Center Back,22,25,CB,2018-08-12,764,Orlando Pride,Portland Thorns,765,#EC1207,black
+195d944f-bad0-4881-8703-e11642bababa,765,Portland Thorns,433,1,7500,4,5092,Emily Menges,5,Left Center Back,22,55,CB,2018-08-12,764,Orlando Pride,Portland Thorns,765,#EC1207,black
+195d944f-bad0-4881-8703-e11642bababa,765,Portland Thorns,433,1,7500,25,5011,Meghan Klingenberg,6,Left Back,22,70,FB/WB,2018-08-12,764,Orlando Pride,Portland Thorns,765,#EC1207,black
+195d944f-bad0-4881-8703-e11642bababa,765,Portland Thorns,433,1,7500,12,5020,Christine Sinclair,10,Center Defensive Midfield,30,40,CDM,2018-08-12,764,Orlando Pride,Portland Thorns,765,#EC1207,black
+195d944f-bad0-4881-8703-e11642bababa,765,Portland Thorns,433,1,7500,30,4995,Celeste Boureille,13,Right Center Midfield,38,55,CM,2018-08-12,764,Orlando Pride,Portland Thorns,765,#EC1207,black
+195d944f-bad0-4881-8703-e11642bababa,765,Portland Thorns,433,1,7500,10,4999,Lindsey Horan,15,Left Center Midfield,38,25,CM,2018-08-12,764,Orlando Pride,Portland Thorns,765,#EC1207,black
+195d944f-bad0-4881-8703-e11642bababa,765,Portland Thorns,433,1,7500,21,6818,Hayley Raso,17,Right Wing,50,5,Wing,2018-08-12,764,Orlando Pride,Portland Thorns,765,#EC1207,black
+195d944f-bad0-4881-8703-e11642bababa,765,Portland Thorns,433,1,7500,17,5013,Tobin Heath,21,Left Wing,50,75,Wing,2018-08-12,764,Orlando Pride,Portland Thorns,765,#EC1207,black
+195d944f-bad0-4881-8703-e11642bababa,765,Portland Thorns,433,1,7500,7,10408,Ana-Maria Crnogorcevic,23,Center Forward,55,40,Forward,2018-08-12,764,Orlando Pride,Portland Thorns,765,#EC1207,black
+3bb5f8fe-78bd-4cfc-90e0-65d4f090d94b,765,Portland Thorns,343,3,7519,33,5005,Britt Eckerstrom,1,Goalkeeper,12,40,GK,2018-05-31,765,Portland Thorns,North Carolina Courage,766,#EC1207,black
+3bb5f8fe-78bd-4cfc-90e0-65d4f090d94b,765,Portland Thorns,343,3,7519,2,5012,Katherine Reynolds,3,Right Center Back,22,25,CB,2018-05-31,765,Portland Thorns,North Carolina Courage,766,#EC1207,black
+3bb5f8fe-78bd-4cfc-90e0-65d4f090d94b,765,Portland Thorns,343,3,7519,4,5092,Emily Menges,4,Center Back,22,40,CB,2018-05-31,765,Portland Thorns,North Carolina Courage,766,#EC1207,black
+3bb5f8fe-78bd-4cfc-90e0-65d4f090d94b,765,Portland Thorns,343,3,7519,20,5015,Kelli Hubly,5,Left Center Back,22,55,CB,2018-05-31,765,Portland Thorns,North Carolina Courage,766,#EC1207,black
+3bb5f8fe-78bd-4cfc-90e0-65d4f090d94b,765,Portland Thorns,343,3,7519,23,5009,Margaret Purce,12,Right Midfield,40,10,Wing,2018-05-31,765,Portland Thorns,North Carolina Courage,766,#EC1207,black
+3bb5f8fe-78bd-4cfc-90e0-65d4f090d94b,765,Portland Thorns,343,3,7519,10,4999,Lindsey Horan,13,Right Center Midfield,38,55,CM,2018-05-31,765,Portland Thorns,North Carolina Courage,766,#EC1207,black
+3bb5f8fe-78bd-4cfc-90e0-65d4f090d94b,765,Portland Thorns,343,3,7519,12,5020,Christine Sinclair,15,Left Center Midfield,38,25,CM,2018-05-31,765,Portland Thorns,North Carolina Courage,766,#EC1207,black
+3bb5f8fe-78bd-4cfc-90e0-65d4f090d94b,765,Portland Thorns,343,3,7519,25,5011,Meghan Klingenberg,16,Left Midfield,40,70,Wing,2018-05-31,765,Portland Thorns,North Carolina Courage,766,#EC1207,black
+3bb5f8fe-78bd-4cfc-90e0-65d4f090d94b,765,Portland Thorns,343,3,7519,22,5094,Ifeoma Onumonu,18,Right Attacking Midfield,45,55,ACM,2018-05-31,765,Portland Thorns,North Carolina Courage,766,#EC1207,black
+3bb5f8fe-78bd-4cfc-90e0-65d4f090d94b,765,Portland Thorns,343,3,7519,17,5013,Tobin Heath,20,Left Attacking Midfield,45,70,ACM,2018-05-31,765,Portland Thorns,North Carolina Courage,766,#EC1207,black
+3bb5f8fe-78bd-4cfc-90e0-65d4f090d94b,765,Portland Thorns,343,3,7519,7,10408,Ana-Maria Crnogorcevic,23,Center Forward,55,40,Forward,2018-05-31,765,Portland Thorns,North Carolina Courage,766,#EC1207,black
+969261f3-feb3-470d-b134-67bc3c0ba15b,766,North Carolina Courage,442,8,7519,0,5048,Katelyn Rowland,1,Goalkeeper,12,40,GK,2018-05-31,765,Portland Thorns,North Carolina Courage,766,#0518A5,#D7C107
+969261f3-feb3-470d-b134-67bc3c0ba15b,766,North Carolina Courage,442,8,7519,11,5083,Merritt Mathias,2,Right Back,22,10,FB/WB,2018-05-31,765,Portland Thorns,North Carolina Courage,766,#0518A5,#D7C107
+969261f3-feb3-470d-b134-67bc3c0ba15b,766,North Carolina Courage,442,8,7519,13,5081,Abby Dahlkemper,3,Right Center Back,22,25,CB,2018-05-31,765,Portland Thorns,North Carolina Courage,766,#0518A5,#D7C107
+969261f3-feb3-470d-b134-67bc3c0ba15b,766,North Carolina Courage,442,8,7519,6,5037,Abby Erceg,5,Left Center Back,22,55,CB,2018-05-31,765,Portland Thorns,North Carolina Courage,766,#0518A5,#D7C107
+969261f3-feb3-470d-b134-67bc3c0ba15b,766,North Carolina Courage,442,8,7519,15,5047,Jaelene Hinkle,6,Left Back,22,70,FB/WB,2018-05-31,765,Portland Thorns,North Carolina Courage,766,#0518A5,#D7C107
+969261f3-feb3-470d-b134-67bc3c0ba15b,766,North Carolina Courage,442,8,7519,5,5087,Samantha Mewis,9,Right Defensive Midfield,30,30,CDM,2018-05-31,765,Portland Thorns,North Carolina Courage,766,#0518A5,#D7C107
+969261f3-feb3-470d-b134-67bc3c0ba15b,766,North Carolina Courage,442,8,7519,7,5091,McCall Zerboni,11,Left Defensive Midfield,30,50,CDM,2018-05-31,765,Portland Thorns,North Carolina Courage,766,#0518A5,#D7C107
+969261f3-feb3-470d-b134-67bc3c0ba15b,766,North Carolina Courage,442,8,7519,19,5088,Crystal Alyssia Dunn,17,Right Wing,50,5,Wing,2018-05-31,765,Portland Thorns,North Carolina Courage,766,#0518A5,#D7C107
+969261f3-feb3-470d-b134-67bc3c0ba15b,766,North Carolina Courage,442,8,7519,10,5044,Débora Cristiane de Oliveira,21,Left Wing,50,75,Wing,2018-05-31,765,Portland Thorns,North Carolina Courage,766,#0518A5,#D7C107
+969261f3-feb3-470d-b134-67bc3c0ba15b,766,North Carolina Courage,442,8,7519,14,5034,Jessica McDonald,22,Right Center Forward,55,25,Forward,2018-05-31,765,Portland Thorns,North Carolina Courage,766,#0518A5,#D7C107
+969261f3-feb3-470d-b134-67bc3c0ba15b,766,North Carolina Courage,442,8,7519,9,5055,Lynn Williams,24,Left Center Forward,55,55,Forward,2018-05-31,765,Portland Thorns,North Carolina Courage,766,#0518A5,#D7C107
+2230d88c-c6fc-423b-8c92-4ff3c17b051b,759,Washington Spirit,433,1,7520,19,4960,Kelsey Wys,1,Goalkeeper,12,40,GK,2018-06-03,759,Washington Spirit,Chicago Red Stars,761,#161281,#E50A25
+2230d88c-c6fc-423b-8c92-4ff3c17b051b,759,Washington Spirit,433,1,7520,24,4943,Estelle Johnson,2,Right Back,22,10,FB/WB,2018-06-03,759,Washington Spirit,Chicago Red Stars,761,#161281,#E50A25
+2230d88c-c6fc-423b-8c92-4ff3c17b051b,759,Washington Spirit,433,1,7520,4,4951,Rebecca Quinn,3,Right Center Back,22,25,CB,2018-06-03,759,Washington Spirit,Chicago Red Stars,761,#161281,#E50A25
+2230d88c-c6fc-423b-8c92-4ff3c17b051b,759,Washington Spirit,433,1,7520,5,4950,Whitney Church,5,Left Center Back,22,55,CB,2018-06-03,759,Washington Spirit,Chicago Red Stars,761,#161281,#E50A25
+2230d88c-c6fc-423b-8c92-4ff3c17b051b,759,Washington Spirit,433,1,7520,3,4962,Caprice Dydasco,6,Left Back,22,70,FB/WB,2018-06-03,759,Washington Spirit,Chicago Red Stars,761,#161281,#E50A25
+2230d88c-c6fc-423b-8c92-4ff3c17b051b,759,Washington Spirit,433,1,7520,10,4944,Estefanía Romina Banini Ruiz,10,Center Defensive Midfield,30,40,CDM,2018-06-03,759,Washington Spirit,Chicago Red Stars,761,#161281,#E50A25
+2230d88c-c6fc-423b-8c92-4ff3c17b051b,759,Washington Spirit,433,1,7520,6,4940,Andi Sullivan,13,Right Center Midfield,38,55,CM,2018-06-03,759,Washington Spirit,Chicago Red Stars,761,#161281,#E50A25
+2230d88c-c6fc-423b-8c92-4ff3c17b051b,759,Washington Spirit,433,1,7520,15,4946,Joanna Lohman,15,Left Center Midfield,38,25,CM,2018-06-03,759,Washington Spirit,Chicago Red Stars,761,#161281,#E50A25
+2230d88c-c6fc-423b-8c92-4ff3c17b051b,759,Washington Spirit,433,1,7520,7,4941,Taylor Smith,17,Right Wing,50,5,Wing,2018-06-03,759,Washington Spirit,Chicago Red Stars,761,#161281,#E50A25
+2230d88c-c6fc-423b-8c92-4ff3c17b051b,759,Washington Spirit,433,1,7520,9,4945,Havana Solaun,21,Left Wing,50,75,Wing,2018-06-03,759,Washington Spirit,Chicago Red Stars,761,#161281,#E50A25
+2230d88c-c6fc-423b-8c92-4ff3c17b051b,759,Washington Spirit,433,1,7520,33,4964,Ashley Hatch,23,Center Forward,55,40,Forward,2018-06-03,759,Washington Spirit,Chicago Red Stars,761,#161281,#E50A25
+f0436d90-66c6-49ac-921f-20911f5bb70f,761,Chicago Red Stars,4231,7,7520,21,4952,Emily Boyd,1,Goalkeeper,12,40,GK,2018-06-03,759,Washington Spirit,Chicago Red Stars,761,#29A7F8,#F9121C
+f0436d90-66c6-49ac-921f-20911f5bb70f,761,Chicago Red Stars,4231,7,7520,7,4959,Taylor Comeau,2,Right Back,22,10,FB/WB,2018-06-03,759,Washington Spirit,Chicago Red Stars,761,#29A7F8,#F9121C
+f0436d90-66c6-49ac-921f-20911f5bb70f,761,Chicago Red Stars,4231,7,7520,5,4958,Kathleen Naughton,3,Right Center Back,22,25,CB,2018-06-03,759,Washington Spirit,Chicago Red Stars,761,#29A7F8,#F9121C
+f0436d90-66c6-49ac-921f-20911f5bb70f,761,Chicago Red Stars,4231,7,7520,14,4955,Sarah Gorden,5,Left Center Back,22,55,CB,2018-06-03,759,Washington Spirit,Chicago Red Stars,761,#29A7F8,#F9121C
+f0436d90-66c6-49ac-921f-20911f5bb70f,761,Chicago Red Stars,4231,7,7520,3,4942,Arin Gilliland,6,Left Back,22,70,FB/WB,2018-06-03,759,Washington Spirit,Chicago Red Stars,761,#29A7F8,#F9121C
+f0436d90-66c6-49ac-921f-20911f5bb70f,761,Chicago Red Stars,4231,7,7520,2,4965,Nikki Stanton,13,Right Center Midfield,38,55,CM,2018-06-03,759,Washington Spirit,Chicago Red Stars,761,#29A7F8,#F9121C
+f0436d90-66c6-49ac-921f-20911f5bb70f,761,Chicago Red Stars,4231,7,7520,24,4947,Danielle Colaprico,15,Left Center Midfield,38,25,CM,2018-06-03,759,Washington Spirit,Chicago Red Stars,761,#29A7F8,#F9121C
+f0436d90-66c6-49ac-921f-20911f5bb70f,761,Chicago Red Stars,4231,7,7520,22,4948,Rosie White,17,Right Wing,50,5,Wing,2018-06-03,759,Washington Spirit,Chicago Red Stars,761,#29A7F8,#F9121C
+f0436d90-66c6-49ac-921f-20911f5bb70f,761,Chicago Red Stars,4231,7,7520,4,4953,Alyssa Mautz,21,Left Wing,50,75,Wing,2018-06-03,759,Washington Spirit,Chicago Red Stars,761,#29A7F8,#F9121C
+f0436d90-66c6-49ac-921f-20911f5bb70f,761,Chicago Red Stars,4231,7,7520,20,4961,Samantha Kerr,23,Center Forward,55,40,Forward,2018-06-03,759,Washington Spirit,Chicago Red Stars,761,#29A7F8,#F9121C
+f0436d90-66c6-49ac-921f-20911f5bb70f,761,Chicago Red Stars,4231,7,7520,12,4963,Yuki Nagasato,25,Secondary Striker,50,45,Forward,2018-06-03,759,Washington Spirit,Chicago Red Stars,761,#29A7F8,#F9121C
+ac11fc2b-9f22-43ae-8f68-bb7cd3cd52dd,763,Sky Blue FC,4231,4,7521,1,4981,Kailen Sheridan,1,Goalkeeper,12,40,GK,2018-06-03,763,Sky Blue FC,Utah Royals,767,#0A9EF9,#FA7004
+ac11fc2b-9f22-43ae-8f68-bb7cd3cd52dd,763,Sky Blue FC,4231,4,7521,31,4985,Christina Gibbons,2,Right Back,22,10,FB/WB,2018-06-03,763,Sky Blue FC,Utah Royals,767,#0A9EF9,#FA7004
+ac11fc2b-9f22-43ae-8f68-bb7cd3cd52dd,763,Sky Blue FC,4231,4,7521,22,4974,Mandy Freeman,3,Right Center Back,22,25,CB,2018-06-03,763,Sky Blue FC,Utah Royals,767,#0A9EF9,#FA7004
+ac11fc2b-9f22-43ae-8f68-bb7cd3cd52dd,763,Sky Blue FC,4231,4,7521,13,4989,Rebekah Stott,5,Left Center Back,22,55,CB,2018-06-03,763,Sky Blue FC,Utah Royals,767,#0A9EF9,#FA7004
+ac11fc2b-9f22-43ae-8f68-bb7cd3cd52dd,763,Sky Blue FC,4231,4,7521,9,4970,Amanda Frisbie,6,Left Back,22,70,FB/WB,2018-06-03,763,Sky Blue FC,Utah Royals,767,#0A9EF9,#FA7004
+ac11fc2b-9f22-43ae-8f68-bb7cd3cd52dd,763,Sky Blue FC,4231,4,7521,16,4988,Sarah Killion,13,Right Center Midfield,38,55,CM,2018-06-03,763,Sky Blue FC,Utah Royals,767,#0A9EF9,#FA7004
+ac11fc2b-9f22-43ae-8f68-bb7cd3cd52dd,763,Sky Blue FC,4231,4,7521,5,4980,Thaysa de Moraes Rosa Moreno,15,Left Center Midfield,38,25,CM,2018-06-03,763,Sky Blue FC,Utah Royals,767,#0A9EF9,#FA7004
+ac11fc2b-9f22-43ae-8f68-bb7cd3cd52dd,763,Sky Blue FC,4231,4,7521,73,4968,Madison Tiernan,17,Right Wing,50,5,Wing,2018-06-03,763,Sky Blue FC,Utah Royals,767,#0A9EF9,#FA7004
+ac11fc2b-9f22-43ae-8f68-bb7cd3cd52dd,763,Sky Blue FC,4231,4,7521,12,4992,Janine Beckie,19,Center Attacking Midfield,45,40,ACM,2018-06-03,763,Sky Blue FC,Utah Royals,767,#0A9EF9,#FA7004
+ac11fc2b-9f22-43ae-8f68-bb7cd3cd52dd,763,Sky Blue FC,4231,4,7521,6,4986,Shea Groom,21,Left Wing,50,75,Wing,2018-06-03,763,Sky Blue FC,Utah Royals,767,#0A9EF9,#FA7004
+ac11fc2b-9f22-43ae-8f68-bb7cd3cd52dd,763,Sky Blue FC,4231,4,7521,14,4982,Katlyn Johnson,23,Center Forward,55,40,Forward,2018-06-03,763,Sky Blue FC,Utah Royals,767,#0A9EF9,#FA7004
+981493f3-31de-44a5-a840-8a8ed3c77721,767,Utah Royals,4231,7,7521,18,4969,Nicole Barnhart,1,Goalkeeper,12,40,GK,2018-06-03,763,Sky Blue FC,Utah Royals,767,#FED000,#25235F
+981493f3-31de-44a5-a840-8a8ed3c77721,767,Utah Royals,4231,7,7521,13,4983,Brooke Elby,2,Right Back,22,10,FB/WB,2018-06-03,763,Sky Blue FC,Utah Royals,767,#FED000,#25235F
+981493f3-31de-44a5-a840-8a8ed3c77721,767,Utah Royals,4231,7,7521,2,4984,Rachel Corsie,3,Right Center Back,22,25,CB,2018-06-03,763,Sky Blue FC,Utah Royals,767,#FED000,#25235F
+981493f3-31de-44a5-a840-8a8ed3c77721,767,Utah Royals,4231,7,7521,17,4987,Sydney Miramontez,5,Left Center Back,22,55,CB,2018-06-03,763,Sky Blue FC,Utah Royals,767,#FED000,#25235F
+981493f3-31de-44a5-a840-8a8ed3c77721,767,Utah Royals,4231,7,7521,3,4971,Rebecca Moros,6,Left Back,22,70,FB/WB,2018-06-03,763,Sky Blue FC,Utah Royals,767,#FED000,#25235F
+981493f3-31de-44a5-a840-8a8ed3c77721,767,Utah Royals,4231,7,7521,23,4975,Gunnhildur Yrsa Jónsdóttir,13,Right Center Midfield,38,55,CM,2018-06-03,763,Sky Blue FC,Utah Royals,767,#FED000,#25235F
+981493f3-31de-44a5-a840-8a8ed3c77721,767,Utah Royals,4231,7,7521,11,4966,Desiree Scott,15,Left Center Midfield,38,25,CM,2018-06-03,763,Sky Blue FC,Utah Royals,767,#FED000,#25235F
+981493f3-31de-44a5-a840-8a8ed3c77721,767,Utah Royals,4231,7,7521,10,4973,Diana Matheson,18,Right Attacking Midfield,45,55,ACM,2018-06-03,763,Sky Blue FC,Utah Royals,767,#FED000,#25235F
+981493f3-31de-44a5-a840-8a8ed3c77721,767,Utah Royals,4231,7,7521,19,4979,Katrina Gorry,19,Center Attacking Midfield,45,40,ACM,2018-06-03,763,Sky Blue FC,Utah Royals,767,#FED000,#25235F
+981493f3-31de-44a5-a840-8a8ed3c77721,767,Utah Royals,4231,7,7521,12,4990,Taylor Lytle,20,Left Attacking Midfield,45,70,ACM,2018-06-03,763,Sky Blue FC,Utah Royals,767,#FED000,#25235F
+981493f3-31de-44a5-a840-8a8ed3c77721,767,Utah Royals,4231,7,7521,24,4972,Katie Stengel,23,Center Forward,55,40,Forward,2018-06-03,763,Sky Blue FC,Utah Royals,767,#FED000,#25235F
+319d4a2b-48c6-498f-a85a-df07afaf5101,762,Houston Dash,4231,3,7522,1,5056,Jane Campbell,1,Goalkeeper,12,40,GK,2018-06-04,762,Houston Dash,North Carolina Courage,766,#F97603,#2CC1FC
+319d4a2b-48c6-498f-a85a-df07afaf5101,762,Houston Dash,4231,3,7522,9,5035,Haley Hanson,2,Right Back,22,10,FB/WB,2018-06-04,762,Houston Dash,North Carolina Courage,766,#F97603,#2CC1FC
+319d4a2b-48c6-498f-a85a-df07afaf5101,762,Houston Dash,4231,3,7522,5,5054,Janine van Wyk,3,Right Center Back,22,25,CB,2018-06-04,762,Houston Dash,North Carolina Courage,766,#F97603,#2CC1FC
+319d4a2b-48c6-498f-a85a-df07afaf5101,762,Houston Dash,4231,3,7522,22,5045,Amber Brooks,5,Left Center Back,22,55,CB,2018-06-04,762,Houston Dash,North Carolina Courage,766,#F97603,#2CC1FC
+319d4a2b-48c6-498f-a85a-df07afaf5101,762,Houston Dash,4231,3,7522,4,5038,Allysha Chapman,6,Left Back,22,70,FB/WB,2018-06-04,762,Houston Dash,North Carolina Courage,766,#F97603,#2CC1FC
+319d4a2b-48c6-498f-a85a-df07afaf5101,762,Houston Dash,4231,3,7522,10,5053,Linda Maserame Motlhalo,9,Right Defensive Midfield,30,30,CDM,2018-06-04,762,Houston Dash,North Carolina Courage,766,#F97603,#2CC1FC
+319d4a2b-48c6-498f-a85a-df07afaf5101,762,Houston Dash,4231,3,7522,6,5040,Meleana Shim,11,Left Defensive Midfield,30,50,CDM,2018-06-04,762,Houston Dash,North Carolina Courage,766,#F97603,#2CC1FC
+319d4a2b-48c6-498f-a85a-df07afaf5101,762,Houston Dash,4231,3,7522,14,5043,Nichelle Prince,12,Right Midfield,40,10,Wing,2018-06-04,762,Houston Dash,North Carolina Courage,766,#F97603,#2CC1FC
+319d4a2b-48c6-498f-a85a-df07afaf5101,762,Houston Dash,4231,3,7522,7,5051,Kealia Ohai,16,Left Midfield,40,70,Wing,2018-06-04,762,Houston Dash,North Carolina Courage,766,#F97603,#2CC1FC
+319d4a2b-48c6-498f-a85a-df07afaf5101,762,Houston Dash,4231,3,7522,17,5059,Kyah Simon,19,Center Attacking Midfield,45,40,ACM,2018-06-04,762,Houston Dash,North Carolina Courage,766,#F97603,#2CC1FC
+319d4a2b-48c6-498f-a85a-df07afaf5101,762,Houston Dash,4231,3,7522,3,5058,Rachel Daly,23,Center Forward,55,40,Forward,2018-06-04,762,Houston Dash,North Carolina Courage,766,#F97603,#2CC1FC
+daff338c-3d9a-4450-b403-d9941bd6adac,766,North Carolina Courage,442,9,7522,99,5048,Katelyn Rowland,1,Goalkeeper,12,40,GK,2018-06-04,762,Houston Dash,North Carolina Courage,766,#0518A5,#D7C107
+daff338c-3d9a-4450-b403-d9941bd6adac,766,North Carolina Courage,442,9,7522,4,5046,Elizabeth Eddy,2,Right Back,22,10,FB/WB,2018-06-04,762,Houston Dash,North Carolina Courage,766,#0518A5,#D7C107
+daff338c-3d9a-4450-b403-d9941bd6adac,766,North Carolina Courage,442,9,7522,31,5057,Kaleigh Kurtz,3,Right Center Back,22,25,CB,2018-06-04,762,Houston Dash,North Carolina Courage,766,#0518A5,#D7C107
+daff338c-3d9a-4450-b403-d9941bd6adac,766,North Carolina Courage,442,9,7522,6,5037,Abby Erceg,5,Left Center Back,22,55,CB,2018-06-04,762,Houston Dash,North Carolina Courage,766,#0518A5,#D7C107
+daff338c-3d9a-4450-b403-d9941bd6adac,766,North Carolina Courage,442,9,7522,15,5047,Jaelene Hinkle,6,Left Back,22,70,FB/WB,2018-06-04,762,Houston Dash,North Carolina Courage,766,#0518A5,#D7C107
+daff338c-3d9a-4450-b403-d9941bd6adac,766,North Carolina Courage,442,9,7522,16,5041,Cari Roccaro,9,Right Defensive Midfield,30,30,CDM,2018-06-04,762,Houston Dash,North Carolina Courage,766,#0518A5,#D7C107
+daff338c-3d9a-4450-b403-d9941bd6adac,766,North Carolina Courage,442,9,7522,20,5033,Yuri Kawamura,11,Left Defensive Midfield,30,50,CDM,2018-06-04,762,Houston Dash,North Carolina Courage,766,#0518A5,#D7C107
+daff338c-3d9a-4450-b403-d9941bd6adac,766,North Carolina Courage,442,9,7522,10,5044,Débora Cristiane de Oliveira,17,Right Wing,50,5,Wing,2018-06-04,762,Houston Dash,North Carolina Courage,766,#0518A5,#D7C107
+daff338c-3d9a-4450-b403-d9941bd6adac,766,North Carolina Courage,442,9,7522,25,5050,Meredith Speck,21,Left Wing,50,75,Wing,2018-06-04,762,Houston Dash,North Carolina Courage,766,#0518A5,#D7C107
+daff338c-3d9a-4450-b403-d9941bd6adac,766,North Carolina Courage,442,9,7522,14,5034,Jessica McDonald,22,Right Center Forward,55,25,Forward,2018-06-04,762,Houston Dash,North Carolina Courage,766,#0518A5,#D7C107
+daff338c-3d9a-4450-b403-d9941bd6adac,766,North Carolina Courage,442,9,7522,9,5055,Lynn Williams,24,Left Center Forward,55,55,Forward,2018-06-04,762,Houston Dash,North Carolina Courage,766,#0518A5,#D7C107
+83fe5ab0-c2e5-46f8-8424-43e0344da52a,760,Seattle Reign,433,5,7523,1,5066,Lydia Williams,1,Goalkeeper,12,40,GK,2018-06-04,760,Seattle Reign,Orlando Pride,764,#0B07F5,#D1F507
+83fe5ab0-c2e5-46f8-8424-43e0344da52a,760,Seattle Reign,433,5,7523,8,5069,Theresa Nielsen,2,Right Back,22,10,FB/WB,2018-06-04,760,Seattle Reign,Orlando Pride,764,#0B07F5,#D1F507
+83fe5ab0-c2e5-46f8-8424-43e0344da52a,760,Seattle Reign,433,5,7523,19,5008,Kristen McNabb,3,Right Center Back,22,25,CB,2018-06-04,760,Seattle Reign,Orlando Pride,764,#0B07F5,#D1F507
+83fe5ab0-c2e5-46f8-8424-43e0344da52a,760,Seattle Reign,433,5,7523,3,5065,Lauren Barnes,5,Left Center Back,22,55,CB,2018-06-04,760,Seattle Reign,Orlando Pride,764,#0B07F5,#D1F507
+83fe5ab0-c2e5-46f8-8424-43e0344da52a,760,Seattle Reign,433,5,7523,21,5017,Christen Westphal,6,Left Back,22,70,FB/WB,2018-06-04,760,Seattle Reign,Orlando Pride,764,#0B07F5,#D1F507
+83fe5ab0-c2e5-46f8-8424-43e0344da52a,760,Seattle Reign,433,5,7523,10,5016,Jessica Fishlock,13,Right Center Midfield,38,55,CM,2018-06-04,760,Seattle Reign,Orlando Pride,764,#0B07F5,#D1F507
+83fe5ab0-c2e5-46f8-8424-43e0344da52a,760,Seattle Reign,433,5,7523,17,5006,Beverly Yanez,14,Center Midfield,38,40,CM,2018-06-04,760,Seattle Reign,Orlando Pride,764,#0B07F5,#D1F507
+83fe5ab0-c2e5-46f8-8424-43e0344da52a,760,Seattle Reign,433,5,7523,20,4998,Rumi Utsugi,15,Left Center Midfield,38,25,CM,2018-06-04,760,Seattle Reign,Orlando Pride,764,#0B07F5,#D1F507
+83fe5ab0-c2e5-46f8-8424-43e0344da52a,760,Seattle Reign,433,5,7523,9,4994,Nahomi Kawasumi,17,Right Wing,50,5,Wing,2018-06-04,760,Seattle Reign,Orlando Pride,764,#0B07F5,#D1F507
+83fe5ab0-c2e5-46f8-8424-43e0344da52a,760,Seattle Reign,433,5,7523,5,5073,Kiersten Dallstream,21,Left Wing,50,75,Wing,2018-06-04,760,Seattle Reign,Orlando Pride,764,#0B07F5,#D1F507
+83fe5ab0-c2e5-46f8-8424-43e0344da52a,760,Seattle Reign,433,5,7523,14,5002,Jodie Taylor,23,Center Forward,55,40,Forward,2018-06-04,760,Seattle Reign,Orlando Pride,764,#0B07F5,#D1F507
+062435cf-50dc-443b-9fd3-5e47a3c6c2d1,764,Orlando Pride,4231,1,7523,28,5061,Haley Judith Kopmeyer,1,Goalkeeper,12,40,GK,2018-06-04,760,Seattle Reign,Orlando Pride,764,#8D04E6,white
+062435cf-50dc-443b-9fd3-5e47a3c6c2d1,764,Orlando Pride,4231,1,7523,19,5060,Poliana Barbosa Medeiros,2,Right Back,22,10,FB/WB,2018-06-04,760,Seattle Reign,Orlando Pride,764,#8D04E6,white
+062435cf-50dc-443b-9fd3-5e47a3c6c2d1,764,Orlando Pride,4231,1,7523,21,5071,Monica Hickmann Alves,3,Right Center Back,22,25,CB,2018-06-04,760,Seattle Reign,Orlando Pride,764,#8D04E6,white
+062435cf-50dc-443b-9fd3-5e47a3c6c2d1,764,Orlando Pride,4231,1,7523,4,5074,Shelina Zadorsky,5,Left Center Back,22,55,CB,2018-06-04,760,Seattle Reign,Orlando Pride,764,#8D04E6,white
+062435cf-50dc-443b-9fd3-5e47a3c6c2d1,764,Orlando Pride,4231,1,7523,16,5064,Carson Pickett,6,Left Back,22,70,FB/WB,2018-06-04,760,Seattle Reign,Orlando Pride,764,#8D04E6,white
+062435cf-50dc-443b-9fd3-5e47a3c6c2d1,764,Orlando Pride,4231,1,7523,17,5062,Dani Weatherholt,9,Right Defensive Midfield,30,30,CDM,2018-06-04,760,Seattle Reign,Orlando Pride,764,#8D04E6,white
+062435cf-50dc-443b-9fd3-5e47a3c6c2d1,764,Orlando Pride,4231,1,7523,14,5078,Alanna Kennedy,11,Left Defensive Midfield,30,50,CDM,2018-06-04,760,Seattle Reign,Orlando Pride,764,#8D04E6,white
+062435cf-50dc-443b-9fd3-5e47a3c6c2d1,764,Orlando Pride,4231,1,7523,12,5068,Kristen Edmonds,17,Right Wing,50,5,Wing,2018-06-04,760,Seattle Reign,Orlando Pride,764,#8D04E6,white
+062435cf-50dc-443b-9fd3-5e47a3c6c2d1,764,Orlando Pride,4231,1,7523,5,5076,Emily van Egmond,19,Center Attacking Midfield,45,40,ACM,2018-06-04,760,Seattle Reign,Orlando Pride,764,#8D04E6,white
+062435cf-50dc-443b-9fd3-5e47a3c6c2d1,764,Orlando Pride,4231,1,7523,6,5063,Chioma Ubogagu,21,Left Wing,50,75,Wing,2018-06-04,760,Seattle Reign,Orlando Pride,764,#8D04E6,white
+062435cf-50dc-443b-9fd3-5e47a3c6c2d1,764,Orlando Pride,4231,1,7523,2,5067,Sydney Leroux,23,Center Forward,55,40,Forward,2018-06-04,760,Seattle Reign,Orlando Pride,764,#8D04E6,white
+df72cbac-02c8-4d5b-964f-7698e4426501,762,Houston Dash,4231,5,7524,1,5056,Jane Campbell,1,Goalkeeper,12,40,GK,2018-07-12,762,Houston Dash,Orlando Pride,764,#F97603,#2CC1FC
+df72cbac-02c8-4d5b-964f-7698e4426501,762,Houston Dash,4231,5,7524,21,4959,Taylor Comeau,2,Right Back,22,10,FB/WB,2018-07-12,762,Houston Dash,Orlando Pride,764,#F97603,#2CC1FC
+df72cbac-02c8-4d5b-964f-7698e4426501,762,Houston Dash,4231,5,7524,22,5045,Amber Brooks,3,Right Center Back,22,25,CB,2018-07-12,762,Houston Dash,Orlando Pride,764,#F97603,#2CC1FC
+df72cbac-02c8-4d5b-964f-7698e4426501,762,Houston Dash,4231,5,7524,5,5054,Janine van Wyk,5,Left Center Back,22,55,CB,2018-07-12,762,Houston Dash,Orlando Pride,764,#F97603,#2CC1FC
+df72cbac-02c8-4d5b-964f-7698e4426501,762,Houston Dash,4231,5,7524,4,5038,Allysha Chapman,6,Left Back,22,70,FB/WB,2018-07-12,762,Houston Dash,Orlando Pride,764,#F97603,#2CC1FC
+df72cbac-02c8-4d5b-964f-7698e4426501,762,Houston Dash,4231,5,7524,10,5053,Linda Maserame Motlhalo,9,Right Defensive Midfield,30,30,CDM,2018-07-12,762,Houston Dash,Orlando Pride,764,#F97603,#2CC1FC
+df72cbac-02c8-4d5b-964f-7698e4426501,762,Houston Dash,4231,5,7524,8,8382,Clare Polkinghorne,11,Left Defensive Midfield,30,50,CDM,2018-07-12,762,Houston Dash,Orlando Pride,764,#F97603,#2CC1FC
+df72cbac-02c8-4d5b-964f-7698e4426501,762,Houston Dash,4231,5,7524,17,5059,Kyah Simon,17,Right Wing,50,5,Wing,2018-07-12,762,Houston Dash,Orlando Pride,764,#F97603,#2CC1FC
+df72cbac-02c8-4d5b-964f-7698e4426501,762,Houston Dash,4231,5,7524,23,5105,Sofia Huerta,19,Center Attacking Midfield,45,40,ACM,2018-07-12,762,Houston Dash,Orlando Pride,764,#F97603,#2CC1FC
+df72cbac-02c8-4d5b-964f-7698e4426501,762,Houston Dash,4231,5,7524,7,5051,Kealia Ohai,21,Left Wing,50,75,Wing,2018-07-12,762,Houston Dash,Orlando Pride,764,#F97603,#2CC1FC
+df72cbac-02c8-4d5b-964f-7698e4426501,762,Houston Dash,4231,5,7524,3,5058,Rachel Daly,23,Center Forward,55,40,Forward,2018-07-12,762,Houston Dash,Orlando Pride,764,#F97603,#2CC1FC
+93b4e550-0ac1-4f47-b14f-99e593e45b81,764,Orlando Pride,433,6,7524,24,5090,Ashlyn Harris,1,Goalkeeper,12,40,GK,2018-07-12,762,Houston Dash,Orlando Pride,764,#8D04E6,white
+93b4e550-0ac1-4f47-b14f-99e593e45b81,764,Orlando Pride,433,6,7524,19,5060,Poliana Barbosa Medeiros,2,Right Back,22,10,FB/WB,2018-07-12,762,Houston Dash,Orlando Pride,764,#8D04E6,white
+93b4e550-0ac1-4f47-b14f-99e593e45b81,764,Orlando Pride,433,6,7524,21,5071,Monica Hickmann Alves,3,Right Center Back,22,25,CB,2018-07-12,762,Houston Dash,Orlando Pride,764,#8D04E6,white
+93b4e550-0ac1-4f47-b14f-99e593e45b81,764,Orlando Pride,433,6,7524,4,5074,Shelina Zadorsky,5,Left Center Back,22,55,CB,2018-07-12,762,Houston Dash,Orlando Pride,764,#8D04E6,white
+93b4e550-0ac1-4f47-b14f-99e593e45b81,764,Orlando Pride,433,6,7524,16,5064,Carson Pickett,6,Left Back,22,70,FB/WB,2018-07-12,762,Houston Dash,Orlando Pride,764,#8D04E6,white
+93b4e550-0ac1-4f47-b14f-99e593e45b81,764,Orlando Pride,433,6,7524,14,5078,Alanna Kennedy,10,Center Defensive Midfield,30,40,CDM,2018-07-12,762,Houston Dash,Orlando Pride,764,#8D04E6,white
+93b4e550-0ac1-4f47-b14f-99e593e45b81,764,Orlando Pride,433,6,7524,17,5062,Dani Weatherholt,13,Right Center Midfield,38,55,CM,2018-07-12,762,Houston Dash,Orlando Pride,764,#8D04E6,white
+93b4e550-0ac1-4f47-b14f-99e593e45b81,764,Orlando Pride,433,6,7524,9,7182,Camila Martins Pereira,15,Left Center Midfield,38,25,CM,2018-07-12,762,Houston Dash,Orlando Pride,764,#8D04E6,white
+93b4e550-0ac1-4f47-b14f-99e593e45b81,764,Orlando Pride,433,6,7524,2,5067,Sydney Leroux,17,Right Wing,50,5,Wing,2018-07-12,762,Houston Dash,Orlando Pride,764,#8D04E6,white
+93b4e550-0ac1-4f47-b14f-99e593e45b81,764,Orlando Pride,433,6,7524,10,5082,Marta Vieira da Silva,21,Left Wing,50,75,Wing,2018-07-12,762,Houston Dash,Orlando Pride,764,#8D04E6,white
+93b4e550-0ac1-4f47-b14f-99e593e45b81,764,Orlando Pride,433,6,7524,13,5085,Alex Morgan,23,Center Forward,55,40,Forward,2018-07-12,762,Houston Dash,Orlando Pride,764,#8D04E6,white
